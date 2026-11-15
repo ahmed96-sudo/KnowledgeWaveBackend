@@ -1,0 +1,21 @@
+[
+  {
+    "id": "u-student",
+    "name": "Amira Student",
+    "email": "student@knowledgewave.dev",
+    "role": "student"
+  },
+  {
+    "id": "u-instructor",
+    "name": "Omar Haddad",
+    "email": "instructor@knowledgewave.dev",
+    "role": "instructor",
+    "instructorId": "omar-haddad"
+  },
+  {
+    "id": "u-admin",
+    "name": "Admin",
+    "email": "admin@knowledgewave.dev",
+    "role": "admin"
+  }
+]

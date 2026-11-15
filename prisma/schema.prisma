@@ -1,0 +1,619 @@
+// KnowledgeWave data model (BACKEND_SPEC §3).
+// Conventions:
+//  - Bilingual fields are stored as <name>En / <name>Ar columns and re-assembled to { en, ar } at the API edge.
+//  - Money is integer cents (<name>Cents).
+//  - "Calendar day" values (course updatedAt, review date, activity day) are YYYY-MM-DD strings, exactly what the
+//    API returns; they sort correctly as text and avoid timezone shifts.
+//  - Tables are snake_case via @@map; columns keep Prisma's camelCase.
+
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum Role {
+  student
+  instructor
+  admin
+}
+
+enum Level {
+  beginner
+  intermediate
+  advanced
+}
+
+enum Lang {
+  en
+  ar
+}
+
+enum CourseStatus {
+  draft
+  published
+  archived
+}
+
+enum OrderStatus {
+  paid
+  refunded
+}
+
+enum XpEventType {
+  lesson
+  quiz
+  course
+  review
+  streak
+}
+
+enum NotificationKind {
+  xp
+  badge
+  order
+  certificate
+  course
+  system
+}
+
+enum AuditAction {
+  create
+  update
+  delete
+  restore
+  revert
+  refund
+  ban
+  unban
+}
+
+// ---------------------------------------------------------------- accounts
+
+model User {
+  id           String    @id
+  name         String
+  email        String    @unique // stored lower-case
+  passwordHash String
+  role         Role
+  instructorId String?
+  createdAt    DateTime  @default(now())
+  bannedAt     DateTime?
+  deletedAt    DateTime?
+
+  instructor    Instructor?          @relation(fields: [instructorId], references: [id])
+  enrollments   Enrollment[]
+  progress      LessonProgress[]
+  lastLessons   LastLesson[]
+  notes         Note[]
+  wishlist      Wishlist[]
+  orders        Order[]
+  xpEvents      XpEvent[]
+  quizAttempts  QuizAttempt[]
+  badges        BadgeAwarded[]
+  notifications Notification[]
+  certificates  Certificate[]
+  activityDays  ActivityDay[]
+  settings      UserSettings?
+  reviews       Review[]
+  assets        Asset[]
+  sessions      Session[]
+  resetTokens   PasswordResetToken[]
+  idempotency   IdempotencyKey[]
+
+  @@map("users")
+}
+
+model Session {
+  id             String   @id // SHA-256 of the cookie value; the raw sid is never stored
+  userId         String
+  actingAsUserId String? // set while an admin is acting as someone else
+  createdAt      DateTime @default(now())
+  expiresAt      DateTime
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([expiresAt])
+  @@map("sessions")
+}
+
+model PasswordResetToken {
+  id        String    @id @default(cuid())
+  userId    String
+  tokenHash String    @unique // SHA-256 of the emailed token
+  expiresAt DateTime
+  usedAt    DateTime?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@map("password_reset_tokens")
+}
+
+model IdempotencyKey {
+  userId         String
+  key            String
+  method         String
+  path           String
+  requestHash    String
+  status         String // "in_progress" | "completed"
+  responseStatus Int?
+  responseBody   Json?
+  createdAt      DateTime @default(now())
+  expiresAt      DateTime
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@id([userId, key])
+  @@index([expiresAt])
+  @@map("idempotency_keys")
+}
+
+// ---------------------------------------------------------------- catalog
+
+model Instructor {
+  id         String    @id // slug, e.g. omar-haddad
+  nameEn     String
+  nameAr     String
+  headlineEn String
+  headlineAr String
+  bioEn      String
+  bioAr      String
+  rating     Float     @default(0)
+  students   Int       @default(0)
+  courses    Int       @default(0)
+  deletedAt  DateTime?
+
+  users      User[]
+  courseList Course[]
+
+  @@map("instructors")
+}
+
+model Category {
+  slug          String    @id
+  nameEn        String
+  nameAr        String
+  descriptionEn String
+  descriptionAr String
+  icon          String
+  deletedAt     DateTime?
+
+  courses Course[]
+  quiz    QuizBankQuestion[]
+
+  @@map("categories")
+}
+
+model Course {
+  id                 String       @id // "c-" + slug
+  slug               String       @unique
+  titleEn            String
+  titleAr            String
+  subtitleEn         String
+  subtitleAr         String
+  descriptionEn      String
+  descriptionAr      String
+  categorySlug       String
+  instructorId       String
+  level              Level
+  language           Lang
+  priceCents         Int
+  originalPriceCents Int?
+  rating             Float        @default(0)
+  ratingCount        Int          @default(0)
+  students           Int          @default(0)
+  durationSec        Int
+  updatedAt          String // YYYY-MM-DD
+  thumbnail          String
+  previewVideo       Json // VideoSource
+  outcomes           Json // Localized[]
+  requirements       Json // Localized[]
+  tags               String[]
+  creditChannel      String
+  featured           Boolean      @default(false)
+  bestseller         Boolean      @default(false)
+  status             CourseStatus @default(published)
+  deletedAt          DateTime?
+  quiz               Json? // QuizQuestion[]; null = use the category bank
+
+  category    Category        @relation(fields: [categorySlug], references: [slug])
+  instructor  Instructor      @relation(fields: [instructorId], references: [id])
+  sections    Section[]
+  reviews     Review[]
+  enrollments Enrollment[]
+  wishlist    Wishlist[]
+  roadmaps    RoadmapCourse[]
+  qaThreads   QaThread[]
+
+  @@index([status, deletedAt])
+  @@index([categorySlug])
+  @@index([instructorId])
+  @@map("courses")
+}
+
+model Section {
+  id       String @id
+  courseId String
+  position Int
+  titleEn  String
+  titleAr  String
+
+  course  Course   @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  lessons Lesson[]
+
+  @@index([courseId, position])
+  @@map("sections")
+}
+
+model Lesson {
+  id          String  @id // globally unique, e.g. <course-slug>-s1-l1
+  sectionId   String
+  position    Int
+  titleEn     String
+  titleAr     String
+  durationSec Int
+  video       Json // VideoSource
+  preview     Boolean @default(false)
+  thumbnail   String? // poster data URL for uploaded videos
+
+  section  Section          @relation(fields: [sectionId], references: [id], onDelete: Cascade)
+  progress LessonProgress[]
+
+  @@index([sectionId, position])
+  @@map("lessons")
+}
+
+model Review {
+  id        String    @id
+  courseId  String
+  userId    String? // null for seed/legacy reviews
+  authorEn  String
+  authorAr  String
+  rating    Int
+  commentEn String
+  commentAr String
+  date      String // YYYY-MM-DD
+  hiddenAt  DateTime?
+
+  course Course @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  user   User?  @relation(fields: [userId], references: [id])
+
+  @@unique([userId, courseId]) // one review per learner per course (NULL user ids never collide)
+  @@index([courseId])
+  @@map("reviews")
+}
+
+model Roadmap {
+  slug          String @id
+  titleEn       String
+  titleAr       String
+  descriptionEn String
+  descriptionAr String
+  level         Level
+  icon          String
+
+  courses RoadmapCourse[]
+
+  @@map("roadmaps")
+}
+
+model RoadmapCourse {
+  roadmapSlug String
+  courseSlug  String
+  position    Int
+
+  roadmap Roadmap @relation(fields: [roadmapSlug], references: [slug], onDelete: Cascade)
+  course  Course  @relation(fields: [courseSlug], references: [slug], onDelete: Cascade)
+
+  @@id([roadmapSlug, courseSlug])
+  @@index([roadmapSlug, position])
+  @@map("roadmap_courses")
+}
+
+model Testimonial {
+  id      String @id
+  nameEn  String
+  nameAr  String
+  roleEn  String
+  roleAr  String
+  quoteEn String
+  quoteAr String
+
+  @@map("testimonials")
+}
+
+model QuizBankQuestion {
+  id           String @id // e.g. dev-1
+  categorySlug String
+  position     Int
+  qEn          String
+  qAr          String
+  options      Json // Localized[4]
+  answer       Int // 0..3
+
+  category Category @relation(fields: [categorySlug], references: [slug], onDelete: Cascade)
+
+  @@index([categorySlug, position])
+  @@map("quiz_bank")
+}
+
+model Coupon {
+  code      String    @id // upper-case
+  percent   Int
+  active    Boolean   @default(true)
+  deletedAt DateTime?
+
+  @@map("coupons")
+}
+
+// ---------------------------------------------------------------- learner data
+
+model Enrollment {
+  userId     String
+  courseSlug String
+  enrolledAt DateTime @default(now())
+
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  course Course @relation(fields: [courseSlug], references: [slug])
+
+  @@id([userId, courseSlug])
+  @@index([courseSlug])
+  @@map("enrollments")
+}
+
+model LessonProgress {
+  userId      String
+  lessonId    String
+  completed   Boolean   @default(false)
+  positionSec Int       @default(0)
+  completedAt DateTime?
+
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  lesson Lesson @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+
+  @@id([userId, lessonId])
+  @@map("lesson_progress")
+}
+
+model LastLesson {
+  userId     String
+  courseSlug String
+  lessonId   String
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@id([userId, courseSlug])
+  @@map("last_lesson")
+}
+
+model Note {
+  id         String   @id @default(cuid())
+  userId     String
+  courseSlug String
+  lessonId   String
+  atSec      Float
+  text       String
+  createdAt  DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@map("notes")
+}
+
+model Wishlist {
+  userId     String
+  courseSlug String
+
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  course Course @relation(fields: [courseSlug], references: [slug])
+
+  @@id([userId, courseSlug])
+  @@map("wishlist")
+}
+
+model Order {
+  id            String      @id // "KW-<base36>"
+  userId        String
+  createdAt     DateTime    @default(now())
+  subtotalCents Int
+  discountCents Int
+  totalCents    Int
+  coupon        String?
+  cardBrand     String
+  cardLast4     String
+  status        OrderStatus @default(paid)
+
+  user  User        @relation(fields: [userId], references: [id])
+  items OrderItem[]
+
+  @@index([userId, createdAt])
+  @@map("orders")
+}
+
+// Snapshot of the course title and price at purchase time, so receipts never change.
+model OrderItem {
+  orderId    String
+  courseSlug String
+  titleEn    String
+  titleAr    String
+  priceCents Int
+
+  order Order @relation(fields: [orderId], references: [id], onDelete: Cascade)
+
+  @@id([orderId, courseSlug])
+  @@map("order_items")
+}
+
+model XpEvent {
+  id     String      @id @default(cuid())
+  userId String
+  type   XpEventType
+  amount Int
+  at     DateTime    @default(now())
+  refId  String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, at])
+  @@map("xp_events")
+}
+
+model QuizAttempt {
+  id          String   @id @default(cuid())
+  userId      String
+  courseSlug  String
+  score       Int
+  total       Int
+  passed      Boolean
+  at          DateTime @default(now())
+  durationSec Float
+  answers     Int[]
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, courseSlug])
+  @@map("quiz_attempts")
+}
+
+model BadgeAwarded {
+  userId    String
+  badgeId   String
+  awardedAt DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@id([userId, badgeId])
+  @@map("badges_awarded")
+}
+
+model Notification {
+  id      String           @id @default(cuid())
+  userId  String
+  kind    NotificationKind
+  titleEn String
+  titleAr String
+  bodyEn  String
+  bodyAr  String
+  at      DateTime         @default(now())
+  read    Boolean          @default(false)
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, at])
+  @@map("notifications")
+}
+
+model Certificate {
+  id         String   @id // unique upper-case string
+  userId     String
+  courseSlug String
+  issuedAt   DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, courseSlug])
+  @@map("certificates")
+}
+
+model ActivityDay {
+  userId  String
+  day     String // learner's local YYYY-MM-DD
+  seconds Int    @default(0)
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@id([userId, day])
+  @@map("activity_days")
+}
+
+model UserSettings {
+  userId             String  @id
+  weeklyGoal         Int     @default(5)
+  emailNotifications Boolean @default(true)
+  productUpdates     Boolean @default(false)
+  autoplayNext       Boolean @default(true)
+  bio                String  @default("")
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("user_settings")
+}
+
+// ---------------------------------------------------------------- Q&A
+
+model QaThread {
+  id         String   @id
+  courseSlug String
+  lessonId   String
+  author     String // display name
+  text       String
+  at         DateTime @default(now())
+  resolved   Boolean  @default(false)
+
+  course  Course    @relation(fields: [courseSlug], references: [slug])
+  replies QaReply[]
+
+  @@index([courseSlug, lessonId])
+  @@map("qa_threads")
+}
+
+model QaReply {
+  id       String   @id
+  threadId String
+  author   String
+  role     Role
+  text     String
+  at       DateTime @default(now())
+
+  thread QaThread @relation(fields: [threadId], references: [id], onDelete: Cascade)
+
+  @@index([threadId])
+  @@map("qa_replies")
+}
+
+// ---------------------------------------------------------------- uploads and audit
+
+model Asset {
+  id          String   @id @default(cuid())
+  ownerUserId String
+  kind        String   @default("video")
+  mimeType    String
+  sizeBytes   Int
+  storageKey  String
+  durationSec Int?
+  thumbnail   String?
+  status      String   @default("pending") // "pending" until /complete
+  createdAt   DateTime @default(now())
+
+  owner User @relation(fields: [ownerUserId], references: [id])
+
+  @@map("assets")
+}
+
+model AuditLog {
+  id           String      @id @default(cuid())
+  at           DateTime    @default(now())
+  actorId      String
+  actorName    String
+  actingAsId   String?
+  actingAsName String?
+  action       AuditAction
+  entity       String
+  summary      String
+  tableName    String
+  entityKey    String
+  before       Json? // DB NULL = "did not exist"
+  after        Json?
+  revertedBy   String?
+  revertOf     String?
+
+  @@index([at])
+  @@index([tableName, entityKey])
+  @@map("audit_log")
+}

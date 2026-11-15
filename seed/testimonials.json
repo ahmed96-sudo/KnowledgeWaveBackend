@@ -1,0 +1,47 @@
+[
+  {
+    "id": "t1",
+    "name": {
+      "en": "Yasmin Adel",
+      "ar": "ياسمين عادل"
+    },
+    "role": {
+      "en": "Frontend Developer",
+      "ar": "مطورة واجهات أمامية"
+    },
+    "quote": {
+      "en": "The roadmaps took the guesswork out of learning. I knew exactly what to study next, and the progress tracking kept me going.",
+      "ar": "خرائط الطريق أزالت التخمين من التعلّم. كنت أعرف ما أدرسه تالياً، وتتبّع التقدم أبقاني ملتزمة."
+    }
+  },
+  {
+    "id": "t2",
+    "name": {
+      "en": "Jonas Weber",
+      "ar": "يوناس ويبر"
+    },
+    "role": {
+      "en": "Marketing Manager",
+      "ar": "مدير تسويق"
+    },
+    "quote": {
+      "en": "Short, practical lessons I could fit around work. The SEO course alone paid for itself within a month.",
+      "ar": "دروس قصيرة وعملية أستطيع وضعها بين ساعات العمل. كورس السيو وحده أعاد استثماره خلال شهر."
+    }
+  },
+  {
+    "id": "t3",
+    "name": {
+      "en": "Huda Saleh",
+      "ar": "هدى صالح"
+    },
+    "role": {
+      "en": "Data Analyst",
+      "ar": "محللة بيانات"
+    },
+    "quote": {
+      "en": "I switched careers using the data analyst path. Having Arabic and English side by side made it so much easier.",
+      "ar": "غيّرت مساري المهني عبر مسار محلل البيانات. وجود العربية والإنجليزية جنباً إلى جنب جعل الأمر أسهل بكثير."
+    }
+  }
+]

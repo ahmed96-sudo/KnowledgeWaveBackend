@@ -1,0 +1,218 @@
+[
+  {
+    "id": "omar-haddad",
+    "name": {
+      "en": "Omar Haddad",
+      "ar": "عمر حداد"
+    },
+    "headline": {
+      "en": "Senior Full-Stack Engineer",
+      "ar": "مهندس برمجيات أول (Full-Stack)"
+    },
+    "bio": {
+      "en": "Omar has shipped products for startups and enterprises for over a decade and loves turning complex ideas into simple lessons.",
+      "ar": "أطلق عمر منتجات لشركات ناشئة وكبرى لأكثر من عشر سنوات، ويحب تحويل الأفكار المعقدة إلى دروس بسيطة."
+    },
+    "rating": 4.8,
+    "students": 48200,
+    "courses": 2
+  },
+  {
+    "id": "layla-mansour",
+    "name": {
+      "en": "Layla Mansour",
+      "ar": "ليلى منصور"
+    },
+    "headline": {
+      "en": "Product Designer",
+      "ar": "مصممة منتجات"
+    },
+    "bio": {
+      "en": "Layla designs digital products used by millions and teaches the craft behind clear, human interfaces.",
+      "ar": "تصمم ليلى منتجات رقمية يستخدمها الملايين، وتشارك الحرفة وراء الواجهات الواضحة والإنسانية."
+    },
+    "rating": 4.9,
+    "students": 36500,
+    "courses": 2
+  },
+  {
+    "id": "daniel-brooks",
+    "name": {
+      "en": "Daniel Brooks",
+      "ar": "دانيال بروكس"
+    },
+    "headline": {
+      "en": "Computer Science Lecturer",
+      "ar": "محاضر علوم الحاسب"
+    },
+    "bio": {
+      "en": "A university lecturer who makes algorithms and core CS ideas approachable for everyone.",
+      "ar": "محاضر جامعي يجعل الخوارزميات وأساسيات علوم الحاسب في متناول الجميع."
+    },
+    "rating": 4.7,
+    "students": 52100,
+    "courses": 3
+  },
+  {
+    "id": "sara-al-khatib",
+    "name": {
+      "en": "Sara Al-Khatib",
+      "ar": "سارة الخطيب"
+    },
+    "headline": {
+      "en": "Data Scientist",
+      "ar": "عالمة بيانات"
+    },
+    "bio": {
+      "en": "Sara builds data products and mentors analysts moving into machine learning.",
+      "ar": "تبني سارة منتجات بيانات وتوجّه المحللين نحو تعلّم الآلة."
+    },
+    "rating": 4.8,
+    "students": 41900,
+    "courses": 3
+  },
+  {
+    "id": "marcus-reed",
+    "name": {
+      "en": "Marcus Reed",
+      "ar": "ماركوس ريد"
+    },
+    "headline": {
+      "en": "Startup Founder & Advisor",
+      "ar": "مؤسس شركات ناشئة ومستشار"
+    },
+    "bio": {
+      "en": "Marcus has founded three companies and advises early-stage founders on strategy and finance.",
+      "ar": "أسّس ماركوس ثلاث شركات ويقدّم الاستشارات لرواد الأعمال في مراحلهم الأولى حول الاستراتيجية والمالية."
+    },
+    "rating": 4.6,
+    "students": 29700,
+    "courses": 1
+  },
+  {
+    "id": "nadia-farouk",
+    "name": {
+      "en": "Nadia Farouk",
+      "ar": "نادية فاروق"
+    },
+    "headline": {
+      "en": "Digital Marketing Strategist",
+      "ar": "خبيرة استراتيجيات التسويق الرقمي"
+    },
+    "bio": {
+      "en": "Nadia has grown brands across search, social and email, and teaches what actually moves the numbers.",
+      "ar": "نمّت نادية علامات تجارية عبر البحث والتواصل الاجتماعي والبريد، وتعلّم ما يحرّك الأرقام فعلاً."
+    },
+    "rating": 4.7,
+    "students": 33800,
+    "courses": 3
+  },
+  {
+    "id": "yusuf-karim",
+    "name": {
+      "en": "Yusuf Karim",
+      "ar": "يوسف كريم"
+    },
+    "headline": {
+      "en": "Backend Engineer",
+      "ar": "مهندس باك إند"
+    },
+    "bio": {
+      "en": "Yusuf designs APIs and services at scale and enjoys teaching clean, testable backend code.",
+      "ar": "يصمم يوسف واجهات برمجية وخدمات واسعة النطاق، ويستمتع بتعليم كتابة كود باك إند نظيف وقابل للاختبار."
+    },
+    "rating": 4.8,
+    "students": 27400,
+    "courses": 1
+  },
+  {
+    "id": "emily-carter",
+    "name": {
+      "en": "Emily Carter",
+      "ar": "إيميلي كارتر"
+    },
+    "headline": {
+      "en": "Illustrator & Art Teacher",
+      "ar": "رسّامة ومعلمة فنون"
+    },
+    "bio": {
+      "en": "Emily is a working illustrator who teaches drawing fundamentals to complete beginners.",
+      "ar": "رسامة محترفة تعلّم أساسيات الرسم للمبتدئين تماماً."
+    },
+    "rating": 4.9,
+    "students": 22600,
+    "courses": 3
+  },
+  {
+    "id": "hassan-ibrahim",
+    "name": {
+      "en": "Hassan Ibrahim",
+      "ar": "حسن إبراهيم"
+    },
+    "headline": {
+      "en": "Sales Coach",
+      "ar": "مدرّب مبيعات"
+    },
+    "bio": {
+      "en": "Hassan coaches sales teams on discovery, objection handling and closing with confidence.",
+      "ar": "يدرّب حسن فرق المبيعات على اكتشاف الاحتياج والتعامل مع الاعتراضات وإغلاق الصفقات بثقة."
+    },
+    "rating": 4.6,
+    "students": 18900,
+    "courses": 1
+  },
+  {
+    "id": "mona-salem",
+    "name": {
+      "en": "Mona Salem",
+      "ar": "منى سالم"
+    },
+    "headline": {
+      "en": "Learning Coach",
+      "ar": "مدربة تعلّم"
+    },
+    "bio": {
+      "en": "Mona helps people learn faster with evidence-based study methods and sustainable habits.",
+      "ar": "تساعد منى الناس على التعلّم بشكل أسرع عبر أساليب دراسة مبنية على الأدلة وعادات مستدامة."
+    },
+    "rating": 4.8,
+    "students": 38400,
+    "courses": 3
+  },
+  {
+    "id": "lucas-meyer",
+    "name": {
+      "en": "Lucas Meyer",
+      "ar": "لوكاس ماير"
+    },
+    "headline": {
+      "en": "Photographer & Educator",
+      "ar": "مصوّر ومعلّم"
+    },
+    "bio": {
+      "en": "Lucas has photographed for magazines and teaches the camera craft in plain language.",
+      "ar": "صوّر لوكاس لمجلات مرموقة ويشرح فنّ التصوير بلغة بسيطة."
+    },
+    "rating": 4.7,
+    "students": 25100,
+    "courses": 2
+  },
+  {
+    "id": "rania-youssef",
+    "name": {
+      "en": "Rania Youssef",
+      "ar": "رانيا يوسف"
+    },
+    "headline": {
+      "en": "Business & Finance Analyst",
+      "ar": "محللة أعمال ومالية"
+    },
+    "bio": {
+      "en": "Rania explains finance, economics and project delivery without the jargon.",
+      "ar": "تشرح رانيا المالية والاقتصاد وإدارة المشاريع بدون تعقيد."
+    },
+    "rating": 4.7,
+    "students": 21300,
+    "courses": 2
+  }
+]

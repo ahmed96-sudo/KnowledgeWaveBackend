@@ -1,0 +1,111 @@
+[
+  {
+    "slug": "frontend-developer",
+    "icon": "code",
+    "level": "beginner",
+    "title": {
+      "en": "Frontend Developer",
+      "ar": "مطوّر واجهات أمامية"
+    },
+    "description": {
+      "en": "Go from your first line of JavaScript to building modern React apps.",
+      "ar": "من أول سطر جافاسكريبت حتى بناء تطبيقات ريأكت حديثة."
+    },
+    "courses": [
+      "javascript-complete-guide",
+      "react-from-scratch",
+      "nodejs-express-backend"
+    ]
+  },
+  {
+    "slug": "data-analyst",
+    "icon": "database",
+    "level": "beginner",
+    "title": {
+      "en": "Data Analyst",
+      "ar": "محلل بيانات"
+    },
+    "description": {
+      "en": "Learn Python, SQL and analysis, then step into machine learning.",
+      "ar": "تعلّم بايثون وSQL والتحليل ثم ادخل عالم تعلّم الآلة."
+    },
+    "courses": [
+      "python-for-beginners",
+      "sql-database-fundamentals",
+      "data-analysis-python",
+      "machine-learning-for-everybody"
+    ]
+  },
+  {
+    "slug": "digital-marketer",
+    "icon": "megaphone",
+    "level": "beginner",
+    "title": {
+      "en": "Digital Marketer",
+      "ar": "مسوّق رقمي"
+    },
+    "description": {
+      "en": "Understand channels, rank on search and learn to sell.",
+      "ar": "افهم القنوات التسويقية وتصدّر البحث وتعلّم فن البيع."
+    },
+    "courses": [
+      "digital-marketing-101",
+      "seo-for-beginners",
+      "sales-skills-masterclass"
+    ]
+  },
+  {
+    "slug": "creative-designer",
+    "icon": "palette",
+    "level": "beginner",
+    "title": {
+      "en": "Creative Designer",
+      "ar": "مصمم مبدع"
+    },
+    "description": {
+      "en": "Master design principles, Figma and Photoshop.",
+      "ar": "أتقن مبادئ التصميم وFigma وفوتوشوب."
+    },
+    "courses": [
+      "graphic-design-essentials",
+      "ui-ux-design-figma",
+      "photoshop-for-beginners"
+    ]
+  },
+  {
+    "slug": "cs-foundations",
+    "icon": "cpu",
+    "level": "beginner",
+    "title": {
+      "en": "Computer Science Foundations",
+      "ar": "أسس علوم الحاسب"
+    },
+    "description": {
+      "en": "Build the core knowledge every software engineer relies on.",
+      "ar": "ابنِ المعرفة الأساسية التي يعتمد عليها كل مهندس برمجيات."
+    },
+    "courses": [
+      "cs50-introduction",
+      "python-for-beginners",
+      "data-structures-algorithms"
+    ]
+  },
+  {
+    "slug": "personal-growth",
+    "icon": "lightbulb",
+    "level": "beginner",
+    "title": {
+      "en": "Personal Growth",
+      "ar": "النمو الشخصي"
+    },
+    "description": {
+      "en": "Learn faster, manage your time and speak with confidence.",
+      "ar": "تعلّم أسرع وأدِر وقتك وتحدّث بثقة."
+    },
+    "courses": [
+      "learn-how-to-learn",
+      "time-management-productivity",
+      "public-speaking-confidence"
+    ]
+  }
+]

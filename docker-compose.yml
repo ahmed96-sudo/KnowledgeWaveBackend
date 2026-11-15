@@ -1,0 +1,36 @@
+services:
+  db:
+    image: postgres
+    container_name: knowledgewave_db
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: knowledgewave
+    ports:
+      - "5432:5432"
+    volumes:
+      - kw_pgdata:/var/lib/postgresql
+      # runs only on the first start of an empty volume: creates the Vitest database
+      - ./docker/init-test-db.sql:/docker-entrypoint-initdb.d/init-test-db.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d knowledgewave"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+  adminer:
+    image: adminer
+    container_name: knowledgewave_adminer
+    restart: always
+    ports:
+      - "8080:8080"
+  mail:
+    image: axllent/mailpit
+    container_name: knowledgewave_mail
+    restart: always
+    ports:
+      - "1025:1025" # SMTP
+      - "8025:8025" # web UI
+
+volumes:
+  kw_pgdata:

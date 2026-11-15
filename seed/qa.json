@@ -1,0 +1,444 @@
+[
+  {
+    "id": "qa-javascript-complete-guide",
+    "courseSlug": "javascript-complete-guide",
+    "lessonId": "javascript-complete-guide-s1-l1",
+    "author": "Yasmin",
+    "text": "Could you suggest some extra practice for this part?",
+    "at": "2026-09-01T07:00:00.000Z",
+    "replies": [
+      {
+        "id": "qar-javascript-complete-guide",
+        "author": "Instructor",
+        "role": "instructor",
+        "text": "Sure! Try rebuilding the example on your own without looking, then compare your result.",
+        "at": "2026-09-01T12:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "qa-react-from-scratch",
+    "courseSlug": "react-from-scratch",
+    "lessonId": "react-from-scratch-s1-l1",
+    "author": "Yasmin",
+    "text": "Could you suggest some extra practice for this part?",
+    "at": "2026-09-02T07:00:00.000Z",
+    "replies": [
+      {
+        "id": "qar-react-from-scratch",
+        "author": "Instructor",
+        "role": "instructor",
+        "text": "Sure! Try rebuilding the example on your own without looking, then compare your result.",
+        "at": "2026-09-02T12:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "qa-nodejs-express-backend",
+    "courseSlug": "nodejs-express-backend",
+    "lessonId": "nodejs-express-backend-s1-l1",
+    "author": "Yasmin",
+    "text": "Could you suggest some extra practice for this part?",
+    "at": "2026-09-03T07:00:00.000Z",
+    "replies": [
+      {
+        "id": "qar-nodejs-express-backend",
+        "author": "Instructor",
+        "role": "instructor",
+        "text": "Sure! Try rebuilding the example on your own without looking, then compare your result.",
+        "at": "2026-09-03T12:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "qa-ui-ux-design-figma",
+    "courseSlug": "ui-ux-design-figma",
+    "lessonId": "ui-ux-design-figma-s1-l1",
+    "author": "Yasmin",
+    "text": "Could you suggest some extra practice for this part?",
+    "at": "2026-09-04T07:00:00.000Z",
+    "replies": [
+      {
+        "id": "qar-ui-ux-design-figma",
+        "author": "Instructor",
+        "role": "instructor",
+        "text": "Sure! Try rebuilding the example on your own without looking, then compare your result.",
+        "at": "2026-09-04T12:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "qa-graphic-design-essentials",
+    "courseSlug": "graphic-design-essentials",
+    "lessonId": "graphic-design-essentials-s1-l1",
+    "author": "Yasmin",
+    "text": "Could you suggest some extra practice for this part?",
+    "at": "2026-09-05T07:00:00.000Z",
+    "replies": [
+      {
+        "id": "qar-graphic-design-essentials",
+        "author": "Instructor",
+        "role": "instructor",
+        "text": "Sure! Try rebuilding the example on your own without looking, then compare your result.",
+        "at": "2026-09-05T12:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "qa-photoshop-for-beginners",
+    "courseSlug": "photoshop-for-beginners",
+    "lessonId": "photoshop-for-beginners-s1-l1",
+    "author": "Yasmin",
+    "text": "Could you suggest some extra practice for this part?",
+    "at": "2026-09-06T07:00:00.000Z",
+    "replies": [
+      {
+        "id": "qar-photoshop-for-beginners",
+        "author": "Instructor",
+        "role": "instructor",
+        "text": "Sure! Try rebuilding the example on your own without looking, then compare your result.",
+        "at": "2026-09-06T12:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "qa-photoshop-arabic",
+    "courseSlug": "photoshop-arabic",
+    "lessonId": "photoshop-arabic-s1-l1",
+    "author": "ياسمين",
+    "text": "هل يمكنك اقتراح تمارين إضافية لهذا الجزء؟",
+    "at": "2026-09-07T07:00:00.000Z",
+    "replies": [
+      {
+        "id": "qar-photoshop-arabic",
+        "author": "Instructor",
+        "role": "instructor",
+        "text": "بالتأكيد! حاول إعادة بناء المثال بنفسك دون النظر إلى الشرح، ثم قارن النتيجة.",
+        "at": "2026-09-07T12:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "qa-cs50-introduction",
+    "courseSlug": "cs50-introduction",
+    "lessonId": "cs50-introduction-s1-l1",
+    "author": "Yasmin",
+    "text": "Could you suggest some extra practice for this part?",
+    "at": "2026-09-08T07:00:00.000Z",
+    "replies": [
+      {
+        "id": "qar-cs50-introduction",
+        "author": "Instructor",
+        "role": "instructor",
+        "text": "Sure! Try rebuilding the example on your own without looking, then compare your result.",
+        "at": "2026-09-08T12:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "qa-data-structures-algorithms",
+    "courseSlug": "data-structures-algorithms",
+    "lessonId": "data-structures-algorithms-s1-l1",
+    "author": "Yasmin",
+    "text": "Could you suggest some extra practice for this part?",
+    "at": "2026-09-09T07:00:00.000Z",
+    "replies": [
+      {
+        "id": "qar-data-structures-algorithms",
+        "author": "Instructor",
+        "role": "instructor",
+        "text": "Sure! Try rebuilding the example on your own without looking, then compare your result.",
+        "at": "2026-09-09T12:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "qa-python-for-beginners",
+    "courseSlug": "python-for-beginners",
+    "lessonId": "python-for-beginners-s1-l1",
+    "author": "Yasmin",
+    "text": "Could you suggest some extra practice for this part?",
+    "at": "2026-09-10T07:00:00.000Z",
+    "replies": [
+      {
+        "id": "qar-python-for-beginners",
+        "author": "Instructor",
+        "role": "instructor",
+        "text": "Sure! Try rebuilding the example on your own without looking, then compare your result.",
+        "at": "2026-09-10T12:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "qa-data-analysis-python",
+    "courseSlug": "data-analysis-python",
+    "lessonId": "data-analysis-python-s1-l1",
+    "author": "Yasmin",
+    "text": "Could you suggest some extra practice for this part?",
+    "at": "2026-09-11T07:00:00.000Z",
+    "replies": [
+      {
+        "id": "qar-data-analysis-python",
+        "author": "Instructor",
+        "role": "instructor",
+        "text": "Sure! Try rebuilding the example on your own without looking, then compare your result.",
+        "at": "2026-09-11T12:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "qa-machine-learning-for-everybody",
+    "courseSlug": "machine-learning-for-everybody",
+    "lessonId": "machine-learning-for-everybody-s1-l1",
+    "author": "Yasmin",
+    "text": "Could you suggest some extra practice for this part?",
+    "at": "2026-09-12T07:00:00.000Z",
+    "replies": [
+      {
+        "id": "qar-machine-learning-for-everybody",
+        "author": "Instructor",
+        "role": "instructor",
+        "text": "Sure! Try rebuilding the example on your own without looking, then compare your result.",
+        "at": "2026-09-12T12:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "qa-sql-database-fundamentals",
+    "courseSlug": "sql-database-fundamentals",
+    "lessonId": "sql-database-fundamentals-s1-l1",
+    "author": "Yasmin",
+    "text": "Could you suggest some extra practice for this part?",
+    "at": "2026-09-13T07:00:00.000Z",
+    "replies": [
+      {
+        "id": "qar-sql-database-fundamentals",
+        "author": "Instructor",
+        "role": "instructor",
+        "text": "Sure! Try rebuilding the example on your own without looking, then compare your result.",
+        "at": "2026-09-13T12:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "qa-foundations-of-entrepreneurship",
+    "courseSlug": "foundations-of-entrepreneurship",
+    "lessonId": "foundations-of-entrepreneurship-s1-l1",
+    "author": "Yasmin",
+    "text": "Could you suggest some extra practice for this part?",
+    "at": "2026-09-14T07:00:00.000Z",
+    "replies": [
+      {
+        "id": "qar-foundations-of-entrepreneurship",
+        "author": "Instructor",
+        "role": "instructor",
+        "text": "Sure! Try rebuilding the example on your own without looking, then compare your result.",
+        "at": "2026-09-14T12:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "qa-project-management-essentials",
+    "courseSlug": "project-management-essentials",
+    "lessonId": "project-management-essentials-s1-l1",
+    "author": "Yasmin",
+    "text": "Could you suggest some extra practice for this part?",
+    "at": "2026-09-15T07:00:00.000Z",
+    "replies": [
+      {
+        "id": "qar-project-management-essentials",
+        "author": "Instructor",
+        "role": "instructor",
+        "text": "Sure! Try rebuilding the example on your own without looking, then compare your result.",
+        "at": "2026-09-15T12:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "qa-finance-economics-crash-course",
+    "courseSlug": "finance-economics-crash-course",
+    "lessonId": "finance-economics-crash-course-s1-l1",
+    "author": "Yasmin",
+    "text": "Could you suggest some extra practice for this part?",
+    "at": "2026-09-16T07:00:00.000Z",
+    "replies": [
+      {
+        "id": "qar-finance-economics-crash-course",
+        "author": "Instructor",
+        "role": "instructor",
+        "text": "Sure! Try rebuilding the example on your own without looking, then compare your result.",
+        "at": "2026-09-16T12:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "qa-digital-marketing-101",
+    "courseSlug": "digital-marketing-101",
+    "lessonId": "digital-marketing-101-s1-l1",
+    "author": "Yasmin",
+    "text": "Could you suggest some extra practice for this part?",
+    "at": "2026-09-17T07:00:00.000Z",
+    "replies": [
+      {
+        "id": "qar-digital-marketing-101",
+        "author": "Instructor",
+        "role": "instructor",
+        "text": "Sure! Try rebuilding the example on your own without looking, then compare your result.",
+        "at": "2026-09-17T12:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "qa-seo-for-beginners",
+    "courseSlug": "seo-for-beginners",
+    "lessonId": "seo-for-beginners-s1-l1",
+    "author": "Yasmin",
+    "text": "Could you suggest some extra practice for this part?",
+    "at": "2026-09-18T07:00:00.000Z",
+    "replies": [
+      {
+        "id": "qar-seo-for-beginners",
+        "author": "Instructor",
+        "role": "instructor",
+        "text": "Sure! Try rebuilding the example on your own without looking, then compare your result.",
+        "at": "2026-09-18T12:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "qa-seo-arabic",
+    "courseSlug": "seo-arabic",
+    "lessonId": "seo-arabic-s1-l1",
+    "author": "ياسمين",
+    "text": "هل يمكنك اقتراح تمارين إضافية لهذا الجزء؟",
+    "at": "2026-09-19T07:00:00.000Z",
+    "replies": [
+      {
+        "id": "qar-seo-arabic",
+        "author": "Instructor",
+        "role": "instructor",
+        "text": "بالتأكيد! حاول إعادة بناء المثال بنفسك دون النظر إلى الشرح، ثم قارن النتيجة.",
+        "at": "2026-09-19T12:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "qa-sales-skills-masterclass",
+    "courseSlug": "sales-skills-masterclass",
+    "lessonId": "sales-skills-masterclass-s1-l1",
+    "author": "Yasmin",
+    "text": "Could you suggest some extra practice for this part?",
+    "at": "2026-09-20T07:00:00.000Z",
+    "replies": [
+      {
+        "id": "qar-sales-skills-masterclass",
+        "author": "Instructor",
+        "role": "instructor",
+        "text": "Sure! Try rebuilding the example on your own without looking, then compare your result.",
+        "at": "2026-09-20T12:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "qa-public-speaking-confidence",
+    "courseSlug": "public-speaking-confidence",
+    "lessonId": "public-speaking-confidence-s1-l1",
+    "author": "Yasmin",
+    "text": "Could you suggest some extra practice for this part?",
+    "at": "2026-09-01T07:00:00.000Z",
+    "replies": [
+      {
+        "id": "qar-public-speaking-confidence",
+        "author": "Instructor",
+        "role": "instructor",
+        "text": "Sure! Try rebuilding the example on your own without looking, then compare your result.",
+        "at": "2026-09-01T12:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "qa-time-management-productivity",
+    "courseSlug": "time-management-productivity",
+    "lessonId": "time-management-productivity-s1-l1",
+    "author": "Yasmin",
+    "text": "Could you suggest some extra practice for this part?",
+    "at": "2026-09-02T07:00:00.000Z",
+    "replies": [
+      {
+        "id": "qar-time-management-productivity",
+        "author": "Instructor",
+        "role": "instructor",
+        "text": "Sure! Try rebuilding the example on your own without looking, then compare your result.",
+        "at": "2026-09-02T12:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "qa-learn-how-to-learn",
+    "courseSlug": "learn-how-to-learn",
+    "lessonId": "learn-how-to-learn-s1-l1",
+    "author": "Yasmin",
+    "text": "Could you suggest some extra practice for this part?",
+    "at": "2026-09-03T07:00:00.000Z",
+    "replies": [
+      {
+        "id": "qar-learn-how-to-learn",
+        "author": "Instructor",
+        "role": "instructor",
+        "text": "Sure! Try rebuilding the example on your own without looking, then compare your result.",
+        "at": "2026-09-03T12:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "qa-drawing-for-beginners",
+    "courseSlug": "drawing-for-beginners",
+    "lessonId": "drawing-for-beginners-s1-l1",
+    "author": "Yasmin",
+    "text": "Could you suggest some extra practice for this part?",
+    "at": "2026-09-04T07:00:00.000Z",
+    "replies": [
+      {
+        "id": "qar-drawing-for-beginners",
+        "author": "Instructor",
+        "role": "instructor",
+        "text": "Sure! Try rebuilding the example on your own without looking, then compare your result.",
+        "at": "2026-09-04T12:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "qa-photography-fundamentals",
+    "courseSlug": "photography-fundamentals",
+    "lessonId": "photography-fundamentals-s1-l1",
+    "author": "Yasmin",
+    "text": "Could you suggest some extra practice for this part?",
+    "at": "2026-09-05T07:00:00.000Z",
+    "replies": [
+      {
+        "id": "qar-photography-fundamentals",
+        "author": "Instructor",
+        "role": "instructor",
+        "text": "Sure! Try rebuilding the example on your own without looking, then compare your result.",
+        "at": "2026-09-05T12:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "qa-music-theory-complete",
+    "courseSlug": "music-theory-complete",
+    "lessonId": "music-theory-complete-s1-l1",
+    "author": "Yasmin",
+    "text": "Could you suggest some extra practice for this part?",
+    "at": "2026-09-06T07:00:00.000Z",
+    "replies": [
+      {
+        "id": "qar-music-theory-complete",
+        "author": "Instructor",
+        "role": "instructor",
+        "text": "Sure! Try rebuilding the example on your own without looking, then compare your result.",
+        "at": "2026-09-06T12:00:00.000Z"
+      }
+    ]
+  }
+]

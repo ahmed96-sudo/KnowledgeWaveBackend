@@ -1,0 +1,6132 @@
+[
+  {
+    "id": "c-javascript-complete-guide",
+    "slug": "javascript-complete-guide",
+    "title": {
+      "en": "Complete JavaScript Guide",
+      "ar": "دليل جافاسكريبت الشامل"
+    },
+    "subtitle": {
+      "en": "Master the language of the web, from variables to the DOM.",
+      "ar": "أتقن لغة الويب، من المتغيرات حتى التعامل مع DOM."
+    },
+    "description": {
+      "en": "Master the language of the web, from variables to the DOM. This course walks you through the essentials step by step with clear explanations and practical examples, so you can go from the first lesson to confident, hands-on use.",
+      "ar": "أتقن لغة الويب، من المتغيرات حتى التعامل مع DOM. يأخذك هذا الكورس عبر الأساسيات خطوة بخطوة بشروحات واضحة وأمثلة عملية، لتنتقل من الدرس الأول إلى الاستخدام العملي بثقة."
+    },
+    "category": "development",
+    "instructorId": "omar-haddad",
+    "level": "beginner",
+    "language": "en",
+    "price": 49.99,
+    "originalPrice": 89.99,
+    "rating": 4.8,
+    "ratingCount": 12840,
+    "students": 58400,
+    "durationSec": 12357,
+    "updatedAt": "2026-01-15",
+    "thumbnail": "https://img.youtube.com/vi/PkZNo7MFNFg/hqdefault.jpg",
+    "previewVideo": {
+      "type": "youtube",
+      "id": "PkZNo7MFNFg",
+      "start": 0,
+      "end": 180
+    },
+    "outcomes": [
+      {
+        "en": "Write clean, modern code you can maintain",
+        "ar": "كتابة كود حديث ونظيف يسهل صيانته"
+      },
+      {
+        "en": "Build real features step by step",
+        "ar": "بناء ميزات حقيقية خطوة بخطوة"
+      },
+      {
+        "en": "Debug problems with confidence",
+        "ar": "تتبّع الأخطاء وإصلاحها بثقة"
+      },
+      {
+        "en": "Understand how the pieces fit together",
+        "ar": "فهم كيف تتكامل الأجزاء معاً"
+      }
+    ],
+    "requirements": [
+      {
+        "en": "No prior experience needed",
+        "ar": "لا حاجة لخبرة سابقة"
+      },
+      {
+        "en": "A computer or phone with internet access",
+        "ar": "جهاز كمبيوتر أو هاتف مع اتصال بالإنترنت"
+      }
+    ],
+    "tags": [
+      "javascript",
+      "web",
+      "programming"
+    ],
+    "credit": {
+      "channel": "freeCodeCamp.org"
+    },
+    "featured": true,
+    "bestseller": true,
+    "sections": [
+      {
+        "id": "javascript-complete-guide-s1",
+        "title": {
+          "en": "Foundations",
+          "ar": "الأساسيات"
+        },
+        "lessons": [
+          {
+            "id": "javascript-complete-guide-s1-l1",
+            "title": {
+              "en": "Part 1",
+              "ar": "الجزء 1"
+            },
+            "durationSec": 1373,
+            "video": {
+              "type": "youtube",
+              "id": "PkZNo7MFNFg",
+              "start": 0,
+              "end": 1373
+            },
+            "preview": true
+          },
+          {
+            "id": "javascript-complete-guide-s1-l2",
+            "title": {
+              "en": "Part 2",
+              "ar": "الجزء 2"
+            },
+            "durationSec": 1373,
+            "video": {
+              "type": "youtube",
+              "id": "PkZNo7MFNFg",
+              "start": 1373,
+              "end": 2746
+            },
+            "preview": false
+          },
+          {
+            "id": "javascript-complete-guide-s1-l3",
+            "title": {
+              "en": "Part 3",
+              "ar": "الجزء 3"
+            },
+            "durationSec": 1373,
+            "video": {
+              "type": "youtube",
+              "id": "PkZNo7MFNFg",
+              "start": 2746,
+              "end": 4119
+            },
+            "preview": false
+          }
+        ]
+      },
+      {
+        "id": "javascript-complete-guide-s2",
+        "title": {
+          "en": "Core skills",
+          "ar": "المهارات الأساسية"
+        },
+        "lessons": [
+          {
+            "id": "javascript-complete-guide-s2-l1",
+            "title": {
+              "en": "Part 4",
+              "ar": "الجزء 4"
+            },
+            "durationSec": 1373,
+            "video": {
+              "type": "youtube",
+              "id": "PkZNo7MFNFg",
+              "start": 4119,
+              "end": 5492
+            },
+            "preview": false
+          },
+          {
+            "id": "javascript-complete-guide-s2-l2",
+            "title": {
+              "en": "Part 5",
+              "ar": "الجزء 5"
+            },
+            "durationSec": 1373,
+            "video": {
+              "type": "youtube",
+              "id": "PkZNo7MFNFg",
+              "start": 5492,
+              "end": 6865
+            },
+            "preview": false
+          },
+          {
+            "id": "javascript-complete-guide-s2-l3",
+            "title": {
+              "en": "Part 6",
+              "ar": "الجزء 6"
+            },
+            "durationSec": 1373,
+            "video": {
+              "type": "youtube",
+              "id": "PkZNo7MFNFg",
+              "start": 6865,
+              "end": 8238
+            },
+            "preview": false
+          }
+        ]
+      },
+      {
+        "id": "javascript-complete-guide-s3",
+        "title": {
+          "en": "Practice & next steps",
+          "ar": "التطبيق والخطوات التالية"
+        },
+        "lessons": [
+          {
+            "id": "javascript-complete-guide-s3-l1",
+            "title": {
+              "en": "Part 7",
+              "ar": "الجزء 7"
+            },
+            "durationSec": 1373,
+            "video": {
+              "type": "youtube",
+              "id": "PkZNo7MFNFg",
+              "start": 8238,
+              "end": 9611
+            },
+            "preview": false
+          },
+          {
+            "id": "javascript-complete-guide-s3-l2",
+            "title": {
+              "en": "Part 8",
+              "ar": "الجزء 8"
+            },
+            "durationSec": 1373,
+            "video": {
+              "type": "youtube",
+              "id": "PkZNo7MFNFg",
+              "start": 9611,
+              "end": 10984
+            },
+            "preview": false
+          },
+          {
+            "id": "javascript-complete-guide-s3-l3",
+            "title": {
+              "en": "Part 9",
+              "ar": "الجزء 9"
+            },
+            "durationSec": 1373,
+            "video": {
+              "type": "youtube",
+              "id": "PkZNo7MFNFg",
+              "start": 10984
+            },
+            "preview": false
+          }
+        ]
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "c-react-from-scratch",
+    "slug": "react-from-scratch",
+    "title": {
+      "en": "React from Scratch with Tailwind",
+      "ar": "ريأكت من الصفر مع Tailwind"
+    },
+    "subtitle": {
+      "en": "Build modern interfaces with components, state and hooks.",
+      "ar": "ابنِ واجهات حديثة بالمكوّنات والحالة والـ Hooks."
+    },
+    "description": {
+      "en": "Build modern interfaces with components, state and hooks. This course walks you through the essentials step by step with clear explanations and practical examples, so you can go from the first lesson to confident, hands-on use.",
+      "ar": "ابنِ واجهات حديثة بالمكوّنات والحالة والـ Hooks. يأخذك هذا الكورس عبر الأساسيات خطوة بخطوة بشروحات واضحة وأمثلة عملية، لتنتقل من الدرس الأول إلى الاستخدام العملي بثقة."
+    },
+    "category": "development",
+    "instructorId": "omar-haddad",
+    "level": "intermediate",
+    "language": "en",
+    "price": 59.99,
+    "originalPrice": 99.99,
+    "rating": 4.8,
+    "ratingCount": 9610,
+    "students": 41200,
+    "durationSec": 16974,
+    "updatedAt": "2026-02-15",
+    "thumbnail": "https://img.youtube.com/vi/IJ85kCdqWao/hqdefault.jpg",
+    "previewVideo": {
+      "type": "youtube",
+      "id": "IJ85kCdqWao",
+      "start": 0,
+      "end": 180
+    },
+    "outcomes": [
+      {
+        "en": "Write clean, modern code you can maintain",
+        "ar": "كتابة كود حديث ونظيف يسهل صيانته"
+      },
+      {
+        "en": "Build real features step by step",
+        "ar": "بناء ميزات حقيقية خطوة بخطوة"
+      },
+      {
+        "en": "Debug problems with confidence",
+        "ar": "تتبّع الأخطاء وإصلاحها بثقة"
+      },
+      {
+        "en": "Understand how the pieces fit together",
+        "ar": "فهم كيف تتكامل الأجزاء معاً"
+      }
+    ],
+    "requirements": [
+      {
+        "en": "Basic familiarity with the subject",
+        "ar": "إلمام أساسي بالموضوع"
+      },
+      {
+        "en": "Willingness to practise alongside the lessons",
+        "ar": "الاستعداد للتطبيق أثناء الدروس"
+      }
+    ],
+    "tags": [
+      "react",
+      "tailwind",
+      "frontend"
+    ],
+    "credit": {
+      "channel": "freeCodeCamp.org"
+    },
+    "featured": false,
+    "bestseller": true,
+    "sections": [
+      {
+        "id": "react-from-scratch-s1",
+        "title": {
+          "en": "Foundations",
+          "ar": "الأساسيات"
+        },
+        "lessons": [
+          {
+            "id": "react-from-scratch-s1-l1",
+            "title": {
+              "en": "Part 1",
+              "ar": "الجزء 1"
+            },
+            "durationSec": 1886,
+            "video": {
+              "type": "youtube",
+              "id": "IJ85kCdqWao",
+              "start": 0,
+              "end": 1886
+            },
+            "preview": true
+          },
+          {
+            "id": "react-from-scratch-s1-l2",
+            "title": {
+              "en": "Part 2",
+              "ar": "الجزء 2"
+            },
+            "durationSec": 1886,
+            "video": {
+              "type": "youtube",
+              "id": "IJ85kCdqWao",
+              "start": 1886,
+              "end": 3772
+            },
+            "preview": false
+          },
+          {
+            "id": "react-from-scratch-s1-l3",
+            "title": {
+              "en": "Part 3",
+              "ar": "الجزء 3"
+            },
+            "durationSec": 1886,
+            "video": {
+              "type": "youtube",
+              "id": "IJ85kCdqWao",
+              "start": 3772,
+              "end": 5658
+            },
+            "preview": false
+          }
+        ]
+      },
+      {
+        "id": "react-from-scratch-s2",
+        "title": {
+          "en": "Core skills",
+          "ar": "المهارات الأساسية"
+        },
+        "lessons": [
+          {
+            "id": "react-from-scratch-s2-l1",
+            "title": {
+              "en": "Part 4",
+              "ar": "الجزء 4"
+            },
+            "durationSec": 1886,
+            "video": {
+              "type": "youtube",
+              "id": "IJ85kCdqWao",
+              "start": 5658,
+              "end": 7544
+            },
+            "preview": false
+          },
+          {
+            "id": "react-from-scratch-s2-l2",
+            "title": {
+              "en": "Part 5",
+              "ar": "الجزء 5"
+            },
+            "durationSec": 1886,
+            "video": {
+              "type": "youtube",
+              "id": "IJ85kCdqWao",
+              "start": 7544,
+              "end": 9430
+            },
+            "preview": false
+          },
+          {
+            "id": "react-from-scratch-s2-l3",
+            "title": {
+              "en": "Part 6",
+              "ar": "الجزء 6"
+            },
+            "durationSec": 1886,
+            "video": {
+              "type": "youtube",
+              "id": "IJ85kCdqWao",
+              "start": 9430,
+              "end": 11316
+            },
+            "preview": false
+          }
+        ]
+      },
+      {
+        "id": "react-from-scratch-s3",
+        "title": {
+          "en": "Practice & next steps",
+          "ar": "التطبيق والخطوات التالية"
+        },
+        "lessons": [
+          {
+            "id": "react-from-scratch-s3-l1",
+            "title": {
+              "en": "Part 7",
+              "ar": "الجزء 7"
+            },
+            "durationSec": 1886,
+            "video": {
+              "type": "youtube",
+              "id": "IJ85kCdqWao",
+              "start": 11316,
+              "end": 13202
+            },
+            "preview": false
+          },
+          {
+            "id": "react-from-scratch-s3-l2",
+            "title": {
+              "en": "Part 8",
+              "ar": "الجزء 8"
+            },
+            "durationSec": 1886,
+            "video": {
+              "type": "youtube",
+              "id": "IJ85kCdqWao",
+              "start": 13202,
+              "end": 15088
+            },
+            "preview": false
+          },
+          {
+            "id": "react-from-scratch-s3-l3",
+            "title": {
+              "en": "Part 9",
+              "ar": "الجزء 9"
+            },
+            "durationSec": 1886,
+            "video": {
+              "type": "youtube",
+              "id": "IJ85kCdqWao",
+              "start": 15088
+            },
+            "preview": false
+          }
+        ]
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "c-nodejs-express-backend",
+    "slug": "nodejs-express-backend",
+    "title": {
+      "en": "Node.js & Express Backend Essentials",
+      "ar": "أساسيات الباك إند بـ Node.js و Express"
+    },
+    "subtitle": {
+      "en": "Create REST APIs and server apps with Node.js and Express.",
+      "ar": "أنشئ واجهات REST وتطبيقات خادم باستخدام Node.js وExpress."
+    },
+    "description": {
+      "en": "Create REST APIs and server apps with Node.js and Express. This course walks you through the essentials step by step with clear explanations and practical examples, so you can go from the first lesson to confident, hands-on use.",
+      "ar": "أنشئ واجهات REST وتطبيقات خادم باستخدام Node.js وExpress. يأخذك هذا الكورس عبر الأساسيات خطوة بخطوة بشروحات واضحة وأمثلة عملية، لتنتقل من الدرس الأول إلى الاستخدام العملي بثقة."
+    },
+    "category": "development",
+    "instructorId": "yusuf-karim",
+    "level": "intermediate",
+    "language": "en",
+    "price": 54.99,
+    "originalPrice": 94.99,
+    "rating": 4.7,
+    "ratingCount": 7420,
+    "students": 29800,
+    "durationSec": 8874,
+    "updatedAt": "2026-03-15",
+    "thumbnail": "https://img.youtube.com/vi/G8uL0lFFoN0/hqdefault.jpg",
+    "previewVideo": {
+      "type": "youtube",
+      "id": "G8uL0lFFoN0",
+      "start": 0,
+      "end": 180
+    },
+    "outcomes": [
+      {
+        "en": "Write clean, modern code you can maintain",
+        "ar": "كتابة كود حديث ونظيف يسهل صيانته"
+      },
+      {
+        "en": "Build real features step by step",
+        "ar": "بناء ميزات حقيقية خطوة بخطوة"
+      },
+      {
+        "en": "Debug problems with confidence",
+        "ar": "تتبّع الأخطاء وإصلاحها بثقة"
+      },
+      {
+        "en": "Understand how the pieces fit together",
+        "ar": "فهم كيف تتكامل الأجزاء معاً"
+      }
+    ],
+    "requirements": [
+      {
+        "en": "Basic familiarity with the subject",
+        "ar": "إلمام أساسي بالموضوع"
+      },
+      {
+        "en": "Willingness to practise alongside the lessons",
+        "ar": "الاستعداد للتطبيق أثناء الدروس"
+      }
+    ],
+    "tags": [
+      "node",
+      "express",
+      "api",
+      "backend"
+    ],
+    "credit": {
+      "channel": "freeCodeCamp.org"
+    },
+    "featured": false,
+    "bestseller": false,
+    "sections": [
+      {
+        "id": "nodejs-express-backend-s1",
+        "title": {
+          "en": "Foundations",
+          "ar": "الأساسيات"
+        },
+        "lessons": [
+          {
+            "id": "nodejs-express-backend-s1-l1",
+            "title": {
+              "en": "Part 1",
+              "ar": "الجزء 1"
+            },
+            "durationSec": 986,
+            "video": {
+              "type": "youtube",
+              "id": "G8uL0lFFoN0",
+              "start": 0,
+              "end": 986
+            },
+            "preview": true
+          },
+          {
+            "id": "nodejs-express-backend-s1-l2",
+            "title": {
+              "en": "Part 2",
+              "ar": "الجزء 2"
+            },
+            "durationSec": 986,
+            "video": {
+              "type": "youtube",
+              "id": "G8uL0lFFoN0",
+              "start": 986,
+              "end": 1972
+            },
+            "preview": false
+          },
+          {
+            "id": "nodejs-express-backend-s1-l3",
+            "title": {
+              "en": "Part 3",
+              "ar": "الجزء 3"
+            },
+            "durationSec": 986,
+            "video": {
+              "type": "youtube",
+              "id": "G8uL0lFFoN0",
+              "start": 1972,
+              "end": 2958
+            },
+            "preview": false
+          }
+        ]
+      },
+      {
+        "id": "nodejs-express-backend-s2",
+        "title": {
+          "en": "Core skills",
+          "ar": "المهارات الأساسية"
+        },
+        "lessons": [
+          {
+            "id": "nodejs-express-backend-s2-l1",
+            "title": {
+              "en": "Part 4",
+              "ar": "الجزء 4"
+            },
+            "durationSec": 986,
+            "video": {
+              "type": "youtube",
+              "id": "G8uL0lFFoN0",
+              "start": 2958,
+              "end": 3944
+            },
+            "preview": false
+          },
+          {
+            "id": "nodejs-express-backend-s2-l2",
+            "title": {
+              "en": "Part 5",
+              "ar": "الجزء 5"
+            },
+            "durationSec": 986,
+            "video": {
+              "type": "youtube",
+              "id": "G8uL0lFFoN0",
+              "start": 3944,
+              "end": 4930
+            },
+            "preview": false
+          },
+          {
+            "id": "nodejs-express-backend-s2-l3",
+            "title": {
+              "en": "Part 6",
+              "ar": "الجزء 6"
+            },
+            "durationSec": 986,
+            "video": {
+              "type": "youtube",
+              "id": "G8uL0lFFoN0",
+              "start": 4930,
+              "end": 5916
+            },
+            "preview": false
+          }
+        ]
+      },
+      {
+        "id": "nodejs-express-backend-s3",
+        "title": {
+          "en": "Practice & next steps",
+          "ar": "التطبيق والخطوات التالية"
+        },
+        "lessons": [
+          {
+            "id": "nodejs-express-backend-s3-l1",
+            "title": {
+              "en": "Part 7",
+              "ar": "الجزء 7"
+            },
+            "durationSec": 986,
+            "video": {
+              "type": "youtube",
+              "id": "G8uL0lFFoN0",
+              "start": 5916,
+              "end": 6902
+            },
+            "preview": false
+          },
+          {
+            "id": "nodejs-express-backend-s3-l2",
+            "title": {
+              "en": "Part 8",
+              "ar": "الجزء 8"
+            },
+            "durationSec": 986,
+            "video": {
+              "type": "youtube",
+              "id": "G8uL0lFFoN0",
+              "start": 6902,
+              "end": 7888
+            },
+            "preview": false
+          },
+          {
+            "id": "nodejs-express-backend-s3-l3",
+            "title": {
+              "en": "Part 9",
+              "ar": "الجزء 9"
+            },
+            "durationSec": 986,
+            "video": {
+              "type": "youtube",
+              "id": "G8uL0lFFoN0",
+              "start": 7888
+            },
+            "preview": false
+          }
+        ]
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "c-ui-ux-design-figma",
+    "slug": "ui-ux-design-figma",
+    "title": {
+      "en": "UI/UX Design with Figma",
+      "ar": "تصميم UI/UX باستخدام Figma"
+    },
+    "subtitle": {
+      "en": "Go from wireframe to mockup to a finished interface design.",
+      "ar": "انتقل من الهيكل التخطيطي إلى النموذج حتى التصميم النهائي للواجهة."
+    },
+    "description": {
+      "en": "Go from wireframe to mockup to a finished interface design. This course walks you through the essentials step by step with clear explanations and practical examples, so you can go from the first lesson to confident, hands-on use.",
+      "ar": "انتقل من الهيكل التخطيطي إلى النموذج حتى التصميم النهائي للواجهة. يأخذك هذا الكورس عبر الأساسيات خطوة بخطوة بشروحات واضحة وأمثلة عملية، لتنتقل من الدرس الأول إلى الاستخدام العملي بثقة."
+    },
+    "category": "design",
+    "instructorId": "layla-mansour",
+    "level": "beginner",
+    "language": "en",
+    "price": 39.99,
+    "originalPrice": 69.99,
+    "rating": 4.9,
+    "ratingCount": 10230,
+    "students": 36800,
+    "durationSec": 5157,
+    "updatedAt": "2026-04-15",
+    "thumbnail": "https://img.youtube.com/vi/c9Wg6Cb_YlU/hqdefault.jpg",
+    "previewVideo": {
+      "type": "youtube",
+      "id": "c9Wg6Cb_YlU",
+      "start": 0,
+      "end": 180
+    },
+    "outcomes": [
+      {
+        "en": "Apply core design principles to any project",
+        "ar": "تطبيق مبادئ التصميم الأساسية على أي مشروع"
+      },
+      {
+        "en": "Work fluently in professional tools",
+        "ar": "العمل بطلاقة في الأدوات الاحترافية"
+      },
+      {
+        "en": "Create polished, consistent visuals",
+        "ar": "إنشاء عناصر بصرية متقنة ومتناسقة"
+      },
+      {
+        "en": "Present your work with clarity",
+        "ar": "عرض أعمالك بوضوح"
+      }
+    ],
+    "requirements": [
+      {
+        "en": "No prior experience needed",
+        "ar": "لا حاجة لخبرة سابقة"
+      },
+      {
+        "en": "A computer or phone with internet access",
+        "ar": "جهاز كمبيوتر أو هاتف مع اتصال بالإنترنت"
+      }
+    ],
+    "tags": [
+      "figma",
+      "ui",
+      "ux",
+      "wireframe"
+    ],
+    "credit": {
+      "channel": "freeCodeCamp.org"
+    },
+    "featured": true,
+    "bestseller": true,
+    "sections": [
+      {
+        "id": "ui-ux-design-figma-s1",
+        "title": {
+          "en": "Foundations",
+          "ar": "الأساسيات"
+        },
+        "lessons": [
+          {
+            "id": "ui-ux-design-figma-s1-l1",
+            "title": {
+              "en": "Part 1",
+              "ar": "الجزء 1"
+            },
+            "durationSec": 573,
+            "video": {
+              "type": "youtube",
+              "id": "c9Wg6Cb_YlU",
+              "start": 0,
+              "end": 573
+            },
+            "preview": true
+          },
+          {
+            "id": "ui-ux-design-figma-s1-l2",
+            "title": {
+              "en": "Part 2",
+              "ar": "الجزء 2"
+            },
+            "durationSec": 573,
+            "video": {
+              "type": "youtube",
+              "id": "c9Wg6Cb_YlU",
+              "start": 573,
+              "end": 1146
+            },
+            "preview": false
+          },
+          {
+            "id": "ui-ux-design-figma-s1-l3",
+            "title": {
+              "en": "Part 3",
+              "ar": "الجزء 3"
+            },
+            "durationSec": 573,
+            "video": {
+              "type": "youtube",
+              "id": "c9Wg6Cb_YlU",
+              "start": 1146,
+              "end": 1719
+            },
+            "preview": false
+          }
+        ]
+      },
+      {
+        "id": "ui-ux-design-figma-s2",
+        "title": {
+          "en": "Core skills",
+          "ar": "المهارات الأساسية"
+        },
+        "lessons": [
+          {
+            "id": "ui-ux-design-figma-s2-l1",
+            "title": {
+              "en": "Part 4",
+              "ar": "الجزء 4"
+            },
+            "durationSec": 573,
+            "video": {
+              "type": "youtube",
+              "id": "c9Wg6Cb_YlU",
+              "start": 1719,
+              "end": 2292
+            },
+            "preview": false
+          },
+          {
+            "id": "ui-ux-design-figma-s2-l2",
+            "title": {
+              "en": "Part 5",
+              "ar": "الجزء 5"
+            },
+            "durationSec": 573,
+            "video": {
+              "type": "youtube",
+              "id": "c9Wg6Cb_YlU",
+              "start": 2292,
+              "end": 2865
+            },
+            "preview": false
+          },
+          {
+            "id": "ui-ux-design-figma-s2-l3",
+            "title": {
+              "en": "Part 6",
+              "ar": "الجزء 6"
+            },
+            "durationSec": 573,
+            "video": {
+              "type": "youtube",
+              "id": "c9Wg6Cb_YlU",
+              "start": 2865,
+              "end": 3438
+            },
+            "preview": false
+          }
+        ]
+      },
+      {
+        "id": "ui-ux-design-figma-s3",
+        "title": {
+          "en": "Practice & next steps",
+          "ar": "التطبيق والخطوات التالية"
+        },
+        "lessons": [
+          {
+            "id": "ui-ux-design-figma-s3-l1",
+            "title": {
+              "en": "Part 7",
+              "ar": "الجزء 7"
+            },
+            "durationSec": 573,
+            "video": {
+              "type": "youtube",
+              "id": "c9Wg6Cb_YlU",
+              "start": 3438,
+              "end": 4011
+            },
+            "preview": false
+          },
+          {
+            "id": "ui-ux-design-figma-s3-l2",
+            "title": {
+              "en": "Part 8",
+              "ar": "الجزء 8"
+            },
+            "durationSec": 573,
+            "video": {
+              "type": "youtube",
+              "id": "c9Wg6Cb_YlU",
+              "start": 4011,
+              "end": 4584
+            },
+            "preview": false
+          },
+          {
+            "id": "ui-ux-design-figma-s3-l3",
+            "title": {
+              "en": "Part 9",
+              "ar": "الجزء 9"
+            },
+            "durationSec": 573,
+            "video": {
+              "type": "youtube",
+              "id": "c9Wg6Cb_YlU",
+              "start": 4584
+            },
+            "preview": false
+          }
+        ]
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "c-graphic-design-essentials",
+    "slug": "graphic-design-essentials",
+    "title": {
+      "en": "Graphic Design Essentials",
+      "ar": "أساسيات التصميم الجرافيكي"
+    },
+    "subtitle": {
+      "en": "Learn layout, colour, typography and composition from the ground up.",
+      "ar": "تعلّم التخطيط والألوان والخطوط والتكوين من الصفر."
+    },
+    "description": {
+      "en": "Learn layout, colour, typography and composition from the ground up. This course walks you through the essentials step by step with clear explanations and practical examples, so you can go from the first lesson to confident, hands-on use.",
+      "ar": "تعلّم التخطيط والألوان والخطوط والتكوين من الصفر. يأخذك هذا الكورس عبر الأساسيات خطوة بخطوة بشروحات واضحة وأمثلة عملية، لتنتقل من الدرس الأول إلى الاستخدام العملي بثقة."
+    },
+    "category": "design",
+    "instructorId": "layla-mansour",
+    "level": "beginner",
+    "language": "en",
+    "price": 0,
+    "rating": 4.7,
+    "ratingCount": 6830,
+    "students": 31500,
+    "durationSec": 10260,
+    "updatedAt": "2026-05-15",
+    "thumbnail": "https://img.youtube.com/vi/SnxFkHqN1RA/hqdefault.jpg",
+    "previewVideo": {
+      "type": "youtube",
+      "id": "SnxFkHqN1RA",
+      "start": 0,
+      "end": 180
+    },
+    "outcomes": [
+      {
+        "en": "Apply core design principles to any project",
+        "ar": "تطبيق مبادئ التصميم الأساسية على أي مشروع"
+      },
+      {
+        "en": "Work fluently in professional tools",
+        "ar": "العمل بطلاقة في الأدوات الاحترافية"
+      },
+      {
+        "en": "Create polished, consistent visuals",
+        "ar": "إنشاء عناصر بصرية متقنة ومتناسقة"
+      },
+      {
+        "en": "Present your work with clarity",
+        "ar": "عرض أعمالك بوضوح"
+      }
+    ],
+    "requirements": [
+      {
+        "en": "No prior experience needed",
+        "ar": "لا حاجة لخبرة سابقة"
+      },
+      {
+        "en": "A computer or phone with internet access",
+        "ar": "جهاز كمبيوتر أو هاتف مع اتصال بالإنترنت"
+      }
+    ],
+    "tags": [
+      "graphic design",
+      "typography",
+      "color"
+    ],
+    "credit": {
+      "channel": "Flux Academy"
+    },
+    "featured": false,
+    "bestseller": false,
+    "sections": [
+      {
+        "id": "graphic-design-essentials-s1",
+        "title": {
+          "en": "Foundations",
+          "ar": "الأساسيات"
+        },
+        "lessons": [
+          {
+            "id": "graphic-design-essentials-s1-l1",
+            "title": {
+              "en": "Part 1",
+              "ar": "الجزء 1"
+            },
+            "durationSec": 1140,
+            "video": {
+              "type": "youtube",
+              "id": "SnxFkHqN1RA",
+              "start": 0,
+              "end": 1140
+            },
+            "preview": true
+          },
+          {
+            "id": "graphic-design-essentials-s1-l2",
+            "title": {
+              "en": "Part 2",
+              "ar": "الجزء 2"
+            },
+            "durationSec": 1140,
+            "video": {
+              "type": "youtube",
+              "id": "SnxFkHqN1RA",
+              "start": 1140,
+              "end": 2280
+            },
+            "preview": false
+          },
+          {
+            "id": "graphic-design-essentials-s1-l3",
+            "title": {
+              "en": "Part 3",
+              "ar": "الجزء 3"
+            },
+            "durationSec": 1140,
+            "video": {
+              "type": "youtube",
+              "id": "SnxFkHqN1RA",
+              "start": 2280,
+              "end": 3420
+            },
+            "preview": false
+          }
+        ]
+      },
+      {
+        "id": "graphic-design-essentials-s2",
+        "title": {
+          "en": "Core skills",
+          "ar": "المهارات الأساسية"
+        },
+        "lessons": [
+          {
+            "id": "graphic-design-essentials-s2-l1",
+            "title": {
+              "en": "Part 4",
+              "ar": "الجزء 4"
+            },
+            "durationSec": 1140,
+            "video": {
+              "type": "youtube",
+              "id": "SnxFkHqN1RA",
+              "start": 3420,
+              "end": 4560
+            },
+            "preview": false
+          },
+          {
+            "id": "graphic-design-essentials-s2-l2",
+            "title": {
+              "en": "Part 5",
+              "ar": "الجزء 5"
+            },
+            "durationSec": 1140,
+            "video": {
+              "type": "youtube",
+              "id": "SnxFkHqN1RA",
+              "start": 4560,
+              "end": 5700
+            },
+            "preview": false
+          },
+          {
+            "id": "graphic-design-essentials-s2-l3",
+            "title": {
+              "en": "Part 6",
+              "ar": "الجزء 6"
+            },
+            "durationSec": 1140,
+            "video": {
+              "type": "youtube",
+              "id": "SnxFkHqN1RA",
+              "start": 5700,
+              "end": 6840
+            },
+            "preview": false
+          }
+        ]
+      },
+      {
+        "id": "graphic-design-essentials-s3",
+        "title": {
+          "en": "Practice & next steps",
+          "ar": "التطبيق والخطوات التالية"
+        },
+        "lessons": [
+          {
+            "id": "graphic-design-essentials-s3-l1",
+            "title": {
+              "en": "Part 7",
+              "ar": "الجزء 7"
+            },
+            "durationSec": 1140,
+            "video": {
+              "type": "youtube",
+              "id": "SnxFkHqN1RA",
+              "start": 6840,
+              "end": 7980
+            },
+            "preview": false
+          },
+          {
+            "id": "graphic-design-essentials-s3-l2",
+            "title": {
+              "en": "Part 8",
+              "ar": "الجزء 8"
+            },
+            "durationSec": 1140,
+            "video": {
+              "type": "youtube",
+              "id": "SnxFkHqN1RA",
+              "start": 7980,
+              "end": 9120
+            },
+            "preview": false
+          },
+          {
+            "id": "graphic-design-essentials-s3-l3",
+            "title": {
+              "en": "Part 9",
+              "ar": "الجزء 9"
+            },
+            "durationSec": 1140,
+            "video": {
+              "type": "youtube",
+              "id": "SnxFkHqN1RA",
+              "start": 9120
+            },
+            "preview": false
+          }
+        ]
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "c-photoshop-for-beginners",
+    "slug": "photoshop-for-beginners",
+    "title": {
+      "en": "Photoshop for Beginners",
+      "ar": "فوتوشوب للمبتدئين"
+    },
+    "subtitle": {
+      "en": "Edit, retouch and compose images with confidence.",
+      "ar": "حرّر الصور وعدّلها وركّبها بثقة."
+    },
+    "description": {
+      "en": "Edit, retouch and compose images with confidence. This course walks you through the essentials step by step with clear explanations and practical examples, so you can go from the first lesson to confident, hands-on use.",
+      "ar": "حرّر الصور وعدّلها وركّبها بثقة. يأخذك هذا الكورس عبر الأساسيات خطوة بخطوة بشروحات واضحة وأمثلة عملية، لتنتقل من الدرس الأول إلى الاستخدام العملي بثقة."
+    },
+    "category": "design",
+    "instructorId": "emily-carter",
+    "level": "beginner",
+    "language": "en",
+    "price": 34.99,
+    "originalPrice": 59.99,
+    "rating": 4.6,
+    "ratingCount": 5240,
+    "students": 24600,
+    "durationSec": 11214,
+    "updatedAt": "2026-06-15",
+    "thumbnail": "https://img.youtube.com/vi/IyR_uYsRdPs/hqdefault.jpg",
+    "previewVideo": {
+      "type": "youtube",
+      "id": "IyR_uYsRdPs",
+      "start": 0,
+      "end": 180
+    },
+    "outcomes": [
+      {
+        "en": "Apply core design principles to any project",
+        "ar": "تطبيق مبادئ التصميم الأساسية على أي مشروع"
+      },
+      {
+        "en": "Work fluently in professional tools",
+        "ar": "العمل بطلاقة في الأدوات الاحترافية"
+      },
+      {
+        "en": "Create polished, consistent visuals",
+        "ar": "إنشاء عناصر بصرية متقنة ومتناسقة"
+      },
+      {
+        "en": "Present your work with clarity",
+        "ar": "عرض أعمالك بوضوح"
+      }
+    ],
+    "requirements": [
+      {
+        "en": "No prior experience needed",
+        "ar": "لا حاجة لخبرة سابقة"
+      },
+      {
+        "en": "A computer or phone with internet access",
+        "ar": "جهاز كمبيوتر أو هاتف مع اتصال بالإنترنت"
+      }
+    ],
+    "tags": [
+      "photoshop",
+      "editing",
+      "adobe"
+    ],
+    "credit": {
+      "channel": "Envato"
+    },
+    "featured": false,
+    "bestseller": false,
+    "sections": [
+      {
+        "id": "photoshop-for-beginners-s1",
+        "title": {
+          "en": "Foundations",
+          "ar": "الأساسيات"
+        },
+        "lessons": [
+          {
+            "id": "photoshop-for-beginners-s1-l1",
+            "title": {
+              "en": "Part 1",
+              "ar": "الجزء 1"
+            },
+            "durationSec": 1246,
+            "video": {
+              "type": "youtube",
+              "id": "IyR_uYsRdPs",
+              "start": 0,
+              "end": 1246
+            },
+            "preview": true
+          },
+          {
+            "id": "photoshop-for-beginners-s1-l2",
+            "title": {
+              "en": "Part 2",
+              "ar": "الجزء 2"
+            },
+            "durationSec": 1246,
+            "video": {
+              "type": "youtube",
+              "id": "IyR_uYsRdPs",
+              "start": 1246,
+              "end": 2492
+            },
+            "preview": false
+          },
+          {
+            "id": "photoshop-for-beginners-s1-l3",
+            "title": {
+              "en": "Part 3",
+              "ar": "الجزء 3"
+            },
+            "durationSec": 1246,
+            "video": {
+              "type": "youtube",
+              "id": "IyR_uYsRdPs",
+              "start": 2492,
+              "end": 3738
+            },
+            "preview": false
+          }
+        ]
+      },
+      {
+        "id": "photoshop-for-beginners-s2",
+        "title": {
+          "en": "Core skills",
+          "ar": "المهارات الأساسية"
+        },
+        "lessons": [
+          {
+            "id": "photoshop-for-beginners-s2-l1",
+            "title": {
+              "en": "Part 4",
+              "ar": "الجزء 4"
+            },
+            "durationSec": 1246,
+            "video": {
+              "type": "youtube",
+              "id": "IyR_uYsRdPs",
+              "start": 3738,
+              "end": 4984
+            },
+            "preview": false
+          },
+          {
+            "id": "photoshop-for-beginners-s2-l2",
+            "title": {
+              "en": "Part 5",
+              "ar": "الجزء 5"
+            },
+            "durationSec": 1246,
+            "video": {
+              "type": "youtube",
+              "id": "IyR_uYsRdPs",
+              "start": 4984,
+              "end": 6230
+            },
+            "preview": false
+          },
+          {
+            "id": "photoshop-for-beginners-s2-l3",
+            "title": {
+              "en": "Part 6",
+              "ar": "الجزء 6"
+            },
+            "durationSec": 1246,
+            "video": {
+              "type": "youtube",
+              "id": "IyR_uYsRdPs",
+              "start": 6230,
+              "end": 7476
+            },
+            "preview": false
+          }
+        ]
+      },
+      {
+        "id": "photoshop-for-beginners-s3",
+        "title": {
+          "en": "Practice & next steps",
+          "ar": "التطبيق والخطوات التالية"
+        },
+        "lessons": [
+          {
+            "id": "photoshop-for-beginners-s3-l1",
+            "title": {
+              "en": "Part 7",
+              "ar": "الجزء 7"
+            },
+            "durationSec": 1246,
+            "video": {
+              "type": "youtube",
+              "id": "IyR_uYsRdPs",
+              "start": 7476,
+              "end": 8722
+            },
+            "preview": false
+          },
+          {
+            "id": "photoshop-for-beginners-s3-l2",
+            "title": {
+              "en": "Part 8",
+              "ar": "الجزء 8"
+            },
+            "durationSec": 1246,
+            "video": {
+              "type": "youtube",
+              "id": "IyR_uYsRdPs",
+              "start": 8722,
+              "end": 9968
+            },
+            "preview": false
+          },
+          {
+            "id": "photoshop-for-beginners-s3-l3",
+            "title": {
+              "en": "Part 9",
+              "ar": "الجزء 9"
+            },
+            "durationSec": 1246,
+            "video": {
+              "type": "youtube",
+              "id": "IyR_uYsRdPs",
+              "start": 9968
+            },
+            "preview": false
+          }
+        ]
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "c-photoshop-arabic",
+    "slug": "photoshop-arabic",
+    "title": {
+      "en": "Photoshop Complete Course (Arabic)",
+      "ar": "كورس فوتوشوب كامل بالعربي"
+    },
+    "subtitle": {
+      "en": "A full Arabic-language Photoshop course from zero to confident.",
+      "ar": "كورس فوتوشوب كامل باللغة العربية من الصفر حتى الاحتراف."
+    },
+    "description": {
+      "en": "A full Arabic-language Photoshop course from zero to confident. This course walks you through the essentials step by step with clear explanations and practical examples, so you can go from the first lesson to confident, hands-on use.",
+      "ar": "كورس فوتوشوب كامل باللغة العربية من الصفر حتى الاحتراف. يأخذك هذا الكورس عبر الأساسيات خطوة بخطوة بشروحات واضحة وأمثلة عملية، لتنتقل من الدرس الأول إلى الاستخدام العملي بثقة."
+    },
+    "category": "design",
+    "instructorId": "emily-carter",
+    "level": "beginner",
+    "language": "ar",
+    "price": 0,
+    "rating": 4.8,
+    "ratingCount": 4120,
+    "students": 19800,
+    "durationSec": 14940,
+    "updatedAt": "2026-07-15",
+    "thumbnail": "https://img.youtube.com/vi/WlTsKiVwZAM/hqdefault.jpg",
+    "previewVideo": {
+      "type": "youtube",
+      "id": "WlTsKiVwZAM",
+      "start": 0,
+      "end": 180
+    },
+    "outcomes": [
+      {
+        "en": "Apply core design principles to any project",
+        "ar": "تطبيق مبادئ التصميم الأساسية على أي مشروع"
+      },
+      {
+        "en": "Work fluently in professional tools",
+        "ar": "العمل بطلاقة في الأدوات الاحترافية"
+      },
+      {
+        "en": "Create polished, consistent visuals",
+        "ar": "إنشاء عناصر بصرية متقنة ومتناسقة"
+      },
+      {
+        "en": "Present your work with clarity",
+        "ar": "عرض أعمالك بوضوح"
+      }
+    ],
+    "requirements": [
+      {
+        "en": "No prior experience needed",
+        "ar": "لا حاجة لخبرة سابقة"
+      },
+      {
+        "en": "A computer or phone with internet access",
+        "ar": "جهاز كمبيوتر أو هاتف مع اتصال بالإنترنت"
+      }
+    ],
+    "tags": [
+      "photoshop",
+      "arabic",
+      "adobe"
+    ],
+    "credit": {
+      "channel": "Nour Design"
+    },
+    "featured": false,
+    "bestseller": false,
+    "sections": [
+      {
+        "id": "photoshop-arabic-s1",
+        "title": {
+          "en": "Foundations",
+          "ar": "الأساسيات"
+        },
+        "lessons": [
+          {
+            "id": "photoshop-arabic-s1-l1",
+            "title": {
+              "en": "Part 1",
+              "ar": "الجزء 1"
+            },
+            "durationSec": 1660,
+            "video": {
+              "type": "youtube",
+              "id": "WlTsKiVwZAM",
+              "start": 0,
+              "end": 1660
+            },
+            "preview": true
+          },
+          {
+            "id": "photoshop-arabic-s1-l2",
+            "title": {
+              "en": "Part 2",
+              "ar": "الجزء 2"
+            },
+            "durationSec": 1660,
+            "video": {
+              "type": "youtube",
+              "id": "WlTsKiVwZAM",
+              "start": 1660,
+              "end": 3320
+            },
+            "preview": false
+          },
+          {
+            "id": "photoshop-arabic-s1-l3",
+            "title": {
+              "en": "Part 3",
+              "ar": "الجزء 3"
+            },
+            "durationSec": 1660,
+            "video": {
+              "type": "youtube",
+              "id": "WlTsKiVwZAM",
+              "start": 3320,
+              "end": 4980
+            },
+            "preview": false
+          }
+        ]
+      },
+      {
+        "id": "photoshop-arabic-s2",
+        "title": {
+          "en": "Core skills",
+          "ar": "المهارات الأساسية"
+        },
+        "lessons": [
+          {
+            "id": "photoshop-arabic-s2-l1",
+            "title": {
+              "en": "Part 4",
+              "ar": "الجزء 4"
+            },
+            "durationSec": 1660,
+            "video": {
+              "type": "youtube",
+              "id": "WlTsKiVwZAM",
+              "start": 4980,
+              "end": 6640
+            },
+            "preview": false
+          },
+          {
+            "id": "photoshop-arabic-s2-l2",
+            "title": {
+              "en": "Part 5",
+              "ar": "الجزء 5"
+            },
+            "durationSec": 1660,
+            "video": {
+              "type": "youtube",
+              "id": "WlTsKiVwZAM",
+              "start": 6640,
+              "end": 8300
+            },
+            "preview": false
+          },
+          {
+            "id": "photoshop-arabic-s2-l3",
+            "title": {
+              "en": "Part 6",
+              "ar": "الجزء 6"
+            },
+            "durationSec": 1660,
+            "video": {
+              "type": "youtube",
+              "id": "WlTsKiVwZAM",
+              "start": 8300,
+              "end": 9960
+            },
+            "preview": false
+          }
+        ]
+      },
+      {
+        "id": "photoshop-arabic-s3",
+        "title": {
+          "en": "Practice & next steps",
+          "ar": "التطبيق والخطوات التالية"
+        },
+        "lessons": [
+          {
+            "id": "photoshop-arabic-s3-l1",
+            "title": {
+              "en": "Part 7",
+              "ar": "الجزء 7"
+            },
+            "durationSec": 1660,
+            "video": {
+              "type": "youtube",
+              "id": "WlTsKiVwZAM",
+              "start": 9960,
+              "end": 11620
+            },
+            "preview": false
+          },
+          {
+            "id": "photoshop-arabic-s3-l2",
+            "title": {
+              "en": "Part 8",
+              "ar": "الجزء 8"
+            },
+            "durationSec": 1660,
+            "video": {
+              "type": "youtube",
+              "id": "WlTsKiVwZAM",
+              "start": 11620,
+              "end": 13280
+            },
+            "preview": false
+          },
+          {
+            "id": "photoshop-arabic-s3-l3",
+            "title": {
+              "en": "Part 9",
+              "ar": "الجزء 9"
+            },
+            "durationSec": 1660,
+            "video": {
+              "type": "youtube",
+              "id": "WlTsKiVwZAM",
+              "start": 13280
+            },
+            "preview": false
+          }
+        ]
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "c-cs50-introduction",
+    "slug": "cs50-introduction",
+    "title": {
+      "en": "Introduction to Computer Science",
+      "ar": "مقدمة في علوم الحاسب"
+    },
+    "subtitle": {
+      "en": "Harvard CS50's opening lecture: think like a computer scientist.",
+      "ar": "المحاضرة الافتتاحية لـ CS50 من هارفارد: فكّر كعالم حاسب."
+    },
+    "description": {
+      "en": "Harvard CS50's opening lecture: think like a computer scientist. This course walks you through the essentials step by step with clear explanations and practical examples, so you can go from the first lesson to confident, hands-on use.",
+      "ar": "المحاضرة الافتتاحية لـ CS50 من هارفارد: فكّر كعالم حاسب. يأخذك هذا الكورس عبر الأساسيات خطوة بخطوة بشروحات واضحة وأمثلة عملية، لتنتقل من الدرس الأول إلى الاستخدام العملي بثقة."
+    },
+    "category": "computer-science",
+    "instructorId": "daniel-brooks",
+    "level": "beginner",
+    "language": "en",
+    "price": 0,
+    "rating": 4.9,
+    "ratingCount": 15620,
+    "students": 72100,
+    "durationSec": 7200,
+    "updatedAt": "2026-08-15",
+    "thumbnail": "https://img.youtube.com/vi/UuIEbpQms8o/hqdefault.jpg",
+    "previewVideo": {
+      "type": "youtube",
+      "id": "UuIEbpQms8o",
+      "start": 0,
+      "end": 180
+    },
+    "outcomes": [
+      {
+        "en": "Think like a programmer and break down problems",
+        "ar": "التفكير كمبرمج وتقسيم المشكلات"
+      },
+      {
+        "en": "Learn the fundamentals every engineer relies on",
+        "ar": "تعلّم الأساسيات التي يعتمد عليها كل مهندس"
+      },
+      {
+        "en": "Solve problems with efficient solutions",
+        "ar": "حل المشكلات بحلول فعّالة"
+      },
+      {
+        "en": "Get ready for more advanced topics",
+        "ar": "الاستعداد للمواضيع المتقدمة"
+      }
+    ],
+    "requirements": [
+      {
+        "en": "No prior experience needed",
+        "ar": "لا حاجة لخبرة سابقة"
+      },
+      {
+        "en": "A computer or phone with internet access",
+        "ar": "جهاز كمبيوتر أو هاتف مع اتصال بالإنترنت"
+      }
+    ],
+    "tags": [
+      "cs50",
+      "scratch",
+      "fundamentals"
+    ],
+    "credit": {
+      "channel": "CS50"
+    },
+    "featured": true,
+    "bestseller": true,
+    "sections": [
+      {
+        "id": "cs50-introduction-s1",
+        "title": {
+          "en": "Foundations",
+          "ar": "الأساسيات"
+        },
+        "lessons": [
+          {
+            "id": "cs50-introduction-s1-l1",
+            "title": {
+              "en": "Part 1",
+              "ar": "الجزء 1"
+            },
+            "durationSec": 800,
+            "video": {
+              "type": "youtube",
+              "id": "UuIEbpQms8o",
+              "start": 0,
+              "end": 800
+            },
+            "preview": true
+          },
+          {
+            "id": "cs50-introduction-s1-l2",
+            "title": {
+              "en": "Part 2",
+              "ar": "الجزء 2"
+            },
+            "durationSec": 800,
+            "video": {
+              "type": "youtube",
+              "id": "UuIEbpQms8o",
+              "start": 800,
+              "end": 1600
+            },
+            "preview": false
+          },
+          {
+            "id": "cs50-introduction-s1-l3",
+            "title": {
+              "en": "Part 3",
+              "ar": "الجزء 3"
+            },
+            "durationSec": 800,
+            "video": {
+              "type": "youtube",
+              "id": "UuIEbpQms8o",
+              "start": 1600,
+              "end": 2400
+            },
+            "preview": false
+          }
+        ]
+      },
+      {
+        "id": "cs50-introduction-s2",
+        "title": {
+          "en": "Core skills",
+          "ar": "المهارات الأساسية"
+        },
+        "lessons": [
+          {
+            "id": "cs50-introduction-s2-l1",
+            "title": {
+              "en": "Part 4",
+              "ar": "الجزء 4"
+            },
+            "durationSec": 800,
+            "video": {
+              "type": "youtube",
+              "id": "UuIEbpQms8o",
+              "start": 2400,
+              "end": 3200
+            },
+            "preview": false
+          },
+          {
+            "id": "cs50-introduction-s2-l2",
+            "title": {
+              "en": "Part 5",
+              "ar": "الجزء 5"
+            },
+            "durationSec": 800,
+            "video": {
+              "type": "youtube",
+              "id": "UuIEbpQms8o",
+              "start": 3200,
+              "end": 4000
+            },
+            "preview": false
+          },
+          {
+            "id": "cs50-introduction-s2-l3",
+            "title": {
+              "en": "Part 6",
+              "ar": "الجزء 6"
+            },
+            "durationSec": 800,
+            "video": {
+              "type": "youtube",
+              "id": "UuIEbpQms8o",
+              "start": 4000,
+              "end": 4800
+            },
+            "preview": false
+          }
+        ]
+      },
+      {
+        "id": "cs50-introduction-s3",
+        "title": {
+          "en": "Practice & next steps",
+          "ar": "التطبيق والخطوات التالية"
+        },
+        "lessons": [
+          {
+            "id": "cs50-introduction-s3-l1",
+            "title": {
+              "en": "Part 7",
+              "ar": "الجزء 7"
+            },
+            "durationSec": 800,
+            "video": {
+              "type": "youtube",
+              "id": "UuIEbpQms8o",
+              "start": 4800,
+              "end": 5600
+            },
+            "preview": false
+          },
+          {
+            "id": "cs50-introduction-s3-l2",
+            "title": {
+              "en": "Part 8",
+              "ar": "الجزء 8"
+            },
+            "durationSec": 800,
+            "video": {
+              "type": "youtube",
+              "id": "UuIEbpQms8o",
+              "start": 5600,
+              "end": 6400
+            },
+            "preview": false
+          },
+          {
+            "id": "cs50-introduction-s3-l3",
+            "title": {
+              "en": "Part 9",
+              "ar": "الجزء 9"
+            },
+            "durationSec": 800,
+            "video": {
+              "type": "youtube",
+              "id": "UuIEbpQms8o",
+              "start": 6400
+            },
+            "preview": false
+          }
+        ]
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "c-data-structures-algorithms",
+    "slug": "data-structures-algorithms",
+    "title": {
+      "en": "Data Structures & Algorithms",
+      "ar": "هياكل البيانات والخوارزميات"
+    },
+    "subtitle": {
+      "en": "Understand the structures and algorithms behind efficient software.",
+      "ar": "افهم الهياكل والخوارزميات وراء البرمجيات الفعّالة."
+    },
+    "description": {
+      "en": "Understand the structures and algorithms behind efficient software. This course walks you through the essentials step by step with clear explanations and practical examples, so you can go from the first lesson to confident, hands-on use.",
+      "ar": "افهم الهياكل والخوارزميات وراء البرمجيات الفعّالة. يأخذك هذا الكورس عبر الأساسيات خطوة بخطوة بشروحات واضحة وأمثلة عملية، لتنتقل من الدرس الأول إلى الاستخدام العملي بثقة."
+    },
+    "category": "computer-science",
+    "instructorId": "daniel-brooks",
+    "level": "intermediate",
+    "language": "en",
+    "price": 44.99,
+    "originalPrice": 79.99,
+    "rating": 4.7,
+    "ratingCount": 8450,
+    "students": 33700,
+    "durationSec": 19314,
+    "updatedAt": "2026-09-15",
+    "thumbnail": "https://img.youtube.com/vi/8hly31xKli0/hqdefault.jpg",
+    "previewVideo": {
+      "type": "youtube",
+      "id": "8hly31xKli0",
+      "start": 0,
+      "end": 180
+    },
+    "outcomes": [
+      {
+        "en": "Think like a programmer and break down problems",
+        "ar": "التفكير كمبرمج وتقسيم المشكلات"
+      },
+      {
+        "en": "Learn the fundamentals every engineer relies on",
+        "ar": "تعلّم الأساسيات التي يعتمد عليها كل مهندس"
+      },
+      {
+        "en": "Solve problems with efficient solutions",
+        "ar": "حل المشكلات بحلول فعّالة"
+      },
+      {
+        "en": "Get ready for more advanced topics",
+        "ar": "الاستعداد للمواضيع المتقدمة"
+      }
+    ],
+    "requirements": [
+      {
+        "en": "Basic familiarity with the subject",
+        "ar": "إلمام أساسي بالموضوع"
+      },
+      {
+        "en": "Willingness to practise alongside the lessons",
+        "ar": "الاستعداد للتطبيق أثناء الدروس"
+      }
+    ],
+    "tags": [
+      "algorithms",
+      "data structures",
+      "interviews"
+    ],
+    "credit": {
+      "channel": "freeCodeCamp.org"
+    },
+    "featured": false,
+    "bestseller": true,
+    "sections": [
+      {
+        "id": "data-structures-algorithms-s1",
+        "title": {
+          "en": "Foundations",
+          "ar": "الأساسيات"
+        },
+        "lessons": [
+          {
+            "id": "data-structures-algorithms-s1-l1",
+            "title": {
+              "en": "Part 1",
+              "ar": "الجزء 1"
+            },
+            "durationSec": 2146,
+            "video": {
+              "type": "youtube",
+              "id": "8hly31xKli0",
+              "start": 0,
+              "end": 2146
+            },
+            "preview": true
+          },
+          {
+            "id": "data-structures-algorithms-s1-l2",
+            "title": {
+              "en": "Part 2",
+              "ar": "الجزء 2"
+            },
+            "durationSec": 2146,
+            "video": {
+              "type": "youtube",
+              "id": "8hly31xKli0",
+              "start": 2146,
+              "end": 4292
+            },
+            "preview": false
+          },
+          {
+            "id": "data-structures-algorithms-s1-l3",
+            "title": {
+              "en": "Part 3",
+              "ar": "الجزء 3"
+            },
+            "durationSec": 2146,
+            "video": {
+              "type": "youtube",
+              "id": "8hly31xKli0",
+              "start": 4292,
+              "end": 6438
+            },
+            "preview": false
+          }
+        ]
+      },
+      {
+        "id": "data-structures-algorithms-s2",
+        "title": {
+          "en": "Core skills",
+          "ar": "المهارات الأساسية"
+        },
+        "lessons": [
+          {
+            "id": "data-structures-algorithms-s2-l1",
+            "title": {
+              "en": "Part 4",
+              "ar": "الجزء 4"
+            },
+            "durationSec": 2146,
+            "video": {
+              "type": "youtube",
+              "id": "8hly31xKli0",
+              "start": 6438,
+              "end": 8584
+            },
+            "preview": false
+          },
+          {
+            "id": "data-structures-algorithms-s2-l2",
+            "title": {
+              "en": "Part 5",
+              "ar": "الجزء 5"
+            },
+            "durationSec": 2146,
+            "video": {
+              "type": "youtube",
+              "id": "8hly31xKli0",
+              "start": 8584,
+              "end": 10730
+            },
+            "preview": false
+          },
+          {
+            "id": "data-structures-algorithms-s2-l3",
+            "title": {
+              "en": "Part 6",
+              "ar": "الجزء 6"
+            },
+            "durationSec": 2146,
+            "video": {
+              "type": "youtube",
+              "id": "8hly31xKli0",
+              "start": 10730,
+              "end": 12876
+            },
+            "preview": false
+          }
+        ]
+      },
+      {
+        "id": "data-structures-algorithms-s3",
+        "title": {
+          "en": "Practice & next steps",
+          "ar": "التطبيق والخطوات التالية"
+        },
+        "lessons": [
+          {
+            "id": "data-structures-algorithms-s3-l1",
+            "title": {
+              "en": "Part 7",
+              "ar": "الجزء 7"
+            },
+            "durationSec": 2146,
+            "video": {
+              "type": "youtube",
+              "id": "8hly31xKli0",
+              "start": 12876,
+              "end": 15022
+            },
+            "preview": false
+          },
+          {
+            "id": "data-structures-algorithms-s3-l2",
+            "title": {
+              "en": "Part 8",
+              "ar": "الجزء 8"
+            },
+            "durationSec": 2146,
+            "video": {
+              "type": "youtube",
+              "id": "8hly31xKli0",
+              "start": 15022,
+              "end": 17168
+            },
+            "preview": false
+          },
+          {
+            "id": "data-structures-algorithms-s3-l3",
+            "title": {
+              "en": "Part 9",
+              "ar": "الجزء 9"
+            },
+            "durationSec": 2146,
+            "video": {
+              "type": "youtube",
+              "id": "8hly31xKli0",
+              "start": 17168
+            },
+            "preview": false
+          }
+        ]
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "c-python-for-beginners",
+    "slug": "python-for-beginners",
+    "title": {
+      "en": "Python for Beginners",
+      "ar": "بايثون للمبتدئين"
+    },
+    "subtitle": {
+      "en": "Learn Python from your first line of code to real programs.",
+      "ar": "تعلّم بايثون من أول سطر كود حتى كتابة برامج حقيقية."
+    },
+    "description": {
+      "en": "Learn Python from your first line of code to real programs. This course walks you through the essentials step by step with clear explanations and practical examples, so you can go from the first lesson to confident, hands-on use.",
+      "ar": "تعلّم بايثون من أول سطر كود حتى كتابة برامج حقيقية. يأخذك هذا الكورس عبر الأساسيات خطوة بخطوة بشروحات واضحة وأمثلة عملية، لتنتقل من الدرس الأول إلى الاستخدام العملي بثقة."
+    },
+    "category": "computer-science",
+    "instructorId": "daniel-brooks",
+    "level": "beginner",
+    "language": "en",
+    "price": 29.99,
+    "originalPrice": 59.99,
+    "rating": 4.8,
+    "ratingCount": 14200,
+    "students": 66300,
+    "durationSec": 15957,
+    "updatedAt": "2026-01-15",
+    "thumbnail": "https://img.youtube.com/vi/rfscVS0vtbw/hqdefault.jpg",
+    "previewVideo": {
+      "type": "youtube",
+      "id": "rfscVS0vtbw",
+      "start": 0,
+      "end": 180
+    },
+    "outcomes": [
+      {
+        "en": "Think like a programmer and break down problems",
+        "ar": "التفكير كمبرمج وتقسيم المشكلات"
+      },
+      {
+        "en": "Learn the fundamentals every engineer relies on",
+        "ar": "تعلّم الأساسيات التي يعتمد عليها كل مهندس"
+      },
+      {
+        "en": "Solve problems with efficient solutions",
+        "ar": "حل المشكلات بحلول فعّالة"
+      },
+      {
+        "en": "Get ready for more advanced topics",
+        "ar": "الاستعداد للمواضيع المتقدمة"
+      }
+    ],
+    "requirements": [
+      {
+        "en": "No prior experience needed",
+        "ar": "لا حاجة لخبرة سابقة"
+      },
+      {
+        "en": "A computer or phone with internet access",
+        "ar": "جهاز كمبيوتر أو هاتف مع اتصال بالإنترنت"
+      }
+    ],
+    "tags": [
+      "python",
+      "programming"
+    ],
+    "credit": {
+      "channel": "freeCodeCamp.org"
+    },
+    "featured": true,
+    "bestseller": true,
+    "sections": [
+      {
+        "id": "python-for-beginners-s1",
+        "title": {
+          "en": "Foundations",
+          "ar": "الأساسيات"
+        },
+        "lessons": [
+          {
+            "id": "python-for-beginners-s1-l1",
+            "title": {
+              "en": "Part 1",
+              "ar": "الجزء 1"
+            },
+            "durationSec": 1773,
+            "video": {
+              "type": "youtube",
+              "id": "rfscVS0vtbw",
+              "start": 0,
+              "end": 1773
+            },
+            "preview": true
+          },
+          {
+            "id": "python-for-beginners-s1-l2",
+            "title": {
+              "en": "Part 2",
+              "ar": "الجزء 2"
+            },
+            "durationSec": 1773,
+            "video": {
+              "type": "youtube",
+              "id": "rfscVS0vtbw",
+              "start": 1773,
+              "end": 3546
+            },
+            "preview": false
+          },
+          {
+            "id": "python-for-beginners-s1-l3",
+            "title": {
+              "en": "Part 3",
+              "ar": "الجزء 3"
+            },
+            "durationSec": 1773,
+            "video": {
+              "type": "youtube",
+              "id": "rfscVS0vtbw",
+              "start": 3546,
+              "end": 5319
+            },
+            "preview": false
+          }
+        ]
+      },
+      {
+        "id": "python-for-beginners-s2",
+        "title": {
+          "en": "Core skills",
+          "ar": "المهارات الأساسية"
+        },
+        "lessons": [
+          {
+            "id": "python-for-beginners-s2-l1",
+            "title": {
+              "en": "Part 4",
+              "ar": "الجزء 4"
+            },
+            "durationSec": 1773,
+            "video": {
+              "type": "youtube",
+              "id": "rfscVS0vtbw",
+              "start": 5319,
+              "end": 7092
+            },
+            "preview": false
+          },
+          {
+            "id": "python-for-beginners-s2-l2",
+            "title": {
+              "en": "Part 5",
+              "ar": "الجزء 5"
+            },
+            "durationSec": 1773,
+            "video": {
+              "type": "youtube",
+              "id": "rfscVS0vtbw",
+              "start": 7092,
+              "end": 8865
+            },
+            "preview": false
+          },
+          {
+            "id": "python-for-beginners-s2-l3",
+            "title": {
+              "en": "Part 6",
+              "ar": "الجزء 6"
+            },
+            "durationSec": 1773,
+            "video": {
+              "type": "youtube",
+              "id": "rfscVS0vtbw",
+              "start": 8865,
+              "end": 10638
+            },
+            "preview": false
+          }
+        ]
+      },
+      {
+        "id": "python-for-beginners-s3",
+        "title": {
+          "en": "Practice & next steps",
+          "ar": "التطبيق والخطوات التالية"
+        },
+        "lessons": [
+          {
+            "id": "python-for-beginners-s3-l1",
+            "title": {
+              "en": "Part 7",
+              "ar": "الجزء 7"
+            },
+            "durationSec": 1773,
+            "video": {
+              "type": "youtube",
+              "id": "rfscVS0vtbw",
+              "start": 10638,
+              "end": 12411
+            },
+            "preview": false
+          },
+          {
+            "id": "python-for-beginners-s3-l2",
+            "title": {
+              "en": "Part 8",
+              "ar": "الجزء 8"
+            },
+            "durationSec": 1773,
+            "video": {
+              "type": "youtube",
+              "id": "rfscVS0vtbw",
+              "start": 12411,
+              "end": 14184
+            },
+            "preview": false
+          },
+          {
+            "id": "python-for-beginners-s3-l3",
+            "title": {
+              "en": "Part 9",
+              "ar": "الجزء 9"
+            },
+            "durationSec": 1773,
+            "video": {
+              "type": "youtube",
+              "id": "rfscVS0vtbw",
+              "start": 14184
+            },
+            "preview": false
+          }
+        ]
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "c-data-analysis-python",
+    "slug": "data-analysis-python",
+    "title": {
+      "en": "Data Analysis with Python",
+      "ar": "تحليل البيانات بلغة بايثون"
+    },
+    "subtitle": {
+      "en": "Analyse and visualise data with NumPy, Pandas, Matplotlib and Seaborn.",
+      "ar": "حلّل البيانات وصوّرها بـ NumPy وPandas وMatplotlib وSeaborn."
+    },
+    "description": {
+      "en": "Analyse and visualise data with NumPy, Pandas, Matplotlib and Seaborn. This course walks you through the essentials step by step with clear explanations and practical examples, so you can go from the first lesson to confident, hands-on use.",
+      "ar": "حلّل البيانات وصوّرها بـ NumPy وPandas وMatplotlib وSeaborn. يأخذك هذا الكورس عبر الأساسيات خطوة بخطوة بشروحات واضحة وأمثلة عملية، لتنتقل من الدرس الأول إلى الاستخدام العملي بثقة."
+    },
+    "category": "data-science",
+    "instructorId": "sara-al-khatib",
+    "level": "intermediate",
+    "language": "en",
+    "price": 49.99,
+    "originalPrice": 84.99,
+    "rating": 4.8,
+    "ratingCount": 7930,
+    "students": 35200,
+    "durationSec": 15714,
+    "updatedAt": "2026-02-15",
+    "thumbnail": "https://img.youtube.com/vi/r-uOLxNrNk8/hqdefault.jpg",
+    "previewVideo": {
+      "type": "youtube",
+      "id": "r-uOLxNrNk8",
+      "start": 0,
+      "end": 180
+    },
+    "outcomes": [
+      {
+        "en": "Clean, explore and analyse real datasets",
+        "ar": "تنظيف واستكشاف وتحليل بيانات حقيقية"
+      },
+      {
+        "en": "Turn data into clear insights",
+        "ar": "تحويل البيانات إلى رؤى واضحة"
+      },
+      {
+        "en": "Use the tools analysts use every day",
+        "ar": "استخدام الأدوات اليومية للمحللين"
+      },
+      {
+        "en": "Build a foundation for machine learning",
+        "ar": "بناء أساس لتعلّم الآلة"
+      }
+    ],
+    "requirements": [
+      {
+        "en": "Basic familiarity with the subject",
+        "ar": "إلمام أساسي بالموضوع"
+      },
+      {
+        "en": "Willingness to practise alongside the lessons",
+        "ar": "الاستعداد للتطبيق أثناء الدروس"
+      }
+    ],
+    "tags": [
+      "python",
+      "pandas",
+      "numpy",
+      "visualization"
+    ],
+    "credit": {
+      "channel": "freeCodeCamp.org"
+    },
+    "featured": true,
+    "bestseller": false,
+    "sections": [
+      {
+        "id": "data-analysis-python-s1",
+        "title": {
+          "en": "Foundations",
+          "ar": "الأساسيات"
+        },
+        "lessons": [
+          {
+            "id": "data-analysis-python-s1-l1",
+            "title": {
+              "en": "Part 1",
+              "ar": "الجزء 1"
+            },
+            "durationSec": 1746,
+            "video": {
+              "type": "youtube",
+              "id": "r-uOLxNrNk8",
+              "start": 0,
+              "end": 1746
+            },
+            "preview": true
+          },
+          {
+            "id": "data-analysis-python-s1-l2",
+            "title": {
+              "en": "Part 2",
+              "ar": "الجزء 2"
+            },
+            "durationSec": 1746,
+            "video": {
+              "type": "youtube",
+              "id": "r-uOLxNrNk8",
+              "start": 1746,
+              "end": 3492
+            },
+            "preview": false
+          },
+          {
+            "id": "data-analysis-python-s1-l3",
+            "title": {
+              "en": "Part 3",
+              "ar": "الجزء 3"
+            },
+            "durationSec": 1746,
+            "video": {
+              "type": "youtube",
+              "id": "r-uOLxNrNk8",
+              "start": 3492,
+              "end": 5238
+            },
+            "preview": false
+          }
+        ]
+      },
+      {
+        "id": "data-analysis-python-s2",
+        "title": {
+          "en": "Core skills",
+          "ar": "المهارات الأساسية"
+        },
+        "lessons": [
+          {
+            "id": "data-analysis-python-s2-l1",
+            "title": {
+              "en": "Part 4",
+              "ar": "الجزء 4"
+            },
+            "durationSec": 1746,
+            "video": {
+              "type": "youtube",
+              "id": "r-uOLxNrNk8",
+              "start": 5238,
+              "end": 6984
+            },
+            "preview": false
+          },
+          {
+            "id": "data-analysis-python-s2-l2",
+            "title": {
+              "en": "Part 5",
+              "ar": "الجزء 5"
+            },
+            "durationSec": 1746,
+            "video": {
+              "type": "youtube",
+              "id": "r-uOLxNrNk8",
+              "start": 6984,
+              "end": 8730
+            },
+            "preview": false
+          },
+          {
+            "id": "data-analysis-python-s2-l3",
+            "title": {
+              "en": "Part 6",
+              "ar": "الجزء 6"
+            },
+            "durationSec": 1746,
+            "video": {
+              "type": "youtube",
+              "id": "r-uOLxNrNk8",
+              "start": 8730,
+              "end": 10476
+            },
+            "preview": false
+          }
+        ]
+      },
+      {
+        "id": "data-analysis-python-s3",
+        "title": {
+          "en": "Practice & next steps",
+          "ar": "التطبيق والخطوات التالية"
+        },
+        "lessons": [
+          {
+            "id": "data-analysis-python-s3-l1",
+            "title": {
+              "en": "Part 7",
+              "ar": "الجزء 7"
+            },
+            "durationSec": 1746,
+            "video": {
+              "type": "youtube",
+              "id": "r-uOLxNrNk8",
+              "start": 10476,
+              "end": 12222
+            },
+            "preview": false
+          },
+          {
+            "id": "data-analysis-python-s3-l2",
+            "title": {
+              "en": "Part 8",
+              "ar": "الجزء 8"
+            },
+            "durationSec": 1746,
+            "video": {
+              "type": "youtube",
+              "id": "r-uOLxNrNk8",
+              "start": 12222,
+              "end": 13968
+            },
+            "preview": false
+          },
+          {
+            "id": "data-analysis-python-s3-l3",
+            "title": {
+              "en": "Part 9",
+              "ar": "الجزء 9"
+            },
+            "durationSec": 1746,
+            "video": {
+              "type": "youtube",
+              "id": "r-uOLxNrNk8",
+              "start": 13968
+            },
+            "preview": false
+          }
+        ]
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "c-machine-learning-for-everybody",
+    "slug": "machine-learning-for-everybody",
+    "title": {
+      "en": "Machine Learning for Everybody",
+      "ar": "تعلّم الآلة للجميع"
+    },
+    "subtitle": {
+      "en": "A friendly, practical introduction to machine learning.",
+      "ar": "مقدمة عملية وودودة إلى تعلّم الآلة."
+    },
+    "description": {
+      "en": "A friendly, practical introduction to machine learning. This course walks you through the essentials step by step with clear explanations and practical examples, so you can go from the first lesson to confident, hands-on use.",
+      "ar": "مقدمة عملية وودودة إلى تعلّم الآلة. يأخذك هذا الكورس عبر الأساسيات خطوة بخطوة بشروحات واضحة وأمثلة عملية، لتنتقل من الدرس الأول إلى الاستخدام العملي بثقة."
+    },
+    "category": "data-science",
+    "instructorId": "sara-al-khatib",
+    "level": "intermediate",
+    "language": "en",
+    "price": 59.99,
+    "originalPrice": 99.99,
+    "rating": 4.7,
+    "ratingCount": 6720,
+    "students": 30400,
+    "durationSec": 13977,
+    "updatedAt": "2026-03-15",
+    "thumbnail": "https://img.youtube.com/vi/i_LwzRVP7bg/hqdefault.jpg",
+    "previewVideo": {
+      "type": "youtube",
+      "id": "i_LwzRVP7bg",
+      "start": 0,
+      "end": 180
+    },
+    "outcomes": [
+      {
+        "en": "Clean, explore and analyse real datasets",
+        "ar": "تنظيف واستكشاف وتحليل بيانات حقيقية"
+      },
+      {
+        "en": "Turn data into clear insights",
+        "ar": "تحويل البيانات إلى رؤى واضحة"
+      },
+      {
+        "en": "Use the tools analysts use every day",
+        "ar": "استخدام الأدوات اليومية للمحللين"
+      },
+      {
+        "en": "Build a foundation for machine learning",
+        "ar": "بناء أساس لتعلّم الآلة"
+      }
+    ],
+    "requirements": [
+      {
+        "en": "Basic familiarity with the subject",
+        "ar": "إلمام أساسي بالموضوع"
+      },
+      {
+        "en": "Willingness to practise alongside the lessons",
+        "ar": "الاستعداد للتطبيق أثناء الدروس"
+      }
+    ],
+    "tags": [
+      "machine learning",
+      "ai",
+      "python"
+    ],
+    "credit": {
+      "channel": "freeCodeCamp.org"
+    },
+    "featured": false,
+    "bestseller": false,
+    "sections": [
+      {
+        "id": "machine-learning-for-everybody-s1",
+        "title": {
+          "en": "Foundations",
+          "ar": "الأساسيات"
+        },
+        "lessons": [
+          {
+            "id": "machine-learning-for-everybody-s1-l1",
+            "title": {
+              "en": "Part 1",
+              "ar": "الجزء 1"
+            },
+            "durationSec": 1553,
+            "video": {
+              "type": "youtube",
+              "id": "i_LwzRVP7bg",
+              "start": 0,
+              "end": 1553
+            },
+            "preview": true
+          },
+          {
+            "id": "machine-learning-for-everybody-s1-l2",
+            "title": {
+              "en": "Part 2",
+              "ar": "الجزء 2"
+            },
+            "durationSec": 1553,
+            "video": {
+              "type": "youtube",
+              "id": "i_LwzRVP7bg",
+              "start": 1553,
+              "end": 3106
+            },
+            "preview": false
+          },
+          {
+            "id": "machine-learning-for-everybody-s1-l3",
+            "title": {
+              "en": "Part 3",
+              "ar": "الجزء 3"
+            },
+            "durationSec": 1553,
+            "video": {
+              "type": "youtube",
+              "id": "i_LwzRVP7bg",
+              "start": 3106,
+              "end": 4659
+            },
+            "preview": false
+          }
+        ]
+      },
+      {
+        "id": "machine-learning-for-everybody-s2",
+        "title": {
+          "en": "Core skills",
+          "ar": "المهارات الأساسية"
+        },
+        "lessons": [
+          {
+            "id": "machine-learning-for-everybody-s2-l1",
+            "title": {
+              "en": "Part 4",
+              "ar": "الجزء 4"
+            },
+            "durationSec": 1553,
+            "video": {
+              "type": "youtube",
+              "id": "i_LwzRVP7bg",
+              "start": 4659,
+              "end": 6212
+            },
+            "preview": false
+          },
+          {
+            "id": "machine-learning-for-everybody-s2-l2",
+            "title": {
+              "en": "Part 5",
+              "ar": "الجزء 5"
+            },
+            "durationSec": 1553,
+            "video": {
+              "type": "youtube",
+              "id": "i_LwzRVP7bg",
+              "start": 6212,
+              "end": 7765
+            },
+            "preview": false
+          },
+          {
+            "id": "machine-learning-for-everybody-s2-l3",
+            "title": {
+              "en": "Part 6",
+              "ar": "الجزء 6"
+            },
+            "durationSec": 1553,
+            "video": {
+              "type": "youtube",
+              "id": "i_LwzRVP7bg",
+              "start": 7765,
+              "end": 9318
+            },
+            "preview": false
+          }
+        ]
+      },
+      {
+        "id": "machine-learning-for-everybody-s3",
+        "title": {
+          "en": "Practice & next steps",
+          "ar": "التطبيق والخطوات التالية"
+        },
+        "lessons": [
+          {
+            "id": "machine-learning-for-everybody-s3-l1",
+            "title": {
+              "en": "Part 7",
+              "ar": "الجزء 7"
+            },
+            "durationSec": 1553,
+            "video": {
+              "type": "youtube",
+              "id": "i_LwzRVP7bg",
+              "start": 9318,
+              "end": 10871
+            },
+            "preview": false
+          },
+          {
+            "id": "machine-learning-for-everybody-s3-l2",
+            "title": {
+              "en": "Part 8",
+              "ar": "الجزء 8"
+            },
+            "durationSec": 1553,
+            "video": {
+              "type": "youtube",
+              "id": "i_LwzRVP7bg",
+              "start": 10871,
+              "end": 12424
+            },
+            "preview": false
+          },
+          {
+            "id": "machine-learning-for-everybody-s3-l3",
+            "title": {
+              "en": "Part 9",
+              "ar": "الجزء 9"
+            },
+            "durationSec": 1553,
+            "video": {
+              "type": "youtube",
+              "id": "i_LwzRVP7bg",
+              "start": 12424
+            },
+            "preview": false
+          }
+        ]
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "c-sql-database-fundamentals",
+    "slug": "sql-database-fundamentals",
+    "title": {
+      "en": "SQL & Database Fundamentals",
+      "ar": "أساسيات SQL وقواعد البيانات"
+    },
+    "subtitle": {
+      "en": "Query, design and manage relational databases.",
+      "ar": "استعلم عن قواعد البيانات العلائقية وصمّمها وأدرها."
+    },
+    "description": {
+      "en": "Query, design and manage relational databases. This course walks you through the essentials step by step with clear explanations and practical examples, so you can go from the first lesson to confident, hands-on use.",
+      "ar": "استعلم عن قواعد البيانات العلائقية وصمّمها وأدرها. يأخذك هذا الكورس عبر الأساسيات خطوة بخطوة بشروحات واضحة وأمثلة عملية، لتنتقل من الدرس الأول إلى الاستخدام العملي بثقة."
+    },
+    "category": "data-science",
+    "instructorId": "sara-al-khatib",
+    "level": "beginner",
+    "language": "en",
+    "price": 0,
+    "rating": 4.8,
+    "ratingCount": 11050,
+    "students": 49600,
+    "durationSec": 15597,
+    "updatedAt": "2026-04-15",
+    "thumbnail": "https://img.youtube.com/vi/HXV3zeQKqGY/hqdefault.jpg",
+    "previewVideo": {
+      "type": "youtube",
+      "id": "HXV3zeQKqGY",
+      "start": 0,
+      "end": 180
+    },
+    "outcomes": [
+      {
+        "en": "Clean, explore and analyse real datasets",
+        "ar": "تنظيف واستكشاف وتحليل بيانات حقيقية"
+      },
+      {
+        "en": "Turn data into clear insights",
+        "ar": "تحويل البيانات إلى رؤى واضحة"
+      },
+      {
+        "en": "Use the tools analysts use every day",
+        "ar": "استخدام الأدوات اليومية للمحللين"
+      },
+      {
+        "en": "Build a foundation for machine learning",
+        "ar": "بناء أساس لتعلّم الآلة"
+      }
+    ],
+    "requirements": [
+      {
+        "en": "No prior experience needed",
+        "ar": "لا حاجة لخبرة سابقة"
+      },
+      {
+        "en": "A computer or phone with internet access",
+        "ar": "جهاز كمبيوتر أو هاتف مع اتصال بالإنترنت"
+      }
+    ],
+    "tags": [
+      "sql",
+      "database",
+      "mysql"
+    ],
+    "credit": {
+      "channel": "freeCodeCamp.org"
+    },
+    "featured": false,
+    "bestseller": true,
+    "sections": [
+      {
+        "id": "sql-database-fundamentals-s1",
+        "title": {
+          "en": "Foundations",
+          "ar": "الأساسيات"
+        },
+        "lessons": [
+          {
+            "id": "sql-database-fundamentals-s1-l1",
+            "title": {
+              "en": "Part 1",
+              "ar": "الجزء 1"
+            },
+            "durationSec": 1733,
+            "video": {
+              "type": "youtube",
+              "id": "HXV3zeQKqGY",
+              "start": 0,
+              "end": 1733
+            },
+            "preview": true
+          },
+          {
+            "id": "sql-database-fundamentals-s1-l2",
+            "title": {
+              "en": "Part 2",
+              "ar": "الجزء 2"
+            },
+            "durationSec": 1733,
+            "video": {
+              "type": "youtube",
+              "id": "HXV3zeQKqGY",
+              "start": 1733,
+              "end": 3466
+            },
+            "preview": false
+          },
+          {
+            "id": "sql-database-fundamentals-s1-l3",
+            "title": {
+              "en": "Part 3",
+              "ar": "الجزء 3"
+            },
+            "durationSec": 1733,
+            "video": {
+              "type": "youtube",
+              "id": "HXV3zeQKqGY",
+              "start": 3466,
+              "end": 5199
+            },
+            "preview": false
+          }
+        ]
+      },
+      {
+        "id": "sql-database-fundamentals-s2",
+        "title": {
+          "en": "Core skills",
+          "ar": "المهارات الأساسية"
+        },
+        "lessons": [
+          {
+            "id": "sql-database-fundamentals-s2-l1",
+            "title": {
+              "en": "Part 4",
+              "ar": "الجزء 4"
+            },
+            "durationSec": 1733,
+            "video": {
+              "type": "youtube",
+              "id": "HXV3zeQKqGY",
+              "start": 5199,
+              "end": 6932
+            },
+            "preview": false
+          },
+          {
+            "id": "sql-database-fundamentals-s2-l2",
+            "title": {
+              "en": "Part 5",
+              "ar": "الجزء 5"
+            },
+            "durationSec": 1733,
+            "video": {
+              "type": "youtube",
+              "id": "HXV3zeQKqGY",
+              "start": 6932,
+              "end": 8665
+            },
+            "preview": false
+          },
+          {
+            "id": "sql-database-fundamentals-s2-l3",
+            "title": {
+              "en": "Part 6",
+              "ar": "الجزء 6"
+            },
+            "durationSec": 1733,
+            "video": {
+              "type": "youtube",
+              "id": "HXV3zeQKqGY",
+              "start": 8665,
+              "end": 10398
+            },
+            "preview": false
+          }
+        ]
+      },
+      {
+        "id": "sql-database-fundamentals-s3",
+        "title": {
+          "en": "Practice & next steps",
+          "ar": "التطبيق والخطوات التالية"
+        },
+        "lessons": [
+          {
+            "id": "sql-database-fundamentals-s3-l1",
+            "title": {
+              "en": "Part 7",
+              "ar": "الجزء 7"
+            },
+            "durationSec": 1733,
+            "video": {
+              "type": "youtube",
+              "id": "HXV3zeQKqGY",
+              "start": 10398,
+              "end": 12131
+            },
+            "preview": false
+          },
+          {
+            "id": "sql-database-fundamentals-s3-l2",
+            "title": {
+              "en": "Part 8",
+              "ar": "الجزء 8"
+            },
+            "durationSec": 1733,
+            "video": {
+              "type": "youtube",
+              "id": "HXV3zeQKqGY",
+              "start": 12131,
+              "end": 13864
+            },
+            "preview": false
+          },
+          {
+            "id": "sql-database-fundamentals-s3-l3",
+            "title": {
+              "en": "Part 9",
+              "ar": "الجزء 9"
+            },
+            "durationSec": 1733,
+            "video": {
+              "type": "youtube",
+              "id": "HXV3zeQKqGY",
+              "start": 13864
+            },
+            "preview": false
+          }
+        ]
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "c-foundations-of-entrepreneurship",
+    "slug": "foundations-of-entrepreneurship",
+    "title": {
+      "en": "Foundations of Entrepreneurship",
+      "ar": "أسس ريادة الأعمال"
+    },
+    "subtitle": {
+      "en": "From idea to validation to launch: the entrepreneur's playbook.",
+      "ar": "من الفكرة إلى التحقق ثم الإطلاق: دليل رائد الأعمال."
+    },
+    "description": {
+      "en": "From idea to validation to launch: the entrepreneur's playbook. This course walks you through the essentials step by step with clear explanations and practical examples, so you can go from the first lesson to confident, hands-on use.",
+      "ar": "من الفكرة إلى التحقق ثم الإطلاق: دليل رائد الأعمال. يأخذك هذا الكورس عبر الأساسيات خطوة بخطوة بشروحات واضحة وأمثلة عملية، لتنتقل من الدرس الأول إلى الاستخدام العملي بثقة."
+    },
+    "category": "business",
+    "instructorId": "marcus-reed",
+    "level": "beginner",
+    "language": "en",
+    "price": 39.99,
+    "originalPrice": 74.99,
+    "rating": 4.6,
+    "ratingCount": 5380,
+    "students": 22900,
+    "durationSec": 20754,
+    "updatedAt": "2026-05-15",
+    "thumbnail": "https://img.youtube.com/vi/UEngvxZ11sw/hqdefault.jpg",
+    "previewVideo": {
+      "type": "youtube",
+      "id": "UEngvxZ11sw",
+      "start": 0,
+      "end": 180
+    },
+    "outcomes": [
+      {
+        "en": "Understand how businesses create value",
+        "ar": "فهم كيف تخلق الشركات القيمة"
+      },
+      {
+        "en": "Plan, organise and deliver with confidence",
+        "ar": "التخطيط والتنظيم والتنفيذ بثقة"
+      },
+      {
+        "en": "Read the numbers behind decisions",
+        "ar": "قراءة الأرقام وراء القرارات"
+      },
+      {
+        "en": "Apply frameworks to real situations",
+        "ar": "تطبيق الأطر العملية على مواقف حقيقية"
+      }
+    ],
+    "requirements": [
+      {
+        "en": "No prior experience needed",
+        "ar": "لا حاجة لخبرة سابقة"
+      },
+      {
+        "en": "A computer or phone with internet access",
+        "ar": "جهاز كمبيوتر أو هاتف مع اتصال بالإنترنت"
+      }
+    ],
+    "tags": [
+      "startup",
+      "entrepreneurship",
+      "strategy"
+    ],
+    "credit": {
+      "channel": "freeCodeCamp.org"
+    },
+    "featured": false,
+    "bestseller": false,
+    "sections": [
+      {
+        "id": "foundations-of-entrepreneurship-s1",
+        "title": {
+          "en": "Foundations",
+          "ar": "الأساسيات"
+        },
+        "lessons": [
+          {
+            "id": "foundations-of-entrepreneurship-s1-l1",
+            "title": {
+              "en": "Part 1",
+              "ar": "الجزء 1"
+            },
+            "durationSec": 2306,
+            "video": {
+              "type": "youtube",
+              "id": "UEngvxZ11sw",
+              "start": 0,
+              "end": 2306
+            },
+            "preview": true
+          },
+          {
+            "id": "foundations-of-entrepreneurship-s1-l2",
+            "title": {
+              "en": "Part 2",
+              "ar": "الجزء 2"
+            },
+            "durationSec": 2306,
+            "video": {
+              "type": "youtube",
+              "id": "UEngvxZ11sw",
+              "start": 2306,
+              "end": 4612
+            },
+            "preview": false
+          },
+          {
+            "id": "foundations-of-entrepreneurship-s1-l3",
+            "title": {
+              "en": "Part 3",
+              "ar": "الجزء 3"
+            },
+            "durationSec": 2306,
+            "video": {
+              "type": "youtube",
+              "id": "UEngvxZ11sw",
+              "start": 4612,
+              "end": 6918
+            },
+            "preview": false
+          }
+        ]
+      },
+      {
+        "id": "foundations-of-entrepreneurship-s2",
+        "title": {
+          "en": "Core skills",
+          "ar": "المهارات الأساسية"
+        },
+        "lessons": [
+          {
+            "id": "foundations-of-entrepreneurship-s2-l1",
+            "title": {
+              "en": "Part 4",
+              "ar": "الجزء 4"
+            },
+            "durationSec": 2306,
+            "video": {
+              "type": "youtube",
+              "id": "UEngvxZ11sw",
+              "start": 6918,
+              "end": 9224
+            },
+            "preview": false
+          },
+          {
+            "id": "foundations-of-entrepreneurship-s2-l2",
+            "title": {
+              "en": "Part 5",
+              "ar": "الجزء 5"
+            },
+            "durationSec": 2306,
+            "video": {
+              "type": "youtube",
+              "id": "UEngvxZ11sw",
+              "start": 9224,
+              "end": 11530
+            },
+            "preview": false
+          },
+          {
+            "id": "foundations-of-entrepreneurship-s2-l3",
+            "title": {
+              "en": "Part 6",
+              "ar": "الجزء 6"
+            },
+            "durationSec": 2306,
+            "video": {
+              "type": "youtube",
+              "id": "UEngvxZ11sw",
+              "start": 11530,
+              "end": 13836
+            },
+            "preview": false
+          }
+        ]
+      },
+      {
+        "id": "foundations-of-entrepreneurship-s3",
+        "title": {
+          "en": "Practice & next steps",
+          "ar": "التطبيق والخطوات التالية"
+        },
+        "lessons": [
+          {
+            "id": "foundations-of-entrepreneurship-s3-l1",
+            "title": {
+              "en": "Part 7",
+              "ar": "الجزء 7"
+            },
+            "durationSec": 2306,
+            "video": {
+              "type": "youtube",
+              "id": "UEngvxZ11sw",
+              "start": 13836,
+              "end": 16142
+            },
+            "preview": false
+          },
+          {
+            "id": "foundations-of-entrepreneurship-s3-l2",
+            "title": {
+              "en": "Part 8",
+              "ar": "الجزء 8"
+            },
+            "durationSec": 2306,
+            "video": {
+              "type": "youtube",
+              "id": "UEngvxZ11sw",
+              "start": 16142,
+              "end": 18448
+            },
+            "preview": false
+          },
+          {
+            "id": "foundations-of-entrepreneurship-s3-l3",
+            "title": {
+              "en": "Part 9",
+              "ar": "الجزء 9"
+            },
+            "durationSec": 2306,
+            "video": {
+              "type": "youtube",
+              "id": "UEngvxZ11sw",
+              "start": 18448
+            },
+            "preview": false
+          }
+        ]
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "c-project-management-essentials",
+    "slug": "project-management-essentials",
+    "title": {
+      "en": "Project Management Essentials",
+      "ar": "أساسيات إدارة المشاريع"
+    },
+    "subtitle": {
+      "en": "Plan, run and deliver projects from kickoff to close.",
+      "ar": "خطّط للمشاريع ونفّذها وسلّمها من البداية حتى الإغلاق."
+    },
+    "description": {
+      "en": "Plan, run and deliver projects from kickoff to close. This course walks you through the essentials step by step with clear explanations and practical examples, so you can go from the first lesson to confident, hands-on use.",
+      "ar": "خطّط للمشاريع ونفّذها وسلّمها من البداية حتى الإغلاق. يأخذك هذا الكورس عبر الأساسيات خطوة بخطوة بشروحات واضحة وأمثلة عملية، لتنتقل من الدرس الأول إلى الاستخدام العملي بثقة."
+    },
+    "category": "business",
+    "instructorId": "rania-youssef",
+    "level": "beginner",
+    "language": "en",
+    "price": 34.99,
+    "originalPrice": 64.99,
+    "rating": 4.7,
+    "ratingCount": 4960,
+    "students": 20800,
+    "durationSec": 8460,
+    "updatedAt": "2026-06-15",
+    "thumbnail": "https://img.youtube.com/vi/SJcHiiNpUds/hqdefault.jpg",
+    "previewVideo": {
+      "type": "youtube",
+      "id": "SJcHiiNpUds",
+      "start": 0,
+      "end": 180
+    },
+    "outcomes": [
+      {
+        "en": "Understand how businesses create value",
+        "ar": "فهم كيف تخلق الشركات القيمة"
+      },
+      {
+        "en": "Plan, organise and deliver with confidence",
+        "ar": "التخطيط والتنظيم والتنفيذ بثقة"
+      },
+      {
+        "en": "Read the numbers behind decisions",
+        "ar": "قراءة الأرقام وراء القرارات"
+      },
+      {
+        "en": "Apply frameworks to real situations",
+        "ar": "تطبيق الأطر العملية على مواقف حقيقية"
+      }
+    ],
+    "requirements": [
+      {
+        "en": "No prior experience needed",
+        "ar": "لا حاجة لخبرة سابقة"
+      },
+      {
+        "en": "A computer or phone with internet access",
+        "ar": "جهاز كمبيوتر أو هاتف مع اتصال بالإنترنت"
+      }
+    ],
+    "tags": [
+      "project management",
+      "agile",
+      "planning"
+    ],
+    "credit": {
+      "channel": "David McLachlan"
+    },
+    "featured": false,
+    "bestseller": false,
+    "sections": [
+      {
+        "id": "project-management-essentials-s1",
+        "title": {
+          "en": "Foundations",
+          "ar": "الأساسيات"
+        },
+        "lessons": [
+          {
+            "id": "project-management-essentials-s1-l1",
+            "title": {
+              "en": "Part 1",
+              "ar": "الجزء 1"
+            },
+            "durationSec": 940,
+            "video": {
+              "type": "youtube",
+              "id": "SJcHiiNpUds",
+              "start": 0,
+              "end": 940
+            },
+            "preview": true
+          },
+          {
+            "id": "project-management-essentials-s1-l2",
+            "title": {
+              "en": "Part 2",
+              "ar": "الجزء 2"
+            },
+            "durationSec": 940,
+            "video": {
+              "type": "youtube",
+              "id": "SJcHiiNpUds",
+              "start": 940,
+              "end": 1880
+            },
+            "preview": false
+          },
+          {
+            "id": "project-management-essentials-s1-l3",
+            "title": {
+              "en": "Part 3",
+              "ar": "الجزء 3"
+            },
+            "durationSec": 940,
+            "video": {
+              "type": "youtube",
+              "id": "SJcHiiNpUds",
+              "start": 1880,
+              "end": 2820
+            },
+            "preview": false
+          }
+        ]
+      },
+      {
+        "id": "project-management-essentials-s2",
+        "title": {
+          "en": "Core skills",
+          "ar": "المهارات الأساسية"
+        },
+        "lessons": [
+          {
+            "id": "project-management-essentials-s2-l1",
+            "title": {
+              "en": "Part 4",
+              "ar": "الجزء 4"
+            },
+            "durationSec": 940,
+            "video": {
+              "type": "youtube",
+              "id": "SJcHiiNpUds",
+              "start": 2820,
+              "end": 3760
+            },
+            "preview": false
+          },
+          {
+            "id": "project-management-essentials-s2-l2",
+            "title": {
+              "en": "Part 5",
+              "ar": "الجزء 5"
+            },
+            "durationSec": 940,
+            "video": {
+              "type": "youtube",
+              "id": "SJcHiiNpUds",
+              "start": 3760,
+              "end": 4700
+            },
+            "preview": false
+          },
+          {
+            "id": "project-management-essentials-s2-l3",
+            "title": {
+              "en": "Part 6",
+              "ar": "الجزء 6"
+            },
+            "durationSec": 940,
+            "video": {
+              "type": "youtube",
+              "id": "SJcHiiNpUds",
+              "start": 4700,
+              "end": 5640
+            },
+            "preview": false
+          }
+        ]
+      },
+      {
+        "id": "project-management-essentials-s3",
+        "title": {
+          "en": "Practice & next steps",
+          "ar": "التطبيق والخطوات التالية"
+        },
+        "lessons": [
+          {
+            "id": "project-management-essentials-s3-l1",
+            "title": {
+              "en": "Part 7",
+              "ar": "الجزء 7"
+            },
+            "durationSec": 940,
+            "video": {
+              "type": "youtube",
+              "id": "SJcHiiNpUds",
+              "start": 5640,
+              "end": 6580
+            },
+            "preview": false
+          },
+          {
+            "id": "project-management-essentials-s3-l2",
+            "title": {
+              "en": "Part 8",
+              "ar": "الجزء 8"
+            },
+            "durationSec": 940,
+            "video": {
+              "type": "youtube",
+              "id": "SJcHiiNpUds",
+              "start": 6580,
+              "end": 7520
+            },
+            "preview": false
+          },
+          {
+            "id": "project-management-essentials-s3-l3",
+            "title": {
+              "en": "Part 9",
+              "ar": "الجزء 9"
+            },
+            "durationSec": 940,
+            "video": {
+              "type": "youtube",
+              "id": "SJcHiiNpUds",
+              "start": 7520
+            },
+            "preview": false
+          }
+        ]
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "c-finance-economics-crash-course",
+    "slug": "finance-economics-crash-course",
+    "title": {
+      "en": "Finance & Economics Crash Course",
+      "ar": "دورة مكثفة في المالية والاقتصاد"
+    },
+    "subtitle": {
+      "en": "The finance and economics concepts every business person needs.",
+      "ar": "مفاهيم المالية والاقتصاد التي يحتاجها كل شخص في الأعمال."
+    },
+    "description": {
+      "en": "The finance and economics concepts every business person needs. This course walks you through the essentials step by step with clear explanations and practical examples, so you can go from the first lesson to confident, hands-on use.",
+      "ar": "مفاهيم المالية والاقتصاد التي يحتاجها كل شخص في الأعمال. يأخذك هذا الكورس عبر الأساسيات خطوة بخطوة بشروحات واضحة وأمثلة عملية، لتنتقل من الدرس الأول إلى الاستخدام العملي بثقة."
+    },
+    "category": "business",
+    "instructorId": "rania-youssef",
+    "level": "beginner",
+    "language": "en",
+    "price": 24.99,
+    "originalPrice": 49.99,
+    "rating": 4.6,
+    "ratingCount": 3870,
+    "students": 17400,
+    "durationSec": 5877,
+    "updatedAt": "2026-07-15",
+    "thumbnail": "https://img.youtube.com/vi/EJHPltmAULA/hqdefault.jpg",
+    "previewVideo": {
+      "type": "youtube",
+      "id": "EJHPltmAULA",
+      "start": 0,
+      "end": 180
+    },
+    "outcomes": [
+      {
+        "en": "Understand how businesses create value",
+        "ar": "فهم كيف تخلق الشركات القيمة"
+      },
+      {
+        "en": "Plan, organise and deliver with confidence",
+        "ar": "التخطيط والتنظيم والتنفيذ بثقة"
+      },
+      {
+        "en": "Read the numbers behind decisions",
+        "ar": "قراءة الأرقام وراء القرارات"
+      },
+      {
+        "en": "Apply frameworks to real situations",
+        "ar": "تطبيق الأطر العملية على مواقف حقيقية"
+      }
+    ],
+    "requirements": [
+      {
+        "en": "No prior experience needed",
+        "ar": "لا حاجة لخبرة سابقة"
+      },
+      {
+        "en": "A computer or phone with internet access",
+        "ar": "جهاز كمبيوتر أو هاتف مع اتصال بالإنترنت"
+      }
+    ],
+    "tags": [
+      "finance",
+      "economics",
+      "business"
+    ],
+    "credit": {
+      "channel": "freeCodeCamp.org"
+    },
+    "featured": false,
+    "bestseller": false,
+    "sections": [
+      {
+        "id": "finance-economics-crash-course-s1",
+        "title": {
+          "en": "Foundations",
+          "ar": "الأساسيات"
+        },
+        "lessons": [
+          {
+            "id": "finance-economics-crash-course-s1-l1",
+            "title": {
+              "en": "Part 1",
+              "ar": "الجزء 1"
+            },
+            "durationSec": 653,
+            "video": {
+              "type": "youtube",
+              "id": "EJHPltmAULA",
+              "start": 0,
+              "end": 653
+            },
+            "preview": true
+          },
+          {
+            "id": "finance-economics-crash-course-s1-l2",
+            "title": {
+              "en": "Part 2",
+              "ar": "الجزء 2"
+            },
+            "durationSec": 653,
+            "video": {
+              "type": "youtube",
+              "id": "EJHPltmAULA",
+              "start": 653,
+              "end": 1306
+            },
+            "preview": false
+          },
+          {
+            "id": "finance-economics-crash-course-s1-l3",
+            "title": {
+              "en": "Part 3",
+              "ar": "الجزء 3"
+            },
+            "durationSec": 653,
+            "video": {
+              "type": "youtube",
+              "id": "EJHPltmAULA",
+              "start": 1306,
+              "end": 1959
+            },
+            "preview": false
+          }
+        ]
+      },
+      {
+        "id": "finance-economics-crash-course-s2",
+        "title": {
+          "en": "Core skills",
+          "ar": "المهارات الأساسية"
+        },
+        "lessons": [
+          {
+            "id": "finance-economics-crash-course-s2-l1",
+            "title": {
+              "en": "Part 4",
+              "ar": "الجزء 4"
+            },
+            "durationSec": 653,
+            "video": {
+              "type": "youtube",
+              "id": "EJHPltmAULA",
+              "start": 1959,
+              "end": 2612
+            },
+            "preview": false
+          },
+          {
+            "id": "finance-economics-crash-course-s2-l2",
+            "title": {
+              "en": "Part 5",
+              "ar": "الجزء 5"
+            },
+            "durationSec": 653,
+            "video": {
+              "type": "youtube",
+              "id": "EJHPltmAULA",
+              "start": 2612,
+              "end": 3265
+            },
+            "preview": false
+          },
+          {
+            "id": "finance-economics-crash-course-s2-l3",
+            "title": {
+              "en": "Part 6",
+              "ar": "الجزء 6"
+            },
+            "durationSec": 653,
+            "video": {
+              "type": "youtube",
+              "id": "EJHPltmAULA",
+              "start": 3265,
+              "end": 3918
+            },
+            "preview": false
+          }
+        ]
+      },
+      {
+        "id": "finance-economics-crash-course-s3",
+        "title": {
+          "en": "Practice & next steps",
+          "ar": "التطبيق والخطوات التالية"
+        },
+        "lessons": [
+          {
+            "id": "finance-economics-crash-course-s3-l1",
+            "title": {
+              "en": "Part 7",
+              "ar": "الجزء 7"
+            },
+            "durationSec": 653,
+            "video": {
+              "type": "youtube",
+              "id": "EJHPltmAULA",
+              "start": 3918,
+              "end": 4571
+            },
+            "preview": false
+          },
+          {
+            "id": "finance-economics-crash-course-s3-l2",
+            "title": {
+              "en": "Part 8",
+              "ar": "الجزء 8"
+            },
+            "durationSec": 653,
+            "video": {
+              "type": "youtube",
+              "id": "EJHPltmAULA",
+              "start": 4571,
+              "end": 5224
+            },
+            "preview": false
+          },
+          {
+            "id": "finance-economics-crash-course-s3-l3",
+            "title": {
+              "en": "Part 9",
+              "ar": "الجزء 9"
+            },
+            "durationSec": 653,
+            "video": {
+              "type": "youtube",
+              "id": "EJHPltmAULA",
+              "start": 5224
+            },
+            "preview": false
+          }
+        ]
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "c-digital-marketing-101",
+    "slug": "digital-marketing-101",
+    "title": {
+      "en": "Digital Marketing 101",
+      "ar": "التسويق الرقمي 101"
+    },
+    "subtitle": {
+      "en": "A quick, practical tour of every digital marketing channel.",
+      "ar": "جولة سريعة وعملية على جميع قنوات التسويق الرقمي."
+    },
+    "description": {
+      "en": "A quick, practical tour of every digital marketing channel. This course walks you through the essentials step by step with clear explanations and practical examples, so you can go from the first lesson to confident, hands-on use.",
+      "ar": "جولة سريعة وعملية على جميع قنوات التسويق الرقمي. يأخذك هذا الكورس عبر الأساسيات خطوة بخطوة بشروحات واضحة وأمثلة عملية، لتنتقل من الدرس الأول إلى الاستخدام العملي بثقة."
+    },
+    "category": "marketing",
+    "instructorId": "nadia-farouk",
+    "level": "beginner",
+    "language": "en",
+    "price": 0,
+    "rating": 4.5,
+    "ratingCount": 8260,
+    "students": 44100,
+    "durationSec": 1260,
+    "updatedAt": "2026-08-15",
+    "thumbnail": "https://img.youtube.com/vi/Ro9kzZWARZc/hqdefault.jpg",
+    "previewVideo": {
+      "type": "youtube",
+      "id": "Ro9kzZWARZc",
+      "start": 0,
+      "end": 140
+    },
+    "outcomes": [
+      {
+        "en": "Reach and understand the right audience",
+        "ar": "الوصول إلى الجمهور المناسب وفهمه"
+      },
+      {
+        "en": "Plan campaigns that drive results",
+        "ar": "تخطيط حملات تحقق نتائج"
+      },
+      {
+        "en": "Measure what works and improve it",
+        "ar": "قياس ما ينجح وتحسينه"
+      },
+      {
+        "en": "Communicate value persuasively",
+        "ar": "إيصال القيمة بأسلوب مقنع"
+      }
+    ],
+    "requirements": [
+      {
+        "en": "No prior experience needed",
+        "ar": "لا حاجة لخبرة سابقة"
+      },
+      {
+        "en": "A computer or phone with internet access",
+        "ar": "جهاز كمبيوتر أو هاتف مع اتصال بالإنترنت"
+      }
+    ],
+    "tags": [
+      "digital marketing",
+      "social media",
+      "email"
+    ],
+    "credit": {
+      "channel": "Reliablesoft Academy"
+    },
+    "featured": false,
+    "bestseller": false,
+    "sections": [
+      {
+        "id": "digital-marketing-101-s1",
+        "title": {
+          "en": "Foundations",
+          "ar": "الأساسيات"
+        },
+        "lessons": [
+          {
+            "id": "digital-marketing-101-s1-l1",
+            "title": {
+              "en": "Part 1",
+              "ar": "الجزء 1"
+            },
+            "durationSec": 140,
+            "video": {
+              "type": "youtube",
+              "id": "Ro9kzZWARZc",
+              "start": 0,
+              "end": 140
+            },
+            "preview": true
+          },
+          {
+            "id": "digital-marketing-101-s1-l2",
+            "title": {
+              "en": "Part 2",
+              "ar": "الجزء 2"
+            },
+            "durationSec": 140,
+            "video": {
+              "type": "youtube",
+              "id": "Ro9kzZWARZc",
+              "start": 140,
+              "end": 280
+            },
+            "preview": false
+          },
+          {
+            "id": "digital-marketing-101-s1-l3",
+            "title": {
+              "en": "Part 3",
+              "ar": "الجزء 3"
+            },
+            "durationSec": 140,
+            "video": {
+              "type": "youtube",
+              "id": "Ro9kzZWARZc",
+              "start": 280,
+              "end": 420
+            },
+            "preview": false
+          }
+        ]
+      },
+      {
+        "id": "digital-marketing-101-s2",
+        "title": {
+          "en": "Core skills",
+          "ar": "المهارات الأساسية"
+        },
+        "lessons": [
+          {
+            "id": "digital-marketing-101-s2-l1",
+            "title": {
+              "en": "Part 4",
+              "ar": "الجزء 4"
+            },
+            "durationSec": 140,
+            "video": {
+              "type": "youtube",
+              "id": "Ro9kzZWARZc",
+              "start": 420,
+              "end": 560
+            },
+            "preview": false
+          },
+          {
+            "id": "digital-marketing-101-s2-l2",
+            "title": {
+              "en": "Part 5",
+              "ar": "الجزء 5"
+            },
+            "durationSec": 140,
+            "video": {
+              "type": "youtube",
+              "id": "Ro9kzZWARZc",
+              "start": 560,
+              "end": 700
+            },
+            "preview": false
+          },
+          {
+            "id": "digital-marketing-101-s2-l3",
+            "title": {
+              "en": "Part 6",
+              "ar": "الجزء 6"
+            },
+            "durationSec": 140,
+            "video": {
+              "type": "youtube",
+              "id": "Ro9kzZWARZc",
+              "start": 700,
+              "end": 840
+            },
+            "preview": false
+          }
+        ]
+      },
+      {
+        "id": "digital-marketing-101-s3",
+        "title": {
+          "en": "Practice & next steps",
+          "ar": "التطبيق والخطوات التالية"
+        },
+        "lessons": [
+          {
+            "id": "digital-marketing-101-s3-l1",
+            "title": {
+              "en": "Part 7",
+              "ar": "الجزء 7"
+            },
+            "durationSec": 140,
+            "video": {
+              "type": "youtube",
+              "id": "Ro9kzZWARZc",
+              "start": 840,
+              "end": 980
+            },
+            "preview": false
+          },
+          {
+            "id": "digital-marketing-101-s3-l2",
+            "title": {
+              "en": "Part 8",
+              "ar": "الجزء 8"
+            },
+            "durationSec": 140,
+            "video": {
+              "type": "youtube",
+              "id": "Ro9kzZWARZc",
+              "start": 980,
+              "end": 1120
+            },
+            "preview": false
+          },
+          {
+            "id": "digital-marketing-101-s3-l3",
+            "title": {
+              "en": "Part 9",
+              "ar": "الجزء 9"
+            },
+            "durationSec": 140,
+            "video": {
+              "type": "youtube",
+              "id": "Ro9kzZWARZc",
+              "start": 1120
+            },
+            "preview": false
+          }
+        ]
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "c-seo-for-beginners",
+    "slug": "seo-for-beginners",
+    "title": {
+      "en": "SEO for Beginners",
+      "ar": "تحسين محركات البحث للمبتدئين"
+    },
+    "subtitle": {
+      "en": "Learn how to rank on Google with a clear, repeatable process.",
+      "ar": "تعلّم كيف تتصدر نتائج جوجل بعملية واضحة قابلة للتكرار."
+    },
+    "description": {
+      "en": "Learn how to rank on Google with a clear, repeatable process. This course walks you through the essentials step by step with clear explanations and practical examples, so you can go from the first lesson to confident, hands-on use.",
+      "ar": "تعلّم كيف تتصدر نتائج جوجل بعملية واضحة قابلة للتكرار. يأخذك هذا الكورس عبر الأساسيات خطوة بخطوة بشروحات واضحة وأمثلة عملية، لتنتقل من الدرس الأول إلى الاستخدام العملي بثقة."
+    },
+    "category": "marketing",
+    "instructorId": "nadia-farouk",
+    "level": "beginner",
+    "language": "en",
+    "price": 29.99,
+    "originalPrice": 54.99,
+    "rating": 4.8,
+    "ratingCount": 9120,
+    "students": 38900,
+    "durationSec": 7020,
+    "updatedAt": "2026-09-15",
+    "thumbnail": "https://img.youtube.com/vi/xsVTqzratPs/hqdefault.jpg",
+    "previewVideo": {
+      "type": "youtube",
+      "id": "xsVTqzratPs",
+      "start": 0,
+      "end": 180
+    },
+    "outcomes": [
+      {
+        "en": "Reach and understand the right audience",
+        "ar": "الوصول إلى الجمهور المناسب وفهمه"
+      },
+      {
+        "en": "Plan campaigns that drive results",
+        "ar": "تخطيط حملات تحقق نتائج"
+      },
+      {
+        "en": "Measure what works and improve it",
+        "ar": "قياس ما ينجح وتحسينه"
+      },
+      {
+        "en": "Communicate value persuasively",
+        "ar": "إيصال القيمة بأسلوب مقنع"
+      }
+    ],
+    "requirements": [
+      {
+        "en": "No prior experience needed",
+        "ar": "لا حاجة لخبرة سابقة"
+      },
+      {
+        "en": "A computer or phone with internet access",
+        "ar": "جهاز كمبيوتر أو هاتف مع اتصال بالإنترنت"
+      }
+    ],
+    "tags": [
+      "seo",
+      "google",
+      "keywords"
+    ],
+    "credit": {
+      "channel": "Ahrefs"
+    },
+    "featured": false,
+    "bestseller": true,
+    "sections": [
+      {
+        "id": "seo-for-beginners-s1",
+        "title": {
+          "en": "Foundations",
+          "ar": "الأساسيات"
+        },
+        "lessons": [
+          {
+            "id": "seo-for-beginners-s1-l1",
+            "title": {
+              "en": "Part 1",
+              "ar": "الجزء 1"
+            },
+            "durationSec": 780,
+            "video": {
+              "type": "youtube",
+              "id": "xsVTqzratPs",
+              "start": 0,
+              "end": 780
+            },
+            "preview": true
+          },
+          {
+            "id": "seo-for-beginners-s1-l2",
+            "title": {
+              "en": "Part 2",
+              "ar": "الجزء 2"
+            },
+            "durationSec": 780,
+            "video": {
+              "type": "youtube",
+              "id": "xsVTqzratPs",
+              "start": 780,
+              "end": 1560
+            },
+            "preview": false
+          },
+          {
+            "id": "seo-for-beginners-s1-l3",
+            "title": {
+              "en": "Part 3",
+              "ar": "الجزء 3"
+            },
+            "durationSec": 780,
+            "video": {
+              "type": "youtube",
+              "id": "xsVTqzratPs",
+              "start": 1560,
+              "end": 2340
+            },
+            "preview": false
+          }
+        ]
+      },
+      {
+        "id": "seo-for-beginners-s2",
+        "title": {
+          "en": "Core skills",
+          "ar": "المهارات الأساسية"
+        },
+        "lessons": [
+          {
+            "id": "seo-for-beginners-s2-l1",
+            "title": {
+              "en": "Part 4",
+              "ar": "الجزء 4"
+            },
+            "durationSec": 780,
+            "video": {
+              "type": "youtube",
+              "id": "xsVTqzratPs",
+              "start": 2340,
+              "end": 3120
+            },
+            "preview": false
+          },
+          {
+            "id": "seo-for-beginners-s2-l2",
+            "title": {
+              "en": "Part 5",
+              "ar": "الجزء 5"
+            },
+            "durationSec": 780,
+            "video": {
+              "type": "youtube",
+              "id": "xsVTqzratPs",
+              "start": 3120,
+              "end": 3900
+            },
+            "preview": false
+          },
+          {
+            "id": "seo-for-beginners-s2-l3",
+            "title": {
+              "en": "Part 6",
+              "ar": "الجزء 6"
+            },
+            "durationSec": 780,
+            "video": {
+              "type": "youtube",
+              "id": "xsVTqzratPs",
+              "start": 3900,
+              "end": 4680
+            },
+            "preview": false
+          }
+        ]
+      },
+      {
+        "id": "seo-for-beginners-s3",
+        "title": {
+          "en": "Practice & next steps",
+          "ar": "التطبيق والخطوات التالية"
+        },
+        "lessons": [
+          {
+            "id": "seo-for-beginners-s3-l1",
+            "title": {
+              "en": "Part 7",
+              "ar": "الجزء 7"
+            },
+            "durationSec": 780,
+            "video": {
+              "type": "youtube",
+              "id": "xsVTqzratPs",
+              "start": 4680,
+              "end": 5460
+            },
+            "preview": false
+          },
+          {
+            "id": "seo-for-beginners-s3-l2",
+            "title": {
+              "en": "Part 8",
+              "ar": "الجزء 8"
+            },
+            "durationSec": 780,
+            "video": {
+              "type": "youtube",
+              "id": "xsVTqzratPs",
+              "start": 5460,
+              "end": 6240
+            },
+            "preview": false
+          },
+          {
+            "id": "seo-for-beginners-s3-l3",
+            "title": {
+              "en": "Part 9",
+              "ar": "الجزء 9"
+            },
+            "durationSec": 780,
+            "video": {
+              "type": "youtube",
+              "id": "xsVTqzratPs",
+              "start": 6240
+            },
+            "preview": false
+          }
+        ]
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "c-seo-arabic",
+    "slug": "seo-arabic",
+    "title": {
+      "en": "SEO Course (Arabic)",
+      "ar": "كورس سيو بالعربي"
+    },
+    "subtitle": {
+      "en": "A complete Arabic-language SEO course for beginners.",
+      "ar": "كورس شامل لتحسين محركات البحث باللغة العربية للمبتدئين."
+    },
+    "description": {
+      "en": "A complete Arabic-language SEO course for beginners. This course walks you through the essentials step by step with clear explanations and practical examples, so you can go from the first lesson to confident, hands-on use.",
+      "ar": "كورس شامل لتحسين محركات البحث باللغة العربية للمبتدئين. يأخذك هذا الكورس عبر الأساسيات خطوة بخطوة بشروحات واضحة وأمثلة عملية، لتنتقل من الدرس الأول إلى الاستخدام العملي بثقة."
+    },
+    "category": "marketing",
+    "instructorId": "nadia-farouk",
+    "level": "beginner",
+    "language": "ar",
+    "price": 0,
+    "rating": 4.6,
+    "ratingCount": 3140,
+    "students": 15200,
+    "durationSec": 10674,
+    "updatedAt": "2026-01-15",
+    "thumbnail": "https://img.youtube.com/vi/9AcpLGRaya0/hqdefault.jpg",
+    "previewVideo": {
+      "type": "youtube",
+      "id": "9AcpLGRaya0",
+      "start": 0,
+      "end": 180
+    },
+    "outcomes": [
+      {
+        "en": "Reach and understand the right audience",
+        "ar": "الوصول إلى الجمهور المناسب وفهمه"
+      },
+      {
+        "en": "Plan campaigns that drive results",
+        "ar": "تخطيط حملات تحقق نتائج"
+      },
+      {
+        "en": "Measure what works and improve it",
+        "ar": "قياس ما ينجح وتحسينه"
+      },
+      {
+        "en": "Communicate value persuasively",
+        "ar": "إيصال القيمة بأسلوب مقنع"
+      }
+    ],
+    "requirements": [
+      {
+        "en": "No prior experience needed",
+        "ar": "لا حاجة لخبرة سابقة"
+      },
+      {
+        "en": "A computer or phone with internet access",
+        "ar": "جهاز كمبيوتر أو هاتف مع اتصال بالإنترنت"
+      }
+    ],
+    "tags": [
+      "seo",
+      "arabic",
+      "search"
+    ],
+    "credit": {
+      "channel": "Intalek Online"
+    },
+    "featured": false,
+    "bestseller": false,
+    "sections": [
+      {
+        "id": "seo-arabic-s1",
+        "title": {
+          "en": "Foundations",
+          "ar": "الأساسيات"
+        },
+        "lessons": [
+          {
+            "id": "seo-arabic-s1-l1",
+            "title": {
+              "en": "Part 1",
+              "ar": "الجزء 1"
+            },
+            "durationSec": 1186,
+            "video": {
+              "type": "youtube",
+              "id": "9AcpLGRaya0",
+              "start": 0,
+              "end": 1186
+            },
+            "preview": true
+          },
+          {
+            "id": "seo-arabic-s1-l2",
+            "title": {
+              "en": "Part 2",
+              "ar": "الجزء 2"
+            },
+            "durationSec": 1186,
+            "video": {
+              "type": "youtube",
+              "id": "9AcpLGRaya0",
+              "start": 1186,
+              "end": 2372
+            },
+            "preview": false
+          },
+          {
+            "id": "seo-arabic-s1-l3",
+            "title": {
+              "en": "Part 3",
+              "ar": "الجزء 3"
+            },
+            "durationSec": 1186,
+            "video": {
+              "type": "youtube",
+              "id": "9AcpLGRaya0",
+              "start": 2372,
+              "end": 3558
+            },
+            "preview": false
+          }
+        ]
+      },
+      {
+        "id": "seo-arabic-s2",
+        "title": {
+          "en": "Core skills",
+          "ar": "المهارات الأساسية"
+        },
+        "lessons": [
+          {
+            "id": "seo-arabic-s2-l1",
+            "title": {
+              "en": "Part 4",
+              "ar": "الجزء 4"
+            },
+            "durationSec": 1186,
+            "video": {
+              "type": "youtube",
+              "id": "9AcpLGRaya0",
+              "start": 3558,
+              "end": 4744
+            },
+            "preview": false
+          },
+          {
+            "id": "seo-arabic-s2-l2",
+            "title": {
+              "en": "Part 5",
+              "ar": "الجزء 5"
+            },
+            "durationSec": 1186,
+            "video": {
+              "type": "youtube",
+              "id": "9AcpLGRaya0",
+              "start": 4744,
+              "end": 5930
+            },
+            "preview": false
+          },
+          {
+            "id": "seo-arabic-s2-l3",
+            "title": {
+              "en": "Part 6",
+              "ar": "الجزء 6"
+            },
+            "durationSec": 1186,
+            "video": {
+              "type": "youtube",
+              "id": "9AcpLGRaya0",
+              "start": 5930,
+              "end": 7116
+            },
+            "preview": false
+          }
+        ]
+      },
+      {
+        "id": "seo-arabic-s3",
+        "title": {
+          "en": "Practice & next steps",
+          "ar": "التطبيق والخطوات التالية"
+        },
+        "lessons": [
+          {
+            "id": "seo-arabic-s3-l1",
+            "title": {
+              "en": "Part 7",
+              "ar": "الجزء 7"
+            },
+            "durationSec": 1186,
+            "video": {
+              "type": "youtube",
+              "id": "9AcpLGRaya0",
+              "start": 7116,
+              "end": 8302
+            },
+            "preview": false
+          },
+          {
+            "id": "seo-arabic-s3-l2",
+            "title": {
+              "en": "Part 8",
+              "ar": "الجزء 8"
+            },
+            "durationSec": 1186,
+            "video": {
+              "type": "youtube",
+              "id": "9AcpLGRaya0",
+              "start": 8302,
+              "end": 9488
+            },
+            "preview": false
+          },
+          {
+            "id": "seo-arabic-s3-l3",
+            "title": {
+              "en": "Part 9",
+              "ar": "الجزء 9"
+            },
+            "durationSec": 1186,
+            "video": {
+              "type": "youtube",
+              "id": "9AcpLGRaya0",
+              "start": 9488
+            },
+            "preview": false
+          }
+        ]
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "c-sales-skills-masterclass",
+    "slug": "sales-skills-masterclass",
+    "title": {
+      "en": "Sales Skills Masterclass",
+      "ar": "ماستر كلاس مهارات البيع"
+    },
+    "subtitle": {
+      "en": "Discovery, objections and closing: how to sell almost anything.",
+      "ar": "اكتشاف الاحتياج والاعتراضات والإغلاق: كيف تبيع أي منتج تقريباً."
+    },
+    "description": {
+      "en": "Discovery, objections and closing: how to sell almost anything. This course walks you through the essentials step by step with clear explanations and practical examples, so you can go from the first lesson to confident, hands-on use.",
+      "ar": "اكتشاف الاحتياج والاعتراضات والإغلاق: كيف تبيع أي منتج تقريباً. يأخذك هذا الكورس عبر الأساسيات خطوة بخطوة بشروحات واضحة وأمثلة عملية، لتنتقل من الدرس الأول إلى الاستخدام العملي بثقة."
+    },
+    "category": "marketing",
+    "instructorId": "hassan-ibrahim",
+    "level": "intermediate",
+    "language": "en",
+    "price": 44.99,
+    "originalPrice": 79.99,
+    "rating": 4.6,
+    "ratingCount": 4410,
+    "students": 18900,
+    "durationSec": 7074,
+    "updatedAt": "2026-02-15",
+    "thumbnail": "https://img.youtube.com/vi/U2w7SQ7NEUQ/hqdefault.jpg",
+    "previewVideo": {
+      "type": "youtube",
+      "id": "U2w7SQ7NEUQ",
+      "start": 0,
+      "end": 180
+    },
+    "outcomes": [
+      {
+        "en": "Reach and understand the right audience",
+        "ar": "الوصول إلى الجمهور المناسب وفهمه"
+      },
+      {
+        "en": "Plan campaigns that drive results",
+        "ar": "تخطيط حملات تحقق نتائج"
+      },
+      {
+        "en": "Measure what works and improve it",
+        "ar": "قياس ما ينجح وتحسينه"
+      },
+      {
+        "en": "Communicate value persuasively",
+        "ar": "إيصال القيمة بأسلوب مقنع"
+      }
+    ],
+    "requirements": [
+      {
+        "en": "Basic familiarity with the subject",
+        "ar": "إلمام أساسي بالموضوع"
+      },
+      {
+        "en": "Willingness to practise alongside the lessons",
+        "ar": "الاستعداد للتطبيق أثناء الدروس"
+      }
+    ],
+    "tags": [
+      "sales",
+      "negotiation",
+      "closing"
+    ],
+    "credit": {
+      "channel": "Shelby Sapp"
+    },
+    "featured": false,
+    "bestseller": false,
+    "sections": [
+      {
+        "id": "sales-skills-masterclass-s1",
+        "title": {
+          "en": "Foundations",
+          "ar": "الأساسيات"
+        },
+        "lessons": [
+          {
+            "id": "sales-skills-masterclass-s1-l1",
+            "title": {
+              "en": "Part 1",
+              "ar": "الجزء 1"
+            },
+            "durationSec": 786,
+            "video": {
+              "type": "youtube",
+              "id": "U2w7SQ7NEUQ",
+              "start": 0,
+              "end": 786
+            },
+            "preview": true
+          },
+          {
+            "id": "sales-skills-masterclass-s1-l2",
+            "title": {
+              "en": "Part 2",
+              "ar": "الجزء 2"
+            },
+            "durationSec": 786,
+            "video": {
+              "type": "youtube",
+              "id": "U2w7SQ7NEUQ",
+              "start": 786,
+              "end": 1572
+            },
+            "preview": false
+          },
+          {
+            "id": "sales-skills-masterclass-s1-l3",
+            "title": {
+              "en": "Part 3",
+              "ar": "الجزء 3"
+            },
+            "durationSec": 786,
+            "video": {
+              "type": "youtube",
+              "id": "U2w7SQ7NEUQ",
+              "start": 1572,
+              "end": 2358
+            },
+            "preview": false
+          }
+        ]
+      },
+      {
+        "id": "sales-skills-masterclass-s2",
+        "title": {
+          "en": "Core skills",
+          "ar": "المهارات الأساسية"
+        },
+        "lessons": [
+          {
+            "id": "sales-skills-masterclass-s2-l1",
+            "title": {
+              "en": "Part 4",
+              "ar": "الجزء 4"
+            },
+            "durationSec": 786,
+            "video": {
+              "type": "youtube",
+              "id": "U2w7SQ7NEUQ",
+              "start": 2358,
+              "end": 3144
+            },
+            "preview": false
+          },
+          {
+            "id": "sales-skills-masterclass-s2-l2",
+            "title": {
+              "en": "Part 5",
+              "ar": "الجزء 5"
+            },
+            "durationSec": 786,
+            "video": {
+              "type": "youtube",
+              "id": "U2w7SQ7NEUQ",
+              "start": 3144,
+              "end": 3930
+            },
+            "preview": false
+          },
+          {
+            "id": "sales-skills-masterclass-s2-l3",
+            "title": {
+              "en": "Part 6",
+              "ar": "الجزء 6"
+            },
+            "durationSec": 786,
+            "video": {
+              "type": "youtube",
+              "id": "U2w7SQ7NEUQ",
+              "start": 3930,
+              "end": 4716
+            },
+            "preview": false
+          }
+        ]
+      },
+      {
+        "id": "sales-skills-masterclass-s3",
+        "title": {
+          "en": "Practice & next steps",
+          "ar": "التطبيق والخطوات التالية"
+        },
+        "lessons": [
+          {
+            "id": "sales-skills-masterclass-s3-l1",
+            "title": {
+              "en": "Part 7",
+              "ar": "الجزء 7"
+            },
+            "durationSec": 786,
+            "video": {
+              "type": "youtube",
+              "id": "U2w7SQ7NEUQ",
+              "start": 4716,
+              "end": 5502
+            },
+            "preview": false
+          },
+          {
+            "id": "sales-skills-masterclass-s3-l2",
+            "title": {
+              "en": "Part 8",
+              "ar": "الجزء 8"
+            },
+            "durationSec": 786,
+            "video": {
+              "type": "youtube",
+              "id": "U2w7SQ7NEUQ",
+              "start": 5502,
+              "end": 6288
+            },
+            "preview": false
+          },
+          {
+            "id": "sales-skills-masterclass-s3-l3",
+            "title": {
+              "en": "Part 9",
+              "ar": "الجزء 9"
+            },
+            "durationSec": 786,
+            "video": {
+              "type": "youtube",
+              "id": "U2w7SQ7NEUQ",
+              "start": 6288
+            },
+            "preview": false
+          }
+        ]
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "c-public-speaking-confidence",
+    "slug": "public-speaking-confidence",
+    "title": {
+      "en": "Public Speaking with Confidence",
+      "ar": "الخطابة والتحدث بثقة"
+    },
+    "subtitle": {
+      "en": "Speak clearly, calmly and persuasively in front of any audience.",
+      "ar": "تحدّث بوضوح وهدوء وإقناع أمام أي جمهور."
+    },
+    "description": {
+      "en": "Speak clearly, calmly and persuasively in front of any audience. This course walks you through the essentials step by step with clear explanations and practical examples, so you can go from the first lesson to confident, hands-on use.",
+      "ar": "تحدّث بوضوح وهدوء وإقناع أمام أي جمهور. يأخذك هذا الكورس عبر الأساسيات خطوة بخطوة بشروحات واضحة وأمثلة عملية، لتنتقل من الدرس الأول إلى الاستخدام العملي بثقة."
+    },
+    "category": "personal-development",
+    "instructorId": "mona-salem",
+    "level": "beginner",
+    "language": "en",
+    "price": 0,
+    "rating": 4.8,
+    "ratingCount": 6210,
+    "students": 27600,
+    "durationSec": 8937,
+    "updatedAt": "2026-03-15",
+    "thumbnail": "https://img.youtube.com/vi/MXKkXXYUxBc/hqdefault.jpg",
+    "previewVideo": {
+      "type": "youtube",
+      "id": "MXKkXXYUxBc",
+      "start": 0,
+      "end": 180
+    },
+    "outcomes": [
+      {
+        "en": "Build habits that stick",
+        "ar": "بناء عادات تدوم"
+      },
+      {
+        "en": "Work and study more effectively",
+        "ar": "العمل والدراسة بفعالية أكبر"
+      },
+      {
+        "en": "Communicate with clarity and confidence",
+        "ar": "التواصل بوضوح وثقة"
+      },
+      {
+        "en": "Reflect and keep improving",
+        "ar": "المراجعة والتحسّن المستمر"
+      }
+    ],
+    "requirements": [
+      {
+        "en": "No prior experience needed",
+        "ar": "لا حاجة لخبرة سابقة"
+      },
+      {
+        "en": "A computer or phone with internet access",
+        "ar": "جهاز كمبيوتر أو هاتف مع اتصال بالإنترنت"
+      }
+    ],
+    "tags": [
+      "public speaking",
+      "communication",
+      "confidence"
+    ],
+    "credit": {
+      "channel": "David JP Phillips"
+    },
+    "featured": true,
+    "bestseller": false,
+    "sections": [
+      {
+        "id": "public-speaking-confidence-s1",
+        "title": {
+          "en": "Foundations",
+          "ar": "الأساسيات"
+        },
+        "lessons": [
+          {
+            "id": "public-speaking-confidence-s1-l1",
+            "title": {
+              "en": "Part 1",
+              "ar": "الجزء 1"
+            },
+            "durationSec": 993,
+            "video": {
+              "type": "youtube",
+              "id": "MXKkXXYUxBc",
+              "start": 0,
+              "end": 993
+            },
+            "preview": true
+          },
+          {
+            "id": "public-speaking-confidence-s1-l2",
+            "title": {
+              "en": "Part 2",
+              "ar": "الجزء 2"
+            },
+            "durationSec": 993,
+            "video": {
+              "type": "youtube",
+              "id": "MXKkXXYUxBc",
+              "start": 993,
+              "end": 1986
+            },
+            "preview": false
+          },
+          {
+            "id": "public-speaking-confidence-s1-l3",
+            "title": {
+              "en": "Part 3",
+              "ar": "الجزء 3"
+            },
+            "durationSec": 993,
+            "video": {
+              "type": "youtube",
+              "id": "MXKkXXYUxBc",
+              "start": 1986,
+              "end": 2979
+            },
+            "preview": false
+          }
+        ]
+      },
+      {
+        "id": "public-speaking-confidence-s2",
+        "title": {
+          "en": "Core skills",
+          "ar": "المهارات الأساسية"
+        },
+        "lessons": [
+          {
+            "id": "public-speaking-confidence-s2-l1",
+            "title": {
+              "en": "Part 4",
+              "ar": "الجزء 4"
+            },
+            "durationSec": 993,
+            "video": {
+              "type": "youtube",
+              "id": "MXKkXXYUxBc",
+              "start": 2979,
+              "end": 3972
+            },
+            "preview": false
+          },
+          {
+            "id": "public-speaking-confidence-s2-l2",
+            "title": {
+              "en": "Part 5",
+              "ar": "الجزء 5"
+            },
+            "durationSec": 993,
+            "video": {
+              "type": "youtube",
+              "id": "MXKkXXYUxBc",
+              "start": 3972,
+              "end": 4965
+            },
+            "preview": false
+          },
+          {
+            "id": "public-speaking-confidence-s2-l3",
+            "title": {
+              "en": "Part 6",
+              "ar": "الجزء 6"
+            },
+            "durationSec": 993,
+            "video": {
+              "type": "youtube",
+              "id": "MXKkXXYUxBc",
+              "start": 4965,
+              "end": 5958
+            },
+            "preview": false
+          }
+        ]
+      },
+      {
+        "id": "public-speaking-confidence-s3",
+        "title": {
+          "en": "Practice & next steps",
+          "ar": "التطبيق والخطوات التالية"
+        },
+        "lessons": [
+          {
+            "id": "public-speaking-confidence-s3-l1",
+            "title": {
+              "en": "Part 7",
+              "ar": "الجزء 7"
+            },
+            "durationSec": 993,
+            "video": {
+              "type": "youtube",
+              "id": "MXKkXXYUxBc",
+              "start": 5958,
+              "end": 6951
+            },
+            "preview": false
+          },
+          {
+            "id": "public-speaking-confidence-s3-l2",
+            "title": {
+              "en": "Part 8",
+              "ar": "الجزء 8"
+            },
+            "durationSec": 993,
+            "video": {
+              "type": "youtube",
+              "id": "MXKkXXYUxBc",
+              "start": 6951,
+              "end": 7944
+            },
+            "preview": false
+          },
+          {
+            "id": "public-speaking-confidence-s3-l3",
+            "title": {
+              "en": "Part 9",
+              "ar": "الجزء 9"
+            },
+            "durationSec": 993,
+            "video": {
+              "type": "youtube",
+              "id": "MXKkXXYUxBc",
+              "start": 7944
+            },
+            "preview": false
+          }
+        ]
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "c-time-management-productivity",
+    "slug": "time-management-productivity",
+    "title": {
+      "en": "Time Management & Productivity",
+      "ar": "إدارة الوقت والإنتاجية"
+    },
+    "subtitle": {
+      "en": "Practical systems to plan your time and protect your focus.",
+      "ar": "أنظمة عملية لتخطيط وقتك وحماية تركيزك."
+    },
+    "description": {
+      "en": "Practical systems to plan your time and protect your focus. This course walks you through the essentials step by step with clear explanations and practical examples, so you can go from the first lesson to confident, hands-on use.",
+      "ar": "أنظمة عملية لتخطيط وقتك وحماية تركيزك. يأخذك هذا الكورس عبر الأساسيات خطوة بخطوة بشروحات واضحة وأمثلة عملية، لتنتقل من الدرس الأول إلى الاستخدام العملي بثقة."
+    },
+    "category": "personal-development",
+    "instructorId": "mona-salem",
+    "level": "beginner",
+    "language": "en",
+    "price": 19.99,
+    "originalPrice": 39.99,
+    "rating": 4.5,
+    "ratingCount": 4750,
+    "students": 21700,
+    "durationSec": 10197,
+    "updatedAt": "2026-04-15",
+    "thumbnail": "https://img.youtube.com/vi/Yq3vog9H7uc/hqdefault.jpg",
+    "previewVideo": {
+      "type": "youtube",
+      "id": "Yq3vog9H7uc",
+      "start": 0,
+      "end": 180
+    },
+    "outcomes": [
+      {
+        "en": "Build habits that stick",
+        "ar": "بناء عادات تدوم"
+      },
+      {
+        "en": "Work and study more effectively",
+        "ar": "العمل والدراسة بفعالية أكبر"
+      },
+      {
+        "en": "Communicate with clarity and confidence",
+        "ar": "التواصل بوضوح وثقة"
+      },
+      {
+        "en": "Reflect and keep improving",
+        "ar": "المراجعة والتحسّن المستمر"
+      }
+    ],
+    "requirements": [
+      {
+        "en": "No prior experience needed",
+        "ar": "لا حاجة لخبرة سابقة"
+      },
+      {
+        "en": "A computer or phone with internet access",
+        "ar": "جهاز كمبيوتر أو هاتف مع اتصال بالإنترنت"
+      }
+    ],
+    "tags": [
+      "productivity",
+      "time management",
+      "focus"
+    ],
+    "credit": {
+      "channel": "Your Life Your Project"
+    },
+    "featured": false,
+    "bestseller": false,
+    "sections": [
+      {
+        "id": "time-management-productivity-s1",
+        "title": {
+          "en": "Foundations",
+          "ar": "الأساسيات"
+        },
+        "lessons": [
+          {
+            "id": "time-management-productivity-s1-l1",
+            "title": {
+              "en": "Part 1",
+              "ar": "الجزء 1"
+            },
+            "durationSec": 1133,
+            "video": {
+              "type": "youtube",
+              "id": "Yq3vog9H7uc",
+              "start": 0,
+              "end": 1133
+            },
+            "preview": true
+          },
+          {
+            "id": "time-management-productivity-s1-l2",
+            "title": {
+              "en": "Part 2",
+              "ar": "الجزء 2"
+            },
+            "durationSec": 1133,
+            "video": {
+              "type": "youtube",
+              "id": "Yq3vog9H7uc",
+              "start": 1133,
+              "end": 2266
+            },
+            "preview": false
+          },
+          {
+            "id": "time-management-productivity-s1-l3",
+            "title": {
+              "en": "Part 3",
+              "ar": "الجزء 3"
+            },
+            "durationSec": 1133,
+            "video": {
+              "type": "youtube",
+              "id": "Yq3vog9H7uc",
+              "start": 2266,
+              "end": 3399
+            },
+            "preview": false
+          }
+        ]
+      },
+      {
+        "id": "time-management-productivity-s2",
+        "title": {
+          "en": "Core skills",
+          "ar": "المهارات الأساسية"
+        },
+        "lessons": [
+          {
+            "id": "time-management-productivity-s2-l1",
+            "title": {
+              "en": "Part 4",
+              "ar": "الجزء 4"
+            },
+            "durationSec": 1133,
+            "video": {
+              "type": "youtube",
+              "id": "Yq3vog9H7uc",
+              "start": 3399,
+              "end": 4532
+            },
+            "preview": false
+          },
+          {
+            "id": "time-management-productivity-s2-l2",
+            "title": {
+              "en": "Part 5",
+              "ar": "الجزء 5"
+            },
+            "durationSec": 1133,
+            "video": {
+              "type": "youtube",
+              "id": "Yq3vog9H7uc",
+              "start": 4532,
+              "end": 5665
+            },
+            "preview": false
+          },
+          {
+            "id": "time-management-productivity-s2-l3",
+            "title": {
+              "en": "Part 6",
+              "ar": "الجزء 6"
+            },
+            "durationSec": 1133,
+            "video": {
+              "type": "youtube",
+              "id": "Yq3vog9H7uc",
+              "start": 5665,
+              "end": 6798
+            },
+            "preview": false
+          }
+        ]
+      },
+      {
+        "id": "time-management-productivity-s3",
+        "title": {
+          "en": "Practice & next steps",
+          "ar": "التطبيق والخطوات التالية"
+        },
+        "lessons": [
+          {
+            "id": "time-management-productivity-s3-l1",
+            "title": {
+              "en": "Part 7",
+              "ar": "الجزء 7"
+            },
+            "durationSec": 1133,
+            "video": {
+              "type": "youtube",
+              "id": "Yq3vog9H7uc",
+              "start": 6798,
+              "end": 7931
+            },
+            "preview": false
+          },
+          {
+            "id": "time-management-productivity-s3-l2",
+            "title": {
+              "en": "Part 8",
+              "ar": "الجزء 8"
+            },
+            "durationSec": 1133,
+            "video": {
+              "type": "youtube",
+              "id": "Yq3vog9H7uc",
+              "start": 7931,
+              "end": 9064
+            },
+            "preview": false
+          },
+          {
+            "id": "time-management-productivity-s3-l3",
+            "title": {
+              "en": "Part 9",
+              "ar": "الجزء 9"
+            },
+            "durationSec": 1133,
+            "video": {
+              "type": "youtube",
+              "id": "Yq3vog9H7uc",
+              "start": 9064
+            },
+            "preview": false
+          }
+        ]
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "c-learn-how-to-learn",
+    "slug": "learn-how-to-learn",
+    "title": {
+      "en": "Learn How to Learn",
+      "ar": "تعلّم كيف تتعلّم"
+    },
+    "subtitle": {
+      "en": "Evidence-based methods to understand and remember more, faster.",
+      "ar": "أساليب مبنية على الأدلة لتفهم وتتذكر أكثر وبشكل أسرع."
+    },
+    "description": {
+      "en": "Evidence-based methods to understand and remember more, faster. This course walks you through the essentials step by step with clear explanations and practical examples, so you can go from the first lesson to confident, hands-on use.",
+      "ar": "أساليب مبنية على الأدلة لتفهم وتتذكر أكثر وبشكل أسرع. يأخذك هذا الكورس عبر الأساسيات خطوة بخطوة بشروحات واضحة وأمثلة عملية، لتنتقل من الدرس الأول إلى الاستخدام العملي بثقة."
+    },
+    "category": "personal-development",
+    "instructorId": "mona-salem",
+    "level": "beginner",
+    "language": "en",
+    "price": 24.99,
+    "originalPrice": 49.99,
+    "rating": 4.8,
+    "ratingCount": 7340,
+    "students": 33800,
+    "durationSec": 17640,
+    "updatedAt": "2026-05-15",
+    "thumbnail": "https://img.youtube.com/vi/waGRF_ZApfI/hqdefault.jpg",
+    "previewVideo": {
+      "type": "youtube",
+      "id": "waGRF_ZApfI",
+      "start": 0,
+      "end": 180
+    },
+    "outcomes": [
+      {
+        "en": "Build habits that stick",
+        "ar": "بناء عادات تدوم"
+      },
+      {
+        "en": "Work and study more effectively",
+        "ar": "العمل والدراسة بفعالية أكبر"
+      },
+      {
+        "en": "Communicate with clarity and confidence",
+        "ar": "التواصل بوضوح وثقة"
+      },
+      {
+        "en": "Reflect and keep improving",
+        "ar": "المراجعة والتحسّن المستمر"
+      }
+    ],
+    "requirements": [
+      {
+        "en": "No prior experience needed",
+        "ar": "لا حاجة لخبرة سابقة"
+      },
+      {
+        "en": "A computer or phone with internet access",
+        "ar": "جهاز كمبيوتر أو هاتف مع اتصال بالإنترنت"
+      }
+    ],
+    "tags": [
+      "learning",
+      "study skills",
+      "memory"
+    ],
+    "credit": {
+      "channel": "iCanStudy"
+    },
+    "featured": false,
+    "bestseller": true,
+    "sections": [
+      {
+        "id": "learn-how-to-learn-s1",
+        "title": {
+          "en": "Foundations",
+          "ar": "الأساسيات"
+        },
+        "lessons": [
+          {
+            "id": "learn-how-to-learn-s1-l1",
+            "title": {
+              "en": "Part 1",
+              "ar": "الجزء 1"
+            },
+            "durationSec": 1960,
+            "video": {
+              "type": "youtube",
+              "id": "waGRF_ZApfI",
+              "start": 0,
+              "end": 1960
+            },
+            "preview": true
+          },
+          {
+            "id": "learn-how-to-learn-s1-l2",
+            "title": {
+              "en": "Part 2",
+              "ar": "الجزء 2"
+            },
+            "durationSec": 1960,
+            "video": {
+              "type": "youtube",
+              "id": "waGRF_ZApfI",
+              "start": 1960,
+              "end": 3920
+            },
+            "preview": false
+          },
+          {
+            "id": "learn-how-to-learn-s1-l3",
+            "title": {
+              "en": "Part 3",
+              "ar": "الجزء 3"
+            },
+            "durationSec": 1960,
+            "video": {
+              "type": "youtube",
+              "id": "waGRF_ZApfI",
+              "start": 3920,
+              "end": 5880
+            },
+            "preview": false
+          }
+        ]
+      },
+      {
+        "id": "learn-how-to-learn-s2",
+        "title": {
+          "en": "Core skills",
+          "ar": "المهارات الأساسية"
+        },
+        "lessons": [
+          {
+            "id": "learn-how-to-learn-s2-l1",
+            "title": {
+              "en": "Part 4",
+              "ar": "الجزء 4"
+            },
+            "durationSec": 1960,
+            "video": {
+              "type": "youtube",
+              "id": "waGRF_ZApfI",
+              "start": 5880,
+              "end": 7840
+            },
+            "preview": false
+          },
+          {
+            "id": "learn-how-to-learn-s2-l2",
+            "title": {
+              "en": "Part 5",
+              "ar": "الجزء 5"
+            },
+            "durationSec": 1960,
+            "video": {
+              "type": "youtube",
+              "id": "waGRF_ZApfI",
+              "start": 7840,
+              "end": 9800
+            },
+            "preview": false
+          },
+          {
+            "id": "learn-how-to-learn-s2-l3",
+            "title": {
+              "en": "Part 6",
+              "ar": "الجزء 6"
+            },
+            "durationSec": 1960,
+            "video": {
+              "type": "youtube",
+              "id": "waGRF_ZApfI",
+              "start": 9800,
+              "end": 11760
+            },
+            "preview": false
+          }
+        ]
+      },
+      {
+        "id": "learn-how-to-learn-s3",
+        "title": {
+          "en": "Practice & next steps",
+          "ar": "التطبيق والخطوات التالية"
+        },
+        "lessons": [
+          {
+            "id": "learn-how-to-learn-s3-l1",
+            "title": {
+              "en": "Part 7",
+              "ar": "الجزء 7"
+            },
+            "durationSec": 1960,
+            "video": {
+              "type": "youtube",
+              "id": "waGRF_ZApfI",
+              "start": 11760,
+              "end": 13720
+            },
+            "preview": false
+          },
+          {
+            "id": "learn-how-to-learn-s3-l2",
+            "title": {
+              "en": "Part 8",
+              "ar": "الجزء 8"
+            },
+            "durationSec": 1960,
+            "video": {
+              "type": "youtube",
+              "id": "waGRF_ZApfI",
+              "start": 13720,
+              "end": 15680
+            },
+            "preview": false
+          },
+          {
+            "id": "learn-how-to-learn-s3-l3",
+            "title": {
+              "en": "Part 9",
+              "ar": "الجزء 9"
+            },
+            "durationSec": 1960,
+            "video": {
+              "type": "youtube",
+              "id": "waGRF_ZApfI",
+              "start": 15680
+            },
+            "preview": false
+          }
+        ]
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "c-drawing-for-beginners",
+    "slug": "drawing-for-beginners",
+    "title": {
+      "en": "Drawing for Beginners",
+      "ar": "الرسم للمبتدئين"
+    },
+    "subtitle": {
+      "en": "Start drawing from imagination with simple, guided exercises.",
+      "ar": "ابدأ الرسم من خيالك بتمارين بسيطة موجّهة."
+    },
+    "description": {
+      "en": "Start drawing from imagination with simple, guided exercises. This course walks you through the essentials step by step with clear explanations and practical examples, so you can go from the first lesson to confident, hands-on use.",
+      "ar": "ابدأ الرسم من خيالك بتمارين بسيطة موجّهة. يأخذك هذا الكورس عبر الأساسيات خطوة بخطوة بشروحات واضحة وأمثلة عملية، لتنتقل من الدرس الأول إلى الاستخدام العملي بثقة."
+    },
+    "category": "art-culture",
+    "instructorId": "emily-carter",
+    "level": "beginner",
+    "language": "en",
+    "price": 0,
+    "rating": 4.9,
+    "ratingCount": 5560,
+    "students": 28300,
+    "durationSec": 3834,
+    "updatedAt": "2026-06-15",
+    "thumbnail": "https://img.youtube.com/vi/pVePCjlBHOY/hqdefault.jpg",
+    "previewVideo": {
+      "type": "youtube",
+      "id": "pVePCjlBHOY",
+      "start": 0,
+      "end": 180
+    },
+    "outcomes": [
+      {
+        "en": "Learn the fundamentals behind great work",
+        "ar": "تعلّم الأساسيات وراء الأعمال الرائعة"
+      },
+      {
+        "en": "Practise with simple, repeatable exercises",
+        "ar": "التدرّب بتمارين بسيطة قابلة للتكرار"
+      },
+      {
+        "en": "Develop your own eye and style",
+        "ar": "تطوير نظرتك وأسلوبك الخاص"
+      },
+      {
+        "en": "Share your work with confidence",
+        "ar": "مشاركة أعمالك بثقة"
+      }
+    ],
+    "requirements": [
+      {
+        "en": "No prior experience needed",
+        "ar": "لا حاجة لخبرة سابقة"
+      },
+      {
+        "en": "A computer or phone with internet access",
+        "ar": "جهاز كمبيوتر أو هاتف مع اتصال بالإنترنت"
+      }
+    ],
+    "tags": [
+      "drawing",
+      "sketching",
+      "art"
+    ],
+    "credit": {
+      "channel": "Artwod"
+    },
+    "featured": true,
+    "bestseller": false,
+    "sections": [
+      {
+        "id": "drawing-for-beginners-s1",
+        "title": {
+          "en": "Foundations",
+          "ar": "الأساسيات"
+        },
+        "lessons": [
+          {
+            "id": "drawing-for-beginners-s1-l1",
+            "title": {
+              "en": "Part 1",
+              "ar": "الجزء 1"
+            },
+            "durationSec": 426,
+            "video": {
+              "type": "youtube",
+              "id": "pVePCjlBHOY",
+              "start": 0,
+              "end": 426
+            },
+            "preview": true
+          },
+          {
+            "id": "drawing-for-beginners-s1-l2",
+            "title": {
+              "en": "Part 2",
+              "ar": "الجزء 2"
+            },
+            "durationSec": 426,
+            "video": {
+              "type": "youtube",
+              "id": "pVePCjlBHOY",
+              "start": 426,
+              "end": 852
+            },
+            "preview": false
+          },
+          {
+            "id": "drawing-for-beginners-s1-l3",
+            "title": {
+              "en": "Part 3",
+              "ar": "الجزء 3"
+            },
+            "durationSec": 426,
+            "video": {
+              "type": "youtube",
+              "id": "pVePCjlBHOY",
+              "start": 852,
+              "end": 1278
+            },
+            "preview": false
+          }
+        ]
+      },
+      {
+        "id": "drawing-for-beginners-s2",
+        "title": {
+          "en": "Core skills",
+          "ar": "المهارات الأساسية"
+        },
+        "lessons": [
+          {
+            "id": "drawing-for-beginners-s2-l1",
+            "title": {
+              "en": "Part 4",
+              "ar": "الجزء 4"
+            },
+            "durationSec": 426,
+            "video": {
+              "type": "youtube",
+              "id": "pVePCjlBHOY",
+              "start": 1278,
+              "end": 1704
+            },
+            "preview": false
+          },
+          {
+            "id": "drawing-for-beginners-s2-l2",
+            "title": {
+              "en": "Part 5",
+              "ar": "الجزء 5"
+            },
+            "durationSec": 426,
+            "video": {
+              "type": "youtube",
+              "id": "pVePCjlBHOY",
+              "start": 1704,
+              "end": 2130
+            },
+            "preview": false
+          },
+          {
+            "id": "drawing-for-beginners-s2-l3",
+            "title": {
+              "en": "Part 6",
+              "ar": "الجزء 6"
+            },
+            "durationSec": 426,
+            "video": {
+              "type": "youtube",
+              "id": "pVePCjlBHOY",
+              "start": 2130,
+              "end": 2556
+            },
+            "preview": false
+          }
+        ]
+      },
+      {
+        "id": "drawing-for-beginners-s3",
+        "title": {
+          "en": "Practice & next steps",
+          "ar": "التطبيق والخطوات التالية"
+        },
+        "lessons": [
+          {
+            "id": "drawing-for-beginners-s3-l1",
+            "title": {
+              "en": "Part 7",
+              "ar": "الجزء 7"
+            },
+            "durationSec": 426,
+            "video": {
+              "type": "youtube",
+              "id": "pVePCjlBHOY",
+              "start": 2556,
+              "end": 2982
+            },
+            "preview": false
+          },
+          {
+            "id": "drawing-for-beginners-s3-l2",
+            "title": {
+              "en": "Part 8",
+              "ar": "الجزء 8"
+            },
+            "durationSec": 426,
+            "video": {
+              "type": "youtube",
+              "id": "pVePCjlBHOY",
+              "start": 2982,
+              "end": 3408
+            },
+            "preview": false
+          },
+          {
+            "id": "drawing-for-beginners-s3-l3",
+            "title": {
+              "en": "Part 9",
+              "ar": "الجزء 9"
+            },
+            "durationSec": 426,
+            "video": {
+              "type": "youtube",
+              "id": "pVePCjlBHOY",
+              "start": 3408
+            },
+            "preview": false
+          }
+        ]
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "c-photography-fundamentals",
+    "slug": "photography-fundamentals",
+    "title": {
+      "en": "Photography Fundamentals",
+      "ar": "أساسيات التصوير الفوتوغرافي"
+    },
+    "subtitle": {
+      "en": "Exposure, composition and light: take better photos today.",
+      "ar": "التعريض والتكوين والإضاءة: التقط صوراً أفضل منذ اليوم."
+    },
+    "description": {
+      "en": "Exposure, composition and light: take better photos today. This course walks you through the essentials step by step with clear explanations and practical examples, so you can go from the first lesson to confident, hands-on use.",
+      "ar": "التعريض والتكوين والإضاءة: التقط صوراً أفضل منذ اليوم. يأخذك هذا الكورس عبر الأساسيات خطوة بخطوة بشروحات واضحة وأمثلة عملية، لتنتقل من الدرس الأول إلى الاستخدام العملي بثقة."
+    },
+    "category": "art-culture",
+    "instructorId": "lucas-meyer",
+    "level": "beginner",
+    "language": "en",
+    "price": 39.99,
+    "originalPrice": 69.99,
+    "rating": 4.7,
+    "ratingCount": 6890,
+    "students": 30100,
+    "durationSec": 14454,
+    "updatedAt": "2026-07-15",
+    "thumbnail": "https://img.youtube.com/vi/yhAmMUi2NmM/hqdefault.jpg",
+    "previewVideo": {
+      "type": "youtube",
+      "id": "yhAmMUi2NmM",
+      "start": 0,
+      "end": 180
+    },
+    "outcomes": [
+      {
+        "en": "Learn the fundamentals behind great work",
+        "ar": "تعلّم الأساسيات وراء الأعمال الرائعة"
+      },
+      {
+        "en": "Practise with simple, repeatable exercises",
+        "ar": "التدرّب بتمارين بسيطة قابلة للتكرار"
+      },
+      {
+        "en": "Develop your own eye and style",
+        "ar": "تطوير نظرتك وأسلوبك الخاص"
+      },
+      {
+        "en": "Share your work with confidence",
+        "ar": "مشاركة أعمالك بثقة"
+      }
+    ],
+    "requirements": [
+      {
+        "en": "No prior experience needed",
+        "ar": "لا حاجة لخبرة سابقة"
+      },
+      {
+        "en": "A computer or phone with internet access",
+        "ar": "جهاز كمبيوتر أو هاتف مع اتصال بالإنترنت"
+      }
+    ],
+    "tags": [
+      "photography",
+      "camera",
+      "composition"
+    ],
+    "credit": {
+      "channel": "Parker Photographic"
+    },
+    "featured": false,
+    "bestseller": false,
+    "sections": [
+      {
+        "id": "photography-fundamentals-s1",
+        "title": {
+          "en": "Foundations",
+          "ar": "الأساسيات"
+        },
+        "lessons": [
+          {
+            "id": "photography-fundamentals-s1-l1",
+            "title": {
+              "en": "Part 1",
+              "ar": "الجزء 1"
+            },
+            "durationSec": 1606,
+            "video": {
+              "type": "youtube",
+              "id": "yhAmMUi2NmM",
+              "start": 0,
+              "end": 1606
+            },
+            "preview": true
+          },
+          {
+            "id": "photography-fundamentals-s1-l2",
+            "title": {
+              "en": "Part 2",
+              "ar": "الجزء 2"
+            },
+            "durationSec": 1606,
+            "video": {
+              "type": "youtube",
+              "id": "yhAmMUi2NmM",
+              "start": 1606,
+              "end": 3212
+            },
+            "preview": false
+          },
+          {
+            "id": "photography-fundamentals-s1-l3",
+            "title": {
+              "en": "Part 3",
+              "ar": "الجزء 3"
+            },
+            "durationSec": 1606,
+            "video": {
+              "type": "youtube",
+              "id": "yhAmMUi2NmM",
+              "start": 3212,
+              "end": 4818
+            },
+            "preview": false
+          }
+        ]
+      },
+      {
+        "id": "photography-fundamentals-s2",
+        "title": {
+          "en": "Core skills",
+          "ar": "المهارات الأساسية"
+        },
+        "lessons": [
+          {
+            "id": "photography-fundamentals-s2-l1",
+            "title": {
+              "en": "Part 4",
+              "ar": "الجزء 4"
+            },
+            "durationSec": 1606,
+            "video": {
+              "type": "youtube",
+              "id": "yhAmMUi2NmM",
+              "start": 4818,
+              "end": 6424
+            },
+            "preview": false
+          },
+          {
+            "id": "photography-fundamentals-s2-l2",
+            "title": {
+              "en": "Part 5",
+              "ar": "الجزء 5"
+            },
+            "durationSec": 1606,
+            "video": {
+              "type": "youtube",
+              "id": "yhAmMUi2NmM",
+              "start": 6424,
+              "end": 8030
+            },
+            "preview": false
+          },
+          {
+            "id": "photography-fundamentals-s2-l3",
+            "title": {
+              "en": "Part 6",
+              "ar": "الجزء 6"
+            },
+            "durationSec": 1606,
+            "video": {
+              "type": "youtube",
+              "id": "yhAmMUi2NmM",
+              "start": 8030,
+              "end": 9636
+            },
+            "preview": false
+          }
+        ]
+      },
+      {
+        "id": "photography-fundamentals-s3",
+        "title": {
+          "en": "Practice & next steps",
+          "ar": "التطبيق والخطوات التالية"
+        },
+        "lessons": [
+          {
+            "id": "photography-fundamentals-s3-l1",
+            "title": {
+              "en": "Part 7",
+              "ar": "الجزء 7"
+            },
+            "durationSec": 1606,
+            "video": {
+              "type": "youtube",
+              "id": "yhAmMUi2NmM",
+              "start": 9636,
+              "end": 11242
+            },
+            "preview": false
+          },
+          {
+            "id": "photography-fundamentals-s3-l2",
+            "title": {
+              "en": "Part 8",
+              "ar": "الجزء 8"
+            },
+            "durationSec": 1606,
+            "video": {
+              "type": "youtube",
+              "id": "yhAmMUi2NmM",
+              "start": 11242,
+              "end": 12848
+            },
+            "preview": false
+          },
+          {
+            "id": "photography-fundamentals-s3-l3",
+            "title": {
+              "en": "Part 9",
+              "ar": "الجزء 9"
+            },
+            "durationSec": 1606,
+            "video": {
+              "type": "youtube",
+              "id": "yhAmMUi2NmM",
+              "start": 12848
+            },
+            "preview": false
+          }
+        ]
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "c-music-theory-complete",
+    "slug": "music-theory-complete",
+    "title": {
+      "en": "Music Theory Complete",
+      "ar": "نظرية الموسيقى الكاملة"
+    },
+    "subtitle": {
+      "en": "Everything you need to read, write and understand music.",
+      "ar": "كل ما تحتاجه لقراءة الموسيقى وكتابتها وفهمها."
+    },
+    "description": {
+      "en": "Everything you need to read, write and understand music. This course walks you through the essentials step by step with clear explanations and practical examples, so you can go from the first lesson to confident, hands-on use.",
+      "ar": "كل ما تحتاجه لقراءة الموسيقى وكتابتها وفهمها. يأخذك هذا الكورس عبر الأساسيات خطوة بخطوة بشروحات واضحة وأمثلة عملية، لتنتقل من الدرس الأول إلى الاستخدام العملي بثقة."
+    },
+    "category": "art-culture",
+    "instructorId": "lucas-meyer",
+    "level": "beginner",
+    "language": "en",
+    "price": 29.99,
+    "originalPrice": 54.99,
+    "rating": 4.8,
+    "ratingCount": 4380,
+    "students": 19600,
+    "durationSec": 10314,
+    "updatedAt": "2026-08-15",
+    "thumbnail": "https://img.youtube.com/vi/_VvKeiwddPI/hqdefault.jpg",
+    "previewVideo": {
+      "type": "youtube",
+      "id": "_VvKeiwddPI",
+      "start": 0,
+      "end": 180
+    },
+    "outcomes": [
+      {
+        "en": "Learn the fundamentals behind great work",
+        "ar": "تعلّم الأساسيات وراء الأعمال الرائعة"
+      },
+      {
+        "en": "Practise with simple, repeatable exercises",
+        "ar": "التدرّب بتمارين بسيطة قابلة للتكرار"
+      },
+      {
+        "en": "Develop your own eye and style",
+        "ar": "تطوير نظرتك وأسلوبك الخاص"
+      },
+      {
+        "en": "Share your work with confidence",
+        "ar": "مشاركة أعمالك بثقة"
+      }
+    ],
+    "requirements": [
+      {
+        "en": "No prior experience needed",
+        "ar": "لا حاجة لخبرة سابقة"
+      },
+      {
+        "en": "A computer or phone with internet access",
+        "ar": "جهاز كمبيوتر أو هاتف مع اتصال بالإنترنت"
+      }
+    ],
+    "tags": [
+      "music",
+      "theory",
+      "notation"
+    ],
+    "credit": {
+      "channel": "Woochia"
+    },
+    "featured": false,
+    "bestseller": false,
+    "sections": [
+      {
+        "id": "music-theory-complete-s1",
+        "title": {
+          "en": "Foundations",
+          "ar": "الأساسيات"
+        },
+        "lessons": [
+          {
+            "id": "music-theory-complete-s1-l1",
+            "title": {
+              "en": "Part 1",
+              "ar": "الجزء 1"
+            },
+            "durationSec": 1146,
+            "video": {
+              "type": "youtube",
+              "id": "_VvKeiwddPI",
+              "start": 0,
+              "end": 1146
+            },
+            "preview": true
+          },
+          {
+            "id": "music-theory-complete-s1-l2",
+            "title": {
+              "en": "Part 2",
+              "ar": "الجزء 2"
+            },
+            "durationSec": 1146,
+            "video": {
+              "type": "youtube",
+              "id": "_VvKeiwddPI",
+              "start": 1146,
+              "end": 2292
+            },
+            "preview": false
+          },
+          {
+            "id": "music-theory-complete-s1-l3",
+            "title": {
+              "en": "Part 3",
+              "ar": "الجزء 3"
+            },
+            "durationSec": 1146,
+            "video": {
+              "type": "youtube",
+              "id": "_VvKeiwddPI",
+              "start": 2292,
+              "end": 3438
+            },
+            "preview": false
+          }
+        ]
+      },
+      {
+        "id": "music-theory-complete-s2",
+        "title": {
+          "en": "Core skills",
+          "ar": "المهارات الأساسية"
+        },
+        "lessons": [
+          {
+            "id": "music-theory-complete-s2-l1",
+            "title": {
+              "en": "Part 4",
+              "ar": "الجزء 4"
+            },
+            "durationSec": 1146,
+            "video": {
+              "type": "youtube",
+              "id": "_VvKeiwddPI",
+              "start": 3438,
+              "end": 4584
+            },
+            "preview": false
+          },
+          {
+            "id": "music-theory-complete-s2-l2",
+            "title": {
+              "en": "Part 5",
+              "ar": "الجزء 5"
+            },
+            "durationSec": 1146,
+            "video": {
+              "type": "youtube",
+              "id": "_VvKeiwddPI",
+              "start": 4584,
+              "end": 5730
+            },
+            "preview": false
+          },
+          {
+            "id": "music-theory-complete-s2-l3",
+            "title": {
+              "en": "Part 6",
+              "ar": "الجزء 6"
+            },
+            "durationSec": 1146,
+            "video": {
+              "type": "youtube",
+              "id": "_VvKeiwddPI",
+              "start": 5730,
+              "end": 6876
+            },
+            "preview": false
+          }
+        ]
+      },
+      {
+        "id": "music-theory-complete-s3",
+        "title": {
+          "en": "Practice & next steps",
+          "ar": "التطبيق والخطوات التالية"
+        },
+        "lessons": [
+          {
+            "id": "music-theory-complete-s3-l1",
+            "title": {
+              "en": "Part 7",
+              "ar": "الجزء 7"
+            },
+            "durationSec": 1146,
+            "video": {
+              "type": "youtube",
+              "id": "_VvKeiwddPI",
+              "start": 6876,
+              "end": 8022
+            },
+            "preview": false
+          },
+          {
+            "id": "music-theory-complete-s3-l2",
+            "title": {
+              "en": "Part 8",
+              "ar": "الجزء 8"
+            },
+            "durationSec": 1146,
+            "video": {
+              "type": "youtube",
+              "id": "_VvKeiwddPI",
+              "start": 8022,
+              "end": 9168
+            },
+            "preview": false
+          },
+          {
+            "id": "music-theory-complete-s3-l3",
+            "title": {
+              "en": "Part 9",
+              "ar": "الجزء 9"
+            },
+            "durationSec": 1146,
+            "video": {
+              "type": "youtube",
+              "id": "_VvKeiwddPI",
+              "start": 9168
+            },
+            "preview": false
+          }
+        ]
+      }
+    ],
+    "status": "published"
+  }
+]

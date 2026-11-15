@@ -1,0 +1,850 @@
+{
+  "development": [
+    {
+      "id": "dev-1",
+      "q": {
+        "en": "Which language adds interactivity to web pages?",
+        "ar": "أي لغة تضيف التفاعلية إلى صفحات الويب؟"
+      },
+      "options": [
+        {
+          "en": "HTML",
+          "ar": "HTML"
+        },
+        {
+          "en": "CSS",
+          "ar": "CSS"
+        },
+        {
+          "en": "JavaScript",
+          "ar": "جافاسكريبت"
+        },
+        {
+          "en": "SQL",
+          "ar": "SQL"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "dev-2",
+      "q": {
+        "en": "What does API stand for?",
+        "ar": "ماذا تعني كلمة API؟"
+      },
+      "options": [
+        {
+          "en": "Application Programming Interface",
+          "ar": "واجهة برمجة التطبيقات"
+        },
+        {
+          "en": "Applied Program Integration",
+          "ar": "تكامل البرامج التطبيقية"
+        },
+        {
+          "en": "Automated Process Input",
+          "ar": "إدخال العمليات الآلي"
+        },
+        {
+          "en": "Advanced Page Index",
+          "ar": "فهرس الصفحات المتقدم"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "dev-3",
+      "q": {
+        "en": "What does the HTTP status code 404 mean?",
+        "ar": "ماذا يعني رمز الحالة 404 في HTTP؟"
+      },
+      "options": [
+        {
+          "en": "Server error",
+          "ar": "خطأ في الخادم"
+        },
+        {
+          "en": "Not found",
+          "ar": "غير موجود"
+        },
+        {
+          "en": "Unauthorized",
+          "ar": "غير مصرّح"
+        },
+        {
+          "en": "Success",
+          "ar": "نجاح"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "dev-4",
+      "q": {
+        "en": "Which tool tracks changes in source code?",
+        "ar": "أي أداة تتتبّع التغييرات في الكود المصدري؟"
+      },
+      "options": [
+        {
+          "en": "Git",
+          "ar": "Git"
+        },
+        {
+          "en": "Photoshop",
+          "ar": "فوتوشوب"
+        },
+        {
+          "en": "Excel",
+          "ar": "إكسل"
+        },
+        {
+          "en": "Zoom",
+          "ar": "زوم"
+        }
+      ],
+      "answer": 0
+    }
+  ],
+  "design": [
+    {
+      "id": "des-1",
+      "q": {
+        "en": "Which colour model do screens use?",
+        "ar": "أي نموذج ألوان تستخدمه الشاشات؟"
+      },
+      "options": [
+        {
+          "en": "CMYK",
+          "ar": "CMYK"
+        },
+        {
+          "en": "RGB",
+          "ar": "RGB"
+        },
+        {
+          "en": "Pantone",
+          "ar": "بانتون"
+        },
+        {
+          "en": "Greyscale",
+          "ar": "تدرّج الرمادي"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "des-2",
+      "q": {
+        "en": "What is kerning?",
+        "ar": "ما هو التقريب بين الحروف (Kerning)؟"
+      },
+      "options": [
+        {
+          "en": "Space between letter pairs",
+          "ar": "المسافة بين أزواج الحروف"
+        },
+        {
+          "en": "Line height",
+          "ar": "ارتفاع السطر"
+        },
+        {
+          "en": "Font weight",
+          "ar": "سُمك الخط"
+        },
+        {
+          "en": "Image resolution",
+          "ar": "دقة الصورة"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "des-3",
+      "q": {
+        "en": "A wireframe is…",
+        "ar": "الهيكل التخطيطي (Wireframe) هو…"
+      },
+      "options": [
+        {
+          "en": "A final polished design",
+          "ar": "تصميم نهائي متقن"
+        },
+        {
+          "en": "A low-fidelity layout sketch",
+          "ar": "مخطط تخطيطي منخفض الدقة"
+        },
+        {
+          "en": "A colour palette",
+          "ar": "لوحة ألوان"
+        },
+        {
+          "en": "A brand logo",
+          "ar": "شعار علامة تجارية"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "des-4",
+      "q": {
+        "en": "Which principle guides the eye to the most important element?",
+        "ar": "أي مبدأ يوجّه العين إلى أهم عنصر؟"
+      },
+      "options": [
+        {
+          "en": "Visual hierarchy",
+          "ar": "التسلسل البصري"
+        },
+        {
+          "en": "Repetition",
+          "ar": "التكرار"
+        },
+        {
+          "en": "Transparency",
+          "ar": "الشفافية"
+        },
+        {
+          "en": "Texture",
+          "ar": "الملمس"
+        }
+      ],
+      "answer": 0
+    }
+  ],
+  "computer-science": [
+    {
+      "id": "cs-1",
+      "q": {
+        "en": "Which digits does binary use?",
+        "ar": "ما الأرقام التي يستخدمها النظام الثنائي؟"
+      },
+      "options": [
+        {
+          "en": "0 and 1",
+          "ar": "0 و 1"
+        },
+        {
+          "en": "1 to 9",
+          "ar": "من 1 إلى 9"
+        },
+        {
+          "en": "0 to 9",
+          "ar": "من 0 إلى 9"
+        },
+        {
+          "en": "A to F",
+          "ar": "من A إلى F"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "cs-2",
+      "q": {
+        "en": "Which data structure is LIFO (last in, first out)?",
+        "ar": "أي بنية بيانات تعمل بنظام LIFO (آخر من يدخل أول من يخرج)؟"
+      },
+      "options": [
+        {
+          "en": "Queue",
+          "ar": "الطابور"
+        },
+        {
+          "en": "Stack",
+          "ar": "المكدّس"
+        },
+        {
+          "en": "Array",
+          "ar": "المصفوفة"
+        },
+        {
+          "en": "Graph",
+          "ar": "الرسم البياني"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "cs-3",
+      "q": {
+        "en": "What does a loop do?",
+        "ar": "ماذا تفعل الحلقة التكرارية؟"
+      },
+      "options": [
+        {
+          "en": "Repeats instructions",
+          "ar": "تكرّر التعليمات"
+        },
+        {
+          "en": "Stores data",
+          "ar": "تخزّن البيانات"
+        },
+        {
+          "en": "Draws images",
+          "ar": "ترسم الصور"
+        },
+        {
+          "en": "Deletes memory",
+          "ar": "تمحو الذاكرة"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "cs-4",
+      "q": {
+        "en": "What is the time complexity of binary search?",
+        "ar": "ما التعقيد الزمني للبحث الثنائي؟"
+      },
+      "options": [
+        {
+          "en": "O(n)",
+          "ar": "O(n)"
+        },
+        {
+          "en": "O(log n)",
+          "ar": "O(log n)"
+        },
+        {
+          "en": "O(n²)",
+          "ar": "O(n²)"
+        },
+        {
+          "en": "O(1)",
+          "ar": "O(1)"
+        }
+      ],
+      "answer": 1
+    }
+  ],
+  "data-science": [
+    {
+      "id": "ds-1",
+      "q": {
+        "en": "Which language is most popular for data analysis?",
+        "ar": "أي لغة هي الأكثر شيوعاً لتحليل البيانات؟"
+      },
+      "options": [
+        {
+          "en": "Python",
+          "ar": "بايثون"
+        },
+        {
+          "en": "HTML",
+          "ar": "HTML"
+        },
+        {
+          "en": "Swift",
+          "ar": "Swift"
+        },
+        {
+          "en": "Bash",
+          "ar": "Bash"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "ds-2",
+      "q": {
+        "en": "Which SQL command retrieves data?",
+        "ar": "أي أمر SQL يسترجع البيانات؟"
+      },
+      "options": [
+        {
+          "en": "GET",
+          "ar": "GET"
+        },
+        {
+          "en": "SELECT",
+          "ar": "SELECT"
+        },
+        {
+          "en": "FETCH ALL",
+          "ar": "FETCH ALL"
+        },
+        {
+          "en": "PULL",
+          "ar": "PULL"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "ds-3",
+      "q": {
+        "en": "What is overfitting?",
+        "ar": "ما هو فرط التوفيق (Overfitting)؟"
+      },
+      "options": [
+        {
+          "en": "A model that is too simple",
+          "ar": "نموذج بسيط جداً"
+        },
+        {
+          "en": "A model that memorises training data and generalises poorly",
+          "ar": "نموذج يحفظ بيانات التدريب ويعمّم بشكل سيئ"
+        },
+        {
+          "en": "Training that is too fast",
+          "ar": "تدريب سريع جداً"
+        },
+        {
+          "en": "Missing data",
+          "ar": "بيانات مفقودة"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "ds-4",
+      "q": {
+        "en": "Which chart shows the distribution of one numeric variable?",
+        "ar": "أي مخطط يعرض توزيع متغير رقمي واحد؟"
+      },
+      "options": [
+        {
+          "en": "Histogram",
+          "ar": "المدرّج التكراري"
+        },
+        {
+          "en": "Flowchart",
+          "ar": "مخطط انسيابي"
+        },
+        {
+          "en": "Gantt chart",
+          "ar": "مخطط جانت"
+        },
+        {
+          "en": "Org chart",
+          "ar": "مخطط هيكلي"
+        }
+      ],
+      "answer": 0
+    }
+  ],
+  "business": [
+    {
+      "id": "biz-1",
+      "q": {
+        "en": "What does ROI stand for?",
+        "ar": "ماذا تعني ROI؟"
+      },
+      "options": [
+        {
+          "en": "Return on Investment",
+          "ar": "العائد على الاستثمار"
+        },
+        {
+          "en": "Rate of Income",
+          "ar": "معدل الدخل"
+        },
+        {
+          "en": "Ratio of Impact",
+          "ar": "نسبة الأثر"
+        },
+        {
+          "en": "Rule of Interest",
+          "ar": "قاعدة الفائدة"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "biz-2",
+      "q": {
+        "en": "In startups, what is an MVP?",
+        "ar": "في الشركات الناشئة، ما هو MVP؟"
+      },
+      "options": [
+        {
+          "en": "Most Valuable Player",
+          "ar": "اللاعب الأكثر قيمة"
+        },
+        {
+          "en": "Minimum Viable Product",
+          "ar": "الحد الأدنى من المنتج القابل للتطبيق"
+        },
+        {
+          "en": "Maximum Value Plan",
+          "ar": "خطة القيمة القصوى"
+        },
+        {
+          "en": "Main Vision Paper",
+          "ar": "ورقة الرؤية الرئيسية"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "biz-3",
+      "q": {
+        "en": "Which statement shows profit or loss over a period?",
+        "ar": "أي قائمة تعرض الربح أو الخسارة خلال فترة؟"
+      },
+      "options": [
+        {
+          "en": "Balance sheet",
+          "ar": "الميزانية العمومية"
+        },
+        {
+          "en": "Income statement",
+          "ar": "قائمة الدخل"
+        },
+        {
+          "en": "Invoice",
+          "ar": "الفاتورة"
+        },
+        {
+          "en": "Budget",
+          "ar": "الموازنة"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "biz-4",
+      "q": {
+        "en": "Which are the three constraints of the project management triangle?",
+        "ar": "ما القيود الثلاثة لمثلث إدارة المشاريع؟"
+      },
+      "options": [
+        {
+          "en": "Scope, time and cost",
+          "ar": "النطاق والوقت والتكلفة"
+        },
+        {
+          "en": "Price, place and promotion",
+          "ar": "السعر والمكان والترويج"
+        },
+        {
+          "en": "People, process and product",
+          "ar": "الأفراد والعملية والمنتج"
+        },
+        {
+          "en": "Plan, do and check",
+          "ar": "خطط ونفّذ وتحقّق"
+        }
+      ],
+      "answer": 0
+    }
+  ],
+  "marketing": [
+    {
+      "id": "mkt-1",
+      "q": {
+        "en": "What does SEO stand for?",
+        "ar": "ماذا تعني SEO؟"
+      },
+      "options": [
+        {
+          "en": "Search Engine Optimization",
+          "ar": "تحسين محركات البحث"
+        },
+        {
+          "en": "Social Email Outreach",
+          "ar": "التواصل عبر البريد الاجتماعي"
+        },
+        {
+          "en": "Site Engagement Order",
+          "ar": "ترتيب تفاعل الموقع"
+        },
+        {
+          "en": "Search Email Operations",
+          "ar": "عمليات البريد البحثي"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "mkt-2",
+      "q": {
+        "en": "What does CTR measure?",
+        "ar": "ماذا يقيس CTR؟"
+      },
+      "options": [
+        {
+          "en": "Click-through rate",
+          "ar": "نسبة النقر إلى الظهور"
+        },
+        {
+          "en": "Cost to revenue",
+          "ar": "التكلفة إلى الإيرادات"
+        },
+        {
+          "en": "Content traffic ratio",
+          "ar": "نسبة زيارات المحتوى"
+        },
+        {
+          "en": "Customer trust rating",
+          "ar": "تقييم ثقة العملاء"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "mkt-3",
+      "q": {
+        "en": "Which is NOT a stage of the marketing funnel?",
+        "ar": "أي مما يلي ليس من مراحل قمع التسويق؟"
+      },
+      "options": [
+        {
+          "en": "Awareness",
+          "ar": "الوعي"
+        },
+        {
+          "en": "Consideration",
+          "ar": "التفكير"
+        },
+        {
+          "en": "Decision",
+          "ar": "القرار"
+        },
+        {
+          "en": "Compilation",
+          "ar": "التجميع"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": "mkt-4",
+      "q": {
+        "en": "What is the best first step when a customer raises an objection?",
+        "ar": "ما أفضل خطوة أولى عندما يعترض العميل؟"
+      },
+      "options": [
+        {
+          "en": "Ignore it",
+          "ar": "تجاهل الاعتراض"
+        },
+        {
+          "en": "Listen and ask questions",
+          "ar": "الاستماع وطرح الأسئلة"
+        },
+        {
+          "en": "Lower the price immediately",
+          "ar": "خفض السعر فوراً"
+        },
+        {
+          "en": "End the call",
+          "ar": "إنهاء المكالمة"
+        }
+      ],
+      "answer": 1
+    }
+  ],
+  "personal-development": [
+    {
+      "id": "pd-1",
+      "q": {
+        "en": "Which technique uses 25-minute focus blocks with short breaks?",
+        "ar": "أي تقنية تعتمد على فترات تركيز 25 دقيقة مع استراحات قصيرة؟"
+      },
+      "options": [
+        {
+          "en": "Pomodoro",
+          "ar": "بومودورو"
+        },
+        {
+          "en": "Kanban",
+          "ar": "كانبان"
+        },
+        {
+          "en": "Eisenhower matrix",
+          "ar": "مصفوفة أيزنهاور"
+        },
+        {
+          "en": "Feynman",
+          "ar": "فاينمان"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "pd-2",
+      "q": {
+        "en": "Spaced repetition mainly improves…",
+        "ar": "التكرار المتباعد يحسّن بشكل أساسي…"
+      },
+      "options": [
+        {
+          "en": "Long-term memory",
+          "ar": "الذاكرة طويلة المدى"
+        },
+        {
+          "en": "Typing speed",
+          "ar": "سرعة الكتابة"
+        },
+        {
+          "en": "Eyesight",
+          "ar": "البصر"
+        },
+        {
+          "en": "Sleep",
+          "ar": "النوم"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "pd-3",
+      "q": {
+        "en": "Which is a good public speaking habit?",
+        "ar": "أي مما يلي عادة جيدة في الخطابة؟"
+      },
+      "options": [
+        {
+          "en": "Reading slides word for word",
+          "ar": "قراءة الشرائح حرفياً"
+        },
+        {
+          "en": "Practising and pausing",
+          "ar": "التدرّب واستخدام الوقفات"
+        },
+        {
+          "en": "Speaking as fast as possible",
+          "ar": "التحدث بأسرع ما يمكن"
+        },
+        {
+          "en": "Avoiding eye contact",
+          "ar": "تجنّب التواصل البصري"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "pd-4",
+      "q": {
+        "en": "What does the “M” in SMART goals stand for?",
+        "ar": "ماذا يعني حرف “M” في أهداف SMART؟"
+      },
+      "options": [
+        {
+          "en": "Measurable",
+          "ar": "قابل للقياس"
+        },
+        {
+          "en": "Motivated",
+          "ar": "محفّز"
+        },
+        {
+          "en": "Massive",
+          "ar": "ضخم"
+        },
+        {
+          "en": "Mandatory",
+          "ar": "إلزامي"
+        }
+      ],
+      "answer": 0
+    }
+  ],
+  "art-culture": [
+    {
+      "id": "art-1",
+      "q": {
+        "en": "What are the traditional primary colours?",
+        "ar": "ما الألوان الأساسية التقليدية؟"
+      },
+      "options": [
+        {
+          "en": "Red, yellow, blue",
+          "ar": "الأحمر والأصفر والأزرق"
+        },
+        {
+          "en": "Orange, green, purple",
+          "ar": "البرتقالي والأخضر والبنفسجي"
+        },
+        {
+          "en": "Black, white, grey",
+          "ar": "الأسود والأبيض والرمادي"
+        },
+        {
+          "en": "Pink, brown, teal",
+          "ar": "الوردي والبني والأخضر المزرق"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "art-2",
+      "q": {
+        "en": "In photography, aperture controls…",
+        "ar": "في التصوير، فتحة العدسة تتحكم في…"
+      },
+      "options": [
+        {
+          "en": "How much light enters the lens",
+          "ar": "كمية الضوء الداخلة إلى العدسة"
+        },
+        {
+          "en": "Battery life",
+          "ar": "عمر البطارية"
+        },
+        {
+          "en": "File format",
+          "ar": "صيغة الملف"
+        },
+        {
+          "en": "Zoom speed",
+          "ar": "سرعة التكبير"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "art-3",
+      "q": {
+        "en": "How many beats are in a bar of 4/4 time?",
+        "ar": "كم عدد النبضات في الميزان 4/4؟"
+      },
+      "options": [
+        {
+          "en": "2",
+          "ar": "2"
+        },
+        {
+          "en": "3",
+          "ar": "3"
+        },
+        {
+          "en": "4",
+          "ar": "4"
+        },
+        {
+          "en": "6",
+          "ar": "6"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "art-4",
+      "q": {
+        "en": "The rule of thirds helps with…",
+        "ar": "قاعدة الأثلاث تساعد في…"
+      },
+      "options": [
+        {
+          "en": "Composition",
+          "ar": "التكوين"
+        },
+        {
+          "en": "Exposure",
+          "ar": "التعريض"
+        },
+        {
+          "en": "Colour grading",
+          "ar": "تدرّج الألوان"
+        },
+        {
+          "en": "Printing",
+          "ar": "الطباعة"
+        }
+      ],
+      "answer": 0
+    }
+  ]
+}

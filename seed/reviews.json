@@ -1,0 +1,1458 @@
+[
+  {
+    "id": "r-javascript-complete-guide-1",
+    "courseId": "c-javascript-complete-guide",
+    "author": {
+      "en": "Yasmin A.",
+      "ar": "ياسمين ع."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "Clear, well paced and easy to follow. Exactly what I needed.",
+      "ar": "واضح ومتدرّج وسهل المتابعة. هذا بالضبط ما أحتاجه."
+    },
+    "date": "2026-01-05"
+  },
+  {
+    "id": "r-javascript-complete-guide-2",
+    "courseId": "c-javascript-complete-guide",
+    "author": {
+      "en": "Karim M.",
+      "ar": "كريم م."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "Great explanations and practical examples. I learned a lot.",
+      "ar": "شروحات رائعة وأمثلة عملية. تعلمت الكثير."
+    },
+    "date": "2026-02-10"
+  },
+  {
+    "id": "r-javascript-complete-guide-3",
+    "courseId": "c-javascript-complete-guide",
+    "author": {
+      "en": "Noor H.",
+      "ar": "نور ح."
+    },
+    "rating": 4,
+    "comment": {
+      "en": "Solid course. A few parts could go deeper, but overall very good.",
+      "ar": "كورس قوي. بعض الأجزاء تحتاج عمقاً أكثر لكنه ممتاز عموماً."
+    },
+    "date": "2026-03-15"
+  },
+  {
+    "id": "r-javascript-complete-guide-4",
+    "courseId": "c-javascript-complete-guide",
+    "author": {
+      "en": "Ahmed F.",
+      "ar": "أحمد ف."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "I finally understand the basics. Highly recommended for beginners.",
+      "ar": "أخيراً فهمت الأساسيات. أنصح به بشدة للمبتدئين."
+    },
+    "date": "2026-04-20"
+  },
+  {
+    "id": "r-react-from-scratch-1",
+    "courseId": "c-react-from-scratch",
+    "author": {
+      "en": "Jonas W.",
+      "ar": "يوناس و."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "Great explanations and practical examples. I learned a lot.",
+      "ar": "شروحات رائعة وأمثلة عملية. تعلمت الكثير."
+    },
+    "date": "2026-02-08"
+  },
+  {
+    "id": "r-react-from-scratch-2",
+    "courseId": "c-react-from-scratch",
+    "author": {
+      "en": "Sofia L.",
+      "ar": "صوفيا ل."
+    },
+    "rating": 4,
+    "comment": {
+      "en": "Solid course. A few parts could go deeper, but overall very good.",
+      "ar": "كورس قوي. بعض الأجزاء تحتاج عمقاً أكثر لكنه ممتاز عموماً."
+    },
+    "date": "2026-03-13"
+  },
+  {
+    "id": "r-react-from-scratch-3",
+    "courseId": "c-react-from-scratch",
+    "author": {
+      "en": "Tom B.",
+      "ar": "توم ب."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "I finally understand the basics. Highly recommended for beginners.",
+      "ar": "أخيراً فهمت الأساسيات. أنصح به بشدة للمبتدئين."
+    },
+    "date": "2026-04-18"
+  },
+  {
+    "id": "r-react-from-scratch-4",
+    "courseId": "c-react-from-scratch",
+    "author": {
+      "en": "Maya D.",
+      "ar": "مايا د."
+    },
+    "rating": 4,
+    "comment": {
+      "en": "Good value and a friendly teaching style.",
+      "ar": "قيمة ممتازة وأسلوب تدريس ودود."
+    },
+    "date": "2026-05-23"
+  },
+  {
+    "id": "r-nodejs-express-backend-1",
+    "courseId": "c-nodejs-express-backend",
+    "author": {
+      "en": "Huda S.",
+      "ar": "هدى س."
+    },
+    "rating": 4,
+    "comment": {
+      "en": "Solid course. A few parts could go deeper, but overall very good.",
+      "ar": "كورس قوي. بعض الأجزاء تحتاج عمقاً أكثر لكنه ممتاز عموماً."
+    },
+    "date": "2026-03-11"
+  },
+  {
+    "id": "r-nodejs-express-backend-2",
+    "courseId": "c-nodejs-express-backend",
+    "author": {
+      "en": "Ali R.",
+      "ar": "علي ر."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "I finally understand the basics. Highly recommended for beginners.",
+      "ar": "أخيراً فهمت الأساسيات. أنصح به بشدة للمبتدئين."
+    },
+    "date": "2026-04-16"
+  },
+  {
+    "id": "r-nodejs-express-backend-3",
+    "courseId": "c-nodejs-express-backend",
+    "author": {
+      "en": "Lina K.",
+      "ar": "لينا ك."
+    },
+    "rating": 4,
+    "comment": {
+      "en": "Good value and a friendly teaching style.",
+      "ar": "قيمة ممتازة وأسلوب تدريس ودود."
+    },
+    "date": "2026-05-21"
+  },
+  {
+    "id": "r-nodejs-express-backend-4",
+    "courseId": "c-nodejs-express-backend",
+    "author": {
+      "en": "Omar T.",
+      "ar": "عمر ت."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "Helped me move from theory to real practice.",
+      "ar": "ساعدني على الانتقال من النظرية إلى التطبيق الفعلي."
+    },
+    "date": "2026-06-06"
+  },
+  {
+    "id": "r-ui-ux-design-figma-1",
+    "courseId": "c-ui-ux-design-figma",
+    "author": {
+      "en": "Karim M.",
+      "ar": "كريم م."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "I finally understand the basics. Highly recommended for beginners.",
+      "ar": "أخيراً فهمت الأساسيات. أنصح به بشدة للمبتدئين."
+    },
+    "date": "2026-04-14"
+  },
+  {
+    "id": "r-ui-ux-design-figma-2",
+    "courseId": "c-ui-ux-design-figma",
+    "author": {
+      "en": "Noor H.",
+      "ar": "نور ح."
+    },
+    "rating": 4,
+    "comment": {
+      "en": "Good value and a friendly teaching style.",
+      "ar": "قيمة ممتازة وأسلوب تدريس ودود."
+    },
+    "date": "2026-05-19"
+  },
+  {
+    "id": "r-ui-ux-design-figma-3",
+    "courseId": "c-ui-ux-design-figma",
+    "author": {
+      "en": "Ahmed F.",
+      "ar": "أحمد ف."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "Helped me move from theory to real practice.",
+      "ar": "ساعدني على الانتقال من النظرية إلى التطبيق الفعلي."
+    },
+    "date": "2026-06-24"
+  },
+  {
+    "id": "r-ui-ux-design-figma-4",
+    "courseId": "c-ui-ux-design-figma",
+    "author": {
+      "en": "Yasmin A.",
+      "ar": "ياسمين ع."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "Clear, well paced and easy to follow. Exactly what I needed.",
+      "ar": "واضح ومتدرّج وسهل المتابعة. هذا بالضبط ما أحتاجه."
+    },
+    "date": "2026-07-09"
+  },
+  {
+    "id": "r-graphic-design-essentials-1",
+    "courseId": "c-graphic-design-essentials",
+    "author": {
+      "en": "Sofia L.",
+      "ar": "صوفيا ل."
+    },
+    "rating": 4,
+    "comment": {
+      "en": "Good value and a friendly teaching style.",
+      "ar": "قيمة ممتازة وأسلوب تدريس ودود."
+    },
+    "date": "2026-05-17"
+  },
+  {
+    "id": "r-graphic-design-essentials-2",
+    "courseId": "c-graphic-design-essentials",
+    "author": {
+      "en": "Tom B.",
+      "ar": "توم ب."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "Helped me move from theory to real practice.",
+      "ar": "ساعدني على الانتقال من النظرية إلى التطبيق الفعلي."
+    },
+    "date": "2026-06-22"
+  },
+  {
+    "id": "r-graphic-design-essentials-3",
+    "courseId": "c-graphic-design-essentials",
+    "author": {
+      "en": "Maya D.",
+      "ar": "مايا د."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "Clear, well paced and easy to follow. Exactly what I needed.",
+      "ar": "واضح ومتدرّج وسهل المتابعة. هذا بالضبط ما أحتاجه."
+    },
+    "date": "2026-07-07"
+  },
+  {
+    "id": "r-graphic-design-essentials-4",
+    "courseId": "c-graphic-design-essentials",
+    "author": {
+      "en": "Jonas W.",
+      "ar": "يوناس و."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "Great explanations and practical examples. I learned a lot.",
+      "ar": "شروحات رائعة وأمثلة عملية. تعلمت الكثير."
+    },
+    "date": "2026-08-12"
+  },
+  {
+    "id": "r-photoshop-for-beginners-1",
+    "courseId": "c-photoshop-for-beginners",
+    "author": {
+      "en": "Ali R.",
+      "ar": "علي ر."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "Helped me move from theory to real practice.",
+      "ar": "ساعدني على الانتقال من النظرية إلى التطبيق الفعلي."
+    },
+    "date": "2026-06-20"
+  },
+  {
+    "id": "r-photoshop-for-beginners-2",
+    "courseId": "c-photoshop-for-beginners",
+    "author": {
+      "en": "Lina K.",
+      "ar": "لينا ك."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "Clear, well paced and easy to follow. Exactly what I needed.",
+      "ar": "واضح ومتدرّج وسهل المتابعة. هذا بالضبط ما أحتاجه."
+    },
+    "date": "2026-07-05"
+  },
+  {
+    "id": "r-photoshop-for-beginners-3",
+    "courseId": "c-photoshop-for-beginners",
+    "author": {
+      "en": "Omar T.",
+      "ar": "عمر ت."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "Great explanations and practical examples. I learned a lot.",
+      "ar": "شروحات رائعة وأمثلة عملية. تعلمت الكثير."
+    },
+    "date": "2026-08-10"
+  },
+  {
+    "id": "r-photoshop-for-beginners-4",
+    "courseId": "c-photoshop-for-beginners",
+    "author": {
+      "en": "Huda S.",
+      "ar": "هدى س."
+    },
+    "rating": 4,
+    "comment": {
+      "en": "Solid course. A few parts could go deeper, but overall very good.",
+      "ar": "كورس قوي. بعض الأجزاء تحتاج عمقاً أكثر لكنه ممتاز عموماً."
+    },
+    "date": "2026-09-15"
+  },
+  {
+    "id": "r-photoshop-arabic-1",
+    "courseId": "c-photoshop-arabic",
+    "author": {
+      "en": "Noor H.",
+      "ar": "نور ح."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "Clear, well paced and easy to follow. Exactly what I needed.",
+      "ar": "واضح ومتدرّج وسهل المتابعة. هذا بالضبط ما أحتاجه."
+    },
+    "date": "2026-07-23"
+  },
+  {
+    "id": "r-photoshop-arabic-2",
+    "courseId": "c-photoshop-arabic",
+    "author": {
+      "en": "Ahmed F.",
+      "ar": "أحمد ف."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "Great explanations and practical examples. I learned a lot.",
+      "ar": "شروحات رائعة وأمثلة عملية. تعلمت الكثير."
+    },
+    "date": "2026-08-08"
+  },
+  {
+    "id": "r-photoshop-arabic-3",
+    "courseId": "c-photoshop-arabic",
+    "author": {
+      "en": "Yasmin A.",
+      "ar": "ياسمين ع."
+    },
+    "rating": 4,
+    "comment": {
+      "en": "Solid course. A few parts could go deeper, but overall very good.",
+      "ar": "كورس قوي. بعض الأجزاء تحتاج عمقاً أكثر لكنه ممتاز عموماً."
+    },
+    "date": "2026-09-13"
+  },
+  {
+    "id": "r-photoshop-arabic-4",
+    "courseId": "c-photoshop-arabic",
+    "author": {
+      "en": "Karim M.",
+      "ar": "كريم م."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "I finally understand the basics. Highly recommended for beginners.",
+      "ar": "أخيراً فهمت الأساسيات. أنصح به بشدة للمبتدئين."
+    },
+    "date": "2026-01-18"
+  },
+  {
+    "id": "r-cs50-introduction-1",
+    "courseId": "c-cs50-introduction",
+    "author": {
+      "en": "Tom B.",
+      "ar": "توم ب."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "Great explanations and practical examples. I learned a lot.",
+      "ar": "شروحات رائعة وأمثلة عملية. تعلمت الكثير."
+    },
+    "date": "2026-08-06"
+  },
+  {
+    "id": "r-cs50-introduction-2",
+    "courseId": "c-cs50-introduction",
+    "author": {
+      "en": "Maya D.",
+      "ar": "مايا د."
+    },
+    "rating": 4,
+    "comment": {
+      "en": "Solid course. A few parts could go deeper, but overall very good.",
+      "ar": "كورس قوي. بعض الأجزاء تحتاج عمقاً أكثر لكنه ممتاز عموماً."
+    },
+    "date": "2026-09-11"
+  },
+  {
+    "id": "r-cs50-introduction-3",
+    "courseId": "c-cs50-introduction",
+    "author": {
+      "en": "Jonas W.",
+      "ar": "يوناس و."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "I finally understand the basics. Highly recommended for beginners.",
+      "ar": "أخيراً فهمت الأساسيات. أنصح به بشدة للمبتدئين."
+    },
+    "date": "2026-01-16"
+  },
+  {
+    "id": "r-cs50-introduction-4",
+    "courseId": "c-cs50-introduction",
+    "author": {
+      "en": "Sofia L.",
+      "ar": "صوفيا ل."
+    },
+    "rating": 4,
+    "comment": {
+      "en": "Good value and a friendly teaching style.",
+      "ar": "قيمة ممتازة وأسلوب تدريس ودود."
+    },
+    "date": "2026-02-21"
+  },
+  {
+    "id": "r-data-structures-algorithms-1",
+    "courseId": "c-data-structures-algorithms",
+    "author": {
+      "en": "Lina K.",
+      "ar": "لينا ك."
+    },
+    "rating": 4,
+    "comment": {
+      "en": "Solid course. A few parts could go deeper, but overall very good.",
+      "ar": "كورس قوي. بعض الأجزاء تحتاج عمقاً أكثر لكنه ممتاز عموماً."
+    },
+    "date": "2026-09-09"
+  },
+  {
+    "id": "r-data-structures-algorithms-2",
+    "courseId": "c-data-structures-algorithms",
+    "author": {
+      "en": "Omar T.",
+      "ar": "عمر ت."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "I finally understand the basics. Highly recommended for beginners.",
+      "ar": "أخيراً فهمت الأساسيات. أنصح به بشدة للمبتدئين."
+    },
+    "date": "2026-01-14"
+  },
+  {
+    "id": "r-data-structures-algorithms-3",
+    "courseId": "c-data-structures-algorithms",
+    "author": {
+      "en": "Huda S.",
+      "ar": "هدى س."
+    },
+    "rating": 4,
+    "comment": {
+      "en": "Good value and a friendly teaching style.",
+      "ar": "قيمة ممتازة وأسلوب تدريس ودود."
+    },
+    "date": "2026-02-19"
+  },
+  {
+    "id": "r-data-structures-algorithms-4",
+    "courseId": "c-data-structures-algorithms",
+    "author": {
+      "en": "Ali R.",
+      "ar": "علي ر."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "Helped me move from theory to real practice.",
+      "ar": "ساعدني على الانتقال من النظرية إلى التطبيق الفعلي."
+    },
+    "date": "2026-03-24"
+  },
+  {
+    "id": "r-python-for-beginners-1",
+    "courseId": "c-python-for-beginners",
+    "author": {
+      "en": "Ahmed F.",
+      "ar": "أحمد ف."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "I finally understand the basics. Highly recommended for beginners.",
+      "ar": "أخيراً فهمت الأساسيات. أنصح به بشدة للمبتدئين."
+    },
+    "date": "2026-01-12"
+  },
+  {
+    "id": "r-python-for-beginners-2",
+    "courseId": "c-python-for-beginners",
+    "author": {
+      "en": "Yasmin A.",
+      "ar": "ياسمين ع."
+    },
+    "rating": 4,
+    "comment": {
+      "en": "Good value and a friendly teaching style.",
+      "ar": "قيمة ممتازة وأسلوب تدريس ودود."
+    },
+    "date": "2026-02-17"
+  },
+  {
+    "id": "r-python-for-beginners-3",
+    "courseId": "c-python-for-beginners",
+    "author": {
+      "en": "Karim M.",
+      "ar": "كريم م."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "Helped me move from theory to real practice.",
+      "ar": "ساعدني على الانتقال من النظرية إلى التطبيق الفعلي."
+    },
+    "date": "2026-03-22"
+  },
+  {
+    "id": "r-python-for-beginners-4",
+    "courseId": "c-python-for-beginners",
+    "author": {
+      "en": "Noor H.",
+      "ar": "نور ح."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "Clear, well paced and easy to follow. Exactly what I needed.",
+      "ar": "واضح ومتدرّج وسهل المتابعة. هذا بالضبط ما أحتاجه."
+    },
+    "date": "2026-04-07"
+  },
+  {
+    "id": "r-data-analysis-python-1",
+    "courseId": "c-data-analysis-python",
+    "author": {
+      "en": "Maya D.",
+      "ar": "مايا د."
+    },
+    "rating": 4,
+    "comment": {
+      "en": "Good value and a friendly teaching style.",
+      "ar": "قيمة ممتازة وأسلوب تدريس ودود."
+    },
+    "date": "2026-02-15"
+  },
+  {
+    "id": "r-data-analysis-python-2",
+    "courseId": "c-data-analysis-python",
+    "author": {
+      "en": "Jonas W.",
+      "ar": "يوناس و."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "Helped me move from theory to real practice.",
+      "ar": "ساعدني على الانتقال من النظرية إلى التطبيق الفعلي."
+    },
+    "date": "2026-03-20"
+  },
+  {
+    "id": "r-data-analysis-python-3",
+    "courseId": "c-data-analysis-python",
+    "author": {
+      "en": "Sofia L.",
+      "ar": "صوفيا ل."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "Clear, well paced and easy to follow. Exactly what I needed.",
+      "ar": "واضح ومتدرّج وسهل المتابعة. هذا بالضبط ما أحتاجه."
+    },
+    "date": "2026-04-05"
+  },
+  {
+    "id": "r-data-analysis-python-4",
+    "courseId": "c-data-analysis-python",
+    "author": {
+      "en": "Tom B.",
+      "ar": "توم ب."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "Great explanations and practical examples. I learned a lot.",
+      "ar": "شروحات رائعة وأمثلة عملية. تعلمت الكثير."
+    },
+    "date": "2026-05-10"
+  },
+  {
+    "id": "r-machine-learning-for-everybody-1",
+    "courseId": "c-machine-learning-for-everybody",
+    "author": {
+      "en": "Omar T.",
+      "ar": "عمر ت."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "Helped me move from theory to real practice.",
+      "ar": "ساعدني على الانتقال من النظرية إلى التطبيق الفعلي."
+    },
+    "date": "2026-03-18"
+  },
+  {
+    "id": "r-machine-learning-for-everybody-2",
+    "courseId": "c-machine-learning-for-everybody",
+    "author": {
+      "en": "Huda S.",
+      "ar": "هدى س."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "Clear, well paced and easy to follow. Exactly what I needed.",
+      "ar": "واضح ومتدرّج وسهل المتابعة. هذا بالضبط ما أحتاجه."
+    },
+    "date": "2026-04-23"
+  },
+  {
+    "id": "r-machine-learning-for-everybody-3",
+    "courseId": "c-machine-learning-for-everybody",
+    "author": {
+      "en": "Ali R.",
+      "ar": "علي ر."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "Great explanations and practical examples. I learned a lot.",
+      "ar": "شروحات رائعة وأمثلة عملية. تعلمت الكثير."
+    },
+    "date": "2026-05-08"
+  },
+  {
+    "id": "r-machine-learning-for-everybody-4",
+    "courseId": "c-machine-learning-for-everybody",
+    "author": {
+      "en": "Lina K.",
+      "ar": "لينا ك."
+    },
+    "rating": 4,
+    "comment": {
+      "en": "Solid course. A few parts could go deeper, but overall very good.",
+      "ar": "كورس قوي. بعض الأجزاء تحتاج عمقاً أكثر لكنه ممتاز عموماً."
+    },
+    "date": "2026-06-13"
+  },
+  {
+    "id": "r-sql-database-fundamentals-1",
+    "courseId": "c-sql-database-fundamentals",
+    "author": {
+      "en": "Yasmin A.",
+      "ar": "ياسمين ع."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "Clear, well paced and easy to follow. Exactly what I needed.",
+      "ar": "واضح ومتدرّج وسهل المتابعة. هذا بالضبط ما أحتاجه."
+    },
+    "date": "2026-04-21"
+  },
+  {
+    "id": "r-sql-database-fundamentals-2",
+    "courseId": "c-sql-database-fundamentals",
+    "author": {
+      "en": "Karim M.",
+      "ar": "كريم م."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "Great explanations and practical examples. I learned a lot.",
+      "ar": "شروحات رائعة وأمثلة عملية. تعلمت الكثير."
+    },
+    "date": "2026-05-06"
+  },
+  {
+    "id": "r-sql-database-fundamentals-3",
+    "courseId": "c-sql-database-fundamentals",
+    "author": {
+      "en": "Noor H.",
+      "ar": "نور ح."
+    },
+    "rating": 4,
+    "comment": {
+      "en": "Solid course. A few parts could go deeper, but overall very good.",
+      "ar": "كورس قوي. بعض الأجزاء تحتاج عمقاً أكثر لكنه ممتاز عموماً."
+    },
+    "date": "2026-06-11"
+  },
+  {
+    "id": "r-sql-database-fundamentals-4",
+    "courseId": "c-sql-database-fundamentals",
+    "author": {
+      "en": "Ahmed F.",
+      "ar": "أحمد ف."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "I finally understand the basics. Highly recommended for beginners.",
+      "ar": "أخيراً فهمت الأساسيات. أنصح به بشدة للمبتدئين."
+    },
+    "date": "2026-07-16"
+  },
+  {
+    "id": "r-foundations-of-entrepreneurship-1",
+    "courseId": "c-foundations-of-entrepreneurship",
+    "author": {
+      "en": "Jonas W.",
+      "ar": "يوناس و."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "Great explanations and practical examples. I learned a lot.",
+      "ar": "شروحات رائعة وأمثلة عملية. تعلمت الكثير."
+    },
+    "date": "2026-05-24"
+  },
+  {
+    "id": "r-foundations-of-entrepreneurship-2",
+    "courseId": "c-foundations-of-entrepreneurship",
+    "author": {
+      "en": "Sofia L.",
+      "ar": "صوفيا ل."
+    },
+    "rating": 4,
+    "comment": {
+      "en": "Solid course. A few parts could go deeper, but overall very good.",
+      "ar": "كورس قوي. بعض الأجزاء تحتاج عمقاً أكثر لكنه ممتاز عموماً."
+    },
+    "date": "2026-06-09"
+  },
+  {
+    "id": "r-foundations-of-entrepreneurship-3",
+    "courseId": "c-foundations-of-entrepreneurship",
+    "author": {
+      "en": "Tom B.",
+      "ar": "توم ب."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "I finally understand the basics. Highly recommended for beginners.",
+      "ar": "أخيراً فهمت الأساسيات. أنصح به بشدة للمبتدئين."
+    },
+    "date": "2026-07-14"
+  },
+  {
+    "id": "r-foundations-of-entrepreneurship-4",
+    "courseId": "c-foundations-of-entrepreneurship",
+    "author": {
+      "en": "Maya D.",
+      "ar": "مايا د."
+    },
+    "rating": 4,
+    "comment": {
+      "en": "Good value and a friendly teaching style.",
+      "ar": "قيمة ممتازة وأسلوب تدريس ودود."
+    },
+    "date": "2026-08-19"
+  },
+  {
+    "id": "r-project-management-essentials-1",
+    "courseId": "c-project-management-essentials",
+    "author": {
+      "en": "Huda S.",
+      "ar": "هدى س."
+    },
+    "rating": 4,
+    "comment": {
+      "en": "Solid course. A few parts could go deeper, but overall very good.",
+      "ar": "كورس قوي. بعض الأجزاء تحتاج عمقاً أكثر لكنه ممتاز عموماً."
+    },
+    "date": "2026-06-07"
+  },
+  {
+    "id": "r-project-management-essentials-2",
+    "courseId": "c-project-management-essentials",
+    "author": {
+      "en": "Ali R.",
+      "ar": "علي ر."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "I finally understand the basics. Highly recommended for beginners.",
+      "ar": "أخيراً فهمت الأساسيات. أنصح به بشدة للمبتدئين."
+    },
+    "date": "2026-07-12"
+  },
+  {
+    "id": "r-project-management-essentials-3",
+    "courseId": "c-project-management-essentials",
+    "author": {
+      "en": "Lina K.",
+      "ar": "لينا ك."
+    },
+    "rating": 4,
+    "comment": {
+      "en": "Good value and a friendly teaching style.",
+      "ar": "قيمة ممتازة وأسلوب تدريس ودود."
+    },
+    "date": "2026-08-17"
+  },
+  {
+    "id": "r-project-management-essentials-4",
+    "courseId": "c-project-management-essentials",
+    "author": {
+      "en": "Omar T.",
+      "ar": "عمر ت."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "Helped me move from theory to real practice.",
+      "ar": "ساعدني على الانتقال من النظرية إلى التطبيق الفعلي."
+    },
+    "date": "2026-09-22"
+  },
+  {
+    "id": "r-finance-economics-crash-course-1",
+    "courseId": "c-finance-economics-crash-course",
+    "author": {
+      "en": "Karim M.",
+      "ar": "كريم م."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "I finally understand the basics. Highly recommended for beginners.",
+      "ar": "أخيراً فهمت الأساسيات. أنصح به بشدة للمبتدئين."
+    },
+    "date": "2026-07-10"
+  },
+  {
+    "id": "r-finance-economics-crash-course-2",
+    "courseId": "c-finance-economics-crash-course",
+    "author": {
+      "en": "Noor H.",
+      "ar": "نور ح."
+    },
+    "rating": 4,
+    "comment": {
+      "en": "Good value and a friendly teaching style.",
+      "ar": "قيمة ممتازة وأسلوب تدريس ودود."
+    },
+    "date": "2026-08-15"
+  },
+  {
+    "id": "r-finance-economics-crash-course-3",
+    "courseId": "c-finance-economics-crash-course",
+    "author": {
+      "en": "Ahmed F.",
+      "ar": "أحمد ف."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "Helped me move from theory to real practice.",
+      "ar": "ساعدني على الانتقال من النظرية إلى التطبيق الفعلي."
+    },
+    "date": "2026-09-20"
+  },
+  {
+    "id": "r-finance-economics-crash-course-4",
+    "courseId": "c-finance-economics-crash-course",
+    "author": {
+      "en": "Yasmin A.",
+      "ar": "ياسمين ع."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "Clear, well paced and easy to follow. Exactly what I needed.",
+      "ar": "واضح ومتدرّج وسهل المتابعة. هذا بالضبط ما أحتاجه."
+    },
+    "date": "2026-01-05"
+  },
+  {
+    "id": "r-digital-marketing-101-1",
+    "courseId": "c-digital-marketing-101",
+    "author": {
+      "en": "Sofia L.",
+      "ar": "صوفيا ل."
+    },
+    "rating": 4,
+    "comment": {
+      "en": "Good value and a friendly teaching style.",
+      "ar": "قيمة ممتازة وأسلوب تدريس ودود."
+    },
+    "date": "2026-08-13"
+  },
+  {
+    "id": "r-digital-marketing-101-2",
+    "courseId": "c-digital-marketing-101",
+    "author": {
+      "en": "Tom B.",
+      "ar": "توم ب."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "Helped me move from theory to real practice.",
+      "ar": "ساعدني على الانتقال من النظرية إلى التطبيق الفعلي."
+    },
+    "date": "2026-09-18"
+  },
+  {
+    "id": "r-digital-marketing-101-3",
+    "courseId": "c-digital-marketing-101",
+    "author": {
+      "en": "Maya D.",
+      "ar": "مايا د."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "Clear, well paced and easy to follow. Exactly what I needed.",
+      "ar": "واضح ومتدرّج وسهل المتابعة. هذا بالضبط ما أحتاجه."
+    },
+    "date": "2026-01-23"
+  },
+  {
+    "id": "r-digital-marketing-101-4",
+    "courseId": "c-digital-marketing-101",
+    "author": {
+      "en": "Jonas W.",
+      "ar": "يوناس و."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "Great explanations and practical examples. I learned a lot.",
+      "ar": "شروحات رائعة وأمثلة عملية. تعلمت الكثير."
+    },
+    "date": "2026-02-08"
+  },
+  {
+    "id": "r-seo-for-beginners-1",
+    "courseId": "c-seo-for-beginners",
+    "author": {
+      "en": "Ali R.",
+      "ar": "علي ر."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "Helped me move from theory to real practice.",
+      "ar": "ساعدني على الانتقال من النظرية إلى التطبيق الفعلي."
+    },
+    "date": "2026-09-16"
+  },
+  {
+    "id": "r-seo-for-beginners-2",
+    "courseId": "c-seo-for-beginners",
+    "author": {
+      "en": "Lina K.",
+      "ar": "لينا ك."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "Clear, well paced and easy to follow. Exactly what I needed.",
+      "ar": "واضح ومتدرّج وسهل المتابعة. هذا بالضبط ما أحتاجه."
+    },
+    "date": "2026-01-21"
+  },
+  {
+    "id": "r-seo-for-beginners-3",
+    "courseId": "c-seo-for-beginners",
+    "author": {
+      "en": "Omar T.",
+      "ar": "عمر ت."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "Great explanations and practical examples. I learned a lot.",
+      "ar": "شروحات رائعة وأمثلة عملية. تعلمت الكثير."
+    },
+    "date": "2026-02-06"
+  },
+  {
+    "id": "r-seo-for-beginners-4",
+    "courseId": "c-seo-for-beginners",
+    "author": {
+      "en": "Huda S.",
+      "ar": "هدى س."
+    },
+    "rating": 4,
+    "comment": {
+      "en": "Solid course. A few parts could go deeper, but overall very good.",
+      "ar": "كورس قوي. بعض الأجزاء تحتاج عمقاً أكثر لكنه ممتاز عموماً."
+    },
+    "date": "2026-03-11"
+  },
+  {
+    "id": "r-seo-arabic-1",
+    "courseId": "c-seo-arabic",
+    "author": {
+      "en": "Noor H.",
+      "ar": "نور ح."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "Clear, well paced and easy to follow. Exactly what I needed.",
+      "ar": "واضح ومتدرّج وسهل المتابعة. هذا بالضبط ما أحتاجه."
+    },
+    "date": "2026-01-19"
+  },
+  {
+    "id": "r-seo-arabic-2",
+    "courseId": "c-seo-arabic",
+    "author": {
+      "en": "Ahmed F.",
+      "ar": "أحمد ف."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "Great explanations and practical examples. I learned a lot.",
+      "ar": "شروحات رائعة وأمثلة عملية. تعلمت الكثير."
+    },
+    "date": "2026-02-24"
+  },
+  {
+    "id": "r-seo-arabic-3",
+    "courseId": "c-seo-arabic",
+    "author": {
+      "en": "Yasmin A.",
+      "ar": "ياسمين ع."
+    },
+    "rating": 4,
+    "comment": {
+      "en": "Solid course. A few parts could go deeper, but overall very good.",
+      "ar": "كورس قوي. بعض الأجزاء تحتاج عمقاً أكثر لكنه ممتاز عموماً."
+    },
+    "date": "2026-03-09"
+  },
+  {
+    "id": "r-seo-arabic-4",
+    "courseId": "c-seo-arabic",
+    "author": {
+      "en": "Karim M.",
+      "ar": "كريم م."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "I finally understand the basics. Highly recommended for beginners.",
+      "ar": "أخيراً فهمت الأساسيات. أنصح به بشدة للمبتدئين."
+    },
+    "date": "2026-04-14"
+  },
+  {
+    "id": "r-sales-skills-masterclass-1",
+    "courseId": "c-sales-skills-masterclass",
+    "author": {
+      "en": "Tom B.",
+      "ar": "توم ب."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "Great explanations and practical examples. I learned a lot.",
+      "ar": "شروحات رائعة وأمثلة عملية. تعلمت الكثير."
+    },
+    "date": "2026-02-22"
+  },
+  {
+    "id": "r-sales-skills-masterclass-2",
+    "courseId": "c-sales-skills-masterclass",
+    "author": {
+      "en": "Maya D.",
+      "ar": "مايا د."
+    },
+    "rating": 4,
+    "comment": {
+      "en": "Solid course. A few parts could go deeper, but overall very good.",
+      "ar": "كورس قوي. بعض الأجزاء تحتاج عمقاً أكثر لكنه ممتاز عموماً."
+    },
+    "date": "2026-03-07"
+  },
+  {
+    "id": "r-sales-skills-masterclass-3",
+    "courseId": "c-sales-skills-masterclass",
+    "author": {
+      "en": "Jonas W.",
+      "ar": "يوناس و."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "I finally understand the basics. Highly recommended for beginners.",
+      "ar": "أخيراً فهمت الأساسيات. أنصح به بشدة للمبتدئين."
+    },
+    "date": "2026-04-12"
+  },
+  {
+    "id": "r-sales-skills-masterclass-4",
+    "courseId": "c-sales-skills-masterclass",
+    "author": {
+      "en": "Sofia L.",
+      "ar": "صوفيا ل."
+    },
+    "rating": 4,
+    "comment": {
+      "en": "Good value and a friendly teaching style.",
+      "ar": "قيمة ممتازة وأسلوب تدريس ودود."
+    },
+    "date": "2026-05-17"
+  },
+  {
+    "id": "r-public-speaking-confidence-1",
+    "courseId": "c-public-speaking-confidence",
+    "author": {
+      "en": "Lina K.",
+      "ar": "لينا ك."
+    },
+    "rating": 4,
+    "comment": {
+      "en": "Solid course. A few parts could go deeper, but overall very good.",
+      "ar": "كورس قوي. بعض الأجزاء تحتاج عمقاً أكثر لكنه ممتاز عموماً."
+    },
+    "date": "2026-03-05"
+  },
+  {
+    "id": "r-public-speaking-confidence-2",
+    "courseId": "c-public-speaking-confidence",
+    "author": {
+      "en": "Omar T.",
+      "ar": "عمر ت."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "I finally understand the basics. Highly recommended for beginners.",
+      "ar": "أخيراً فهمت الأساسيات. أنصح به بشدة للمبتدئين."
+    },
+    "date": "2026-04-10"
+  },
+  {
+    "id": "r-public-speaking-confidence-3",
+    "courseId": "c-public-speaking-confidence",
+    "author": {
+      "en": "Huda S.",
+      "ar": "هدى س."
+    },
+    "rating": 4,
+    "comment": {
+      "en": "Good value and a friendly teaching style.",
+      "ar": "قيمة ممتازة وأسلوب تدريس ودود."
+    },
+    "date": "2026-05-15"
+  },
+  {
+    "id": "r-public-speaking-confidence-4",
+    "courseId": "c-public-speaking-confidence",
+    "author": {
+      "en": "Ali R.",
+      "ar": "علي ر."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "Helped me move from theory to real practice.",
+      "ar": "ساعدني على الانتقال من النظرية إلى التطبيق الفعلي."
+    },
+    "date": "2026-06-20"
+  },
+  {
+    "id": "r-time-management-productivity-1",
+    "courseId": "c-time-management-productivity",
+    "author": {
+      "en": "Ahmed F.",
+      "ar": "أحمد ف."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "I finally understand the basics. Highly recommended for beginners.",
+      "ar": "أخيراً فهمت الأساسيات. أنصح به بشدة للمبتدئين."
+    },
+    "date": "2026-04-08"
+  },
+  {
+    "id": "r-time-management-productivity-2",
+    "courseId": "c-time-management-productivity",
+    "author": {
+      "en": "Yasmin A.",
+      "ar": "ياسمين ع."
+    },
+    "rating": 4,
+    "comment": {
+      "en": "Good value and a friendly teaching style.",
+      "ar": "قيمة ممتازة وأسلوب تدريس ودود."
+    },
+    "date": "2026-05-13"
+  },
+  {
+    "id": "r-time-management-productivity-3",
+    "courseId": "c-time-management-productivity",
+    "author": {
+      "en": "Karim M.",
+      "ar": "كريم م."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "Helped me move from theory to real practice.",
+      "ar": "ساعدني على الانتقال من النظرية إلى التطبيق الفعلي."
+    },
+    "date": "2026-06-18"
+  },
+  {
+    "id": "r-time-management-productivity-4",
+    "courseId": "c-time-management-productivity",
+    "author": {
+      "en": "Noor H.",
+      "ar": "نور ح."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "Clear, well paced and easy to follow. Exactly what I needed.",
+      "ar": "واضح ومتدرّج وسهل المتابعة. هذا بالضبط ما أحتاجه."
+    },
+    "date": "2026-07-23"
+  },
+  {
+    "id": "r-learn-how-to-learn-1",
+    "courseId": "c-learn-how-to-learn",
+    "author": {
+      "en": "Maya D.",
+      "ar": "مايا د."
+    },
+    "rating": 4,
+    "comment": {
+      "en": "Good value and a friendly teaching style.",
+      "ar": "قيمة ممتازة وأسلوب تدريس ودود."
+    },
+    "date": "2026-05-11"
+  },
+  {
+    "id": "r-learn-how-to-learn-2",
+    "courseId": "c-learn-how-to-learn",
+    "author": {
+      "en": "Jonas W.",
+      "ar": "يوناس و."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "Helped me move from theory to real practice.",
+      "ar": "ساعدني على الانتقال من النظرية إلى التطبيق الفعلي."
+    },
+    "date": "2026-06-16"
+  },
+  {
+    "id": "r-learn-how-to-learn-3",
+    "courseId": "c-learn-how-to-learn",
+    "author": {
+      "en": "Sofia L.",
+      "ar": "صوفيا ل."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "Clear, well paced and easy to follow. Exactly what I needed.",
+      "ar": "واضح ومتدرّج وسهل المتابعة. هذا بالضبط ما أحتاجه."
+    },
+    "date": "2026-07-21"
+  },
+  {
+    "id": "r-learn-how-to-learn-4",
+    "courseId": "c-learn-how-to-learn",
+    "author": {
+      "en": "Tom B.",
+      "ar": "توم ب."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "Great explanations and practical examples. I learned a lot.",
+      "ar": "شروحات رائعة وأمثلة عملية. تعلمت الكثير."
+    },
+    "date": "2026-08-06"
+  },
+  {
+    "id": "r-drawing-for-beginners-1",
+    "courseId": "c-drawing-for-beginners",
+    "author": {
+      "en": "Omar T.",
+      "ar": "عمر ت."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "Helped me move from theory to real practice.",
+      "ar": "ساعدني على الانتقال من النظرية إلى التطبيق الفعلي."
+    },
+    "date": "2026-06-14"
+  },
+  {
+    "id": "r-drawing-for-beginners-2",
+    "courseId": "c-drawing-for-beginners",
+    "author": {
+      "en": "Huda S.",
+      "ar": "هدى س."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "Clear, well paced and easy to follow. Exactly what I needed.",
+      "ar": "واضح ومتدرّج وسهل المتابعة. هذا بالضبط ما أحتاجه."
+    },
+    "date": "2026-07-19"
+  },
+  {
+    "id": "r-drawing-for-beginners-3",
+    "courseId": "c-drawing-for-beginners",
+    "author": {
+      "en": "Ali R.",
+      "ar": "علي ر."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "Great explanations and practical examples. I learned a lot.",
+      "ar": "شروحات رائعة وأمثلة عملية. تعلمت الكثير."
+    },
+    "date": "2026-08-24"
+  },
+  {
+    "id": "r-drawing-for-beginners-4",
+    "courseId": "c-drawing-for-beginners",
+    "author": {
+      "en": "Lina K.",
+      "ar": "لينا ك."
+    },
+    "rating": 4,
+    "comment": {
+      "en": "Solid course. A few parts could go deeper, but overall very good.",
+      "ar": "كورس قوي. بعض الأجزاء تحتاج عمقاً أكثر لكنه ممتاز عموماً."
+    },
+    "date": "2026-09-09"
+  },
+  {
+    "id": "r-photography-fundamentals-1",
+    "courseId": "c-photography-fundamentals",
+    "author": {
+      "en": "Yasmin A.",
+      "ar": "ياسمين ع."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "Clear, well paced and easy to follow. Exactly what I needed.",
+      "ar": "واضح ومتدرّج وسهل المتابعة. هذا بالضبط ما أحتاجه."
+    },
+    "date": "2026-07-17"
+  },
+  {
+    "id": "r-photography-fundamentals-2",
+    "courseId": "c-photography-fundamentals",
+    "author": {
+      "en": "Karim M.",
+      "ar": "كريم م."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "Great explanations and practical examples. I learned a lot.",
+      "ar": "شروحات رائعة وأمثلة عملية. تعلمت الكثير."
+    },
+    "date": "2026-08-22"
+  },
+  {
+    "id": "r-photography-fundamentals-3",
+    "courseId": "c-photography-fundamentals",
+    "author": {
+      "en": "Noor H.",
+      "ar": "نور ح."
+    },
+    "rating": 4,
+    "comment": {
+      "en": "Solid course. A few parts could go deeper, but overall very good.",
+      "ar": "كورس قوي. بعض الأجزاء تحتاج عمقاً أكثر لكنه ممتاز عموماً."
+    },
+    "date": "2026-09-07"
+  },
+  {
+    "id": "r-photography-fundamentals-4",
+    "courseId": "c-photography-fundamentals",
+    "author": {
+      "en": "Ahmed F.",
+      "ar": "أحمد ف."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "I finally understand the basics. Highly recommended for beginners.",
+      "ar": "أخيراً فهمت الأساسيات. أنصح به بشدة للمبتدئين."
+    },
+    "date": "2026-01-12"
+  },
+  {
+    "id": "r-music-theory-complete-1",
+    "courseId": "c-music-theory-complete",
+    "author": {
+      "en": "Jonas W.",
+      "ar": "يوناس و."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "Great explanations and practical examples. I learned a lot.",
+      "ar": "شروحات رائعة وأمثلة عملية. تعلمت الكثير."
+    },
+    "date": "2026-08-20"
+  },
+  {
+    "id": "r-music-theory-complete-2",
+    "courseId": "c-music-theory-complete",
+    "author": {
+      "en": "Sofia L.",
+      "ar": "صوفيا ل."
+    },
+    "rating": 4,
+    "comment": {
+      "en": "Solid course. A few parts could go deeper, but overall very good.",
+      "ar": "كورس قوي. بعض الأجزاء تحتاج عمقاً أكثر لكنه ممتاز عموماً."
+    },
+    "date": "2026-09-05"
+  },
+  {
+    "id": "r-music-theory-complete-3",
+    "courseId": "c-music-theory-complete",
+    "author": {
+      "en": "Tom B.",
+      "ar": "توم ب."
+    },
+    "rating": 5,
+    "comment": {
+      "en": "I finally understand the basics. Highly recommended for beginners.",
+      "ar": "أخيراً فهمت الأساسيات. أنصح به بشدة للمبتدئين."
+    },
+    "date": "2026-01-10"
+  },
+  {
+    "id": "r-music-theory-complete-4",
+    "courseId": "c-music-theory-complete",
+    "author": {
+      "en": "Maya D.",
+      "ar": "مايا د."
+    },
+    "rating": 4,
+    "comment": {
+      "en": "Good value and a friendly teaching style.",
+      "ar": "قيمة ممتازة وأسلوب تدريس ودود."
+    },
+    "date": "2026-02-15"
+  }
+]

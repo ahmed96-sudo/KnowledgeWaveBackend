@@ -1,0 +1,98 @@
+[
+  {
+    "slug": "development",
+    "icon": "code",
+    "name": {
+      "en": "Development",
+      "ar": "البرمجة والتطوير"
+    },
+    "description": {
+      "en": "Web, backend and software engineering",
+      "ar": "تطوير الويب والباك إند وهندسة البرمجيات"
+    }
+  },
+  {
+    "slug": "design",
+    "icon": "palette",
+    "name": {
+      "en": "Design",
+      "ar": "التصميم"
+    },
+    "description": {
+      "en": "UI/UX, graphic design and creative tools",
+      "ar": "تصميم الواجهات والجرافيك والأدوات الإبداعية"
+    }
+  },
+  {
+    "slug": "computer-science",
+    "icon": "cpu",
+    "name": {
+      "en": "Computer Science",
+      "ar": "علوم الحاسب"
+    },
+    "description": {
+      "en": "Foundations, algorithms and programming",
+      "ar": "الأساسيات والخوارزميات والبرمجة"
+    }
+  },
+  {
+    "slug": "data-science",
+    "icon": "database",
+    "name": {
+      "en": "Data Science",
+      "ar": "علم البيانات"
+    },
+    "description": {
+      "en": "Analysis, SQL and machine learning",
+      "ar": "تحليل البيانات وSQL وتعلّم الآلة"
+    }
+  },
+  {
+    "slug": "business",
+    "icon": "briefcase",
+    "name": {
+      "en": "Business",
+      "ar": "الأعمال"
+    },
+    "description": {
+      "en": "Entrepreneurship, management and finance",
+      "ar": "ريادة الأعمال والإدارة والمالية"
+    }
+  },
+  {
+    "slug": "marketing",
+    "icon": "megaphone",
+    "name": {
+      "en": "Sales & Marketing",
+      "ar": "المبيعات والتسويق"
+    },
+    "description": {
+      "en": "Digital marketing, SEO and selling",
+      "ar": "التسويق الرقمي وSEO وفن البيع"
+    }
+  },
+  {
+    "slug": "personal-development",
+    "icon": "lightbulb",
+    "name": {
+      "en": "Personal Development",
+      "ar": "التطوير الشخصي"
+    },
+    "description": {
+      "en": "Productivity, learning and communication",
+      "ar": "الإنتاجية والتعلّم ومهارات التواصل"
+    }
+  },
+  {
+    "slug": "art-culture",
+    "icon": "camera",
+    "name": {
+      "en": "Art & Culture",
+      "ar": "الفن والثقافة"
+    },
+    "description": {
+      "en": "Drawing, photography and music",
+      "ar": "الرسم والتصوير والموسيقى"
+    }
+  }
+]

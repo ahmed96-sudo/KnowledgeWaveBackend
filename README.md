@@ -32,6 +32,10 @@ storage/             uploaded files (contents git-ignored, folder kept)
 prisma/              schema + migrations
 ```
 
+## Languages
+
+Bilingual content is stored as JSONB `{ "en": "...", "ar": "..." }` (the exact API shape). The supported/required locales live in one place: `src/lib/localized.ts`. Adding a language = append it to `LOCALES` (stays optional, falls back to `en`), add its text to the backend-generated notification templates, and do the frontend side; no DB migration.
+
 ## Frontend work still to do (when the backend is finished)
 
 1. Switch the frontend's `/api/v1` to `/api` (Next rewrite, fetch base, asset stream URL in `docs/CONNECT_BACKEND.md`).

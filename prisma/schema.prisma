@@ -1,6 +1,7 @@
 // KnowledgeWave data model (BACKEND_SPEC §3).
 // Conventions:
-//  - Bilingual fields are stored as <name>En / <name>Ar columns and re-assembled to { en, ar } at the API edge.
+//  - Bilingual fields are JSONB `Localized` objects ({ "en": "...", "ar": "..." }), exactly the API shape. Adding a
+//    language needs no migration: add it to LOCALES in src/lib/localized.ts. Zod enforces the required locales on write.
 //  - Money is integer cents (<name>Cents).
 //  - "Calendar day" values (course updatedAt, review date, activity day) are YYYY-MM-DD strings, exactly what the
 //    API returns; they sort correctly as text and avoid timezone shifts.
@@ -122,7 +123,7 @@ model Session {
 }
 
 model PasswordResetToken {
-  id        String    @id @default(cuid())
+  id        String    @id @default(uuid(7))
   userId    String
   tokenHash String    @unique // SHA-256 of the emailed token
   expiresAt DateTime
@@ -156,17 +157,14 @@ model IdempotencyKey {
 // ---------------------------------------------------------------- catalog
 
 model Instructor {
-  id         String    @id // slug, e.g. omar-haddad
-  nameEn     String
-  nameAr     String
-  headlineEn String
-  headlineAr String
-  bioEn      String
-  bioAr      String
-  rating     Float     @default(0)
-  students   Int       @default(0)
-  courses    Int       @default(0)
-  deletedAt  DateTime?
+  id        String    @id // slug, e.g. omar-haddad
+  name      Json // Localized
+  headline  Json // Localized
+  bio       Json // Localized
+  rating    Float     @default(0)
+  students  Int       @default(0)
+  courses   Int       @default(0)
+  deletedAt DateTime?
 
   users      User[]
   courseList Course[]
@@ -175,13 +173,11 @@ model Instructor {
 }
 
 model Category {
-  slug          String    @id
-  nameEn        String
-  nameAr        String
-  descriptionEn String
-  descriptionAr String
-  icon          String
-  deletedAt     DateTime?
+  slug        String    @id
+  name        Json // Localized
+  description Json // Localized
+  icon        String
+  deletedAt   DateTime?
 
   courses Course[]
   quiz    QuizBankQuestion[]
@@ -192,12 +188,9 @@ model Category {
 model Course {
   id                 String       @id // "c-" + slug
   slug               String       @unique
-  titleEn            String
-  titleAr            String
-  subtitleEn         String
-  subtitleAr         String
-  descriptionEn      String
-  descriptionAr      String
+  title              Json // Localized
+  subtitle           Json // Localized
+  description        Json // Localized
   categorySlug       String
   instructorId       String
   level              Level
@@ -240,8 +233,7 @@ model Section {
   id       String @id
   courseId String
   position Int
-  titleEn  String
-  titleAr  String
+  title    Json // Localized
 
   course  Course   @relation(fields: [courseId], references: [id], onDelete: Cascade)
   lessons Lesson[]
@@ -254,8 +246,7 @@ model Lesson {
   id          String  @id // globally unique, e.g. <course-slug>-s1-l1
   sectionId   String
   position    Int
-  titleEn     String
-  titleAr     String
+  title       Json // Localized
   durationSec Int
   video       Json // VideoSource
   preview     Boolean @default(false)
@@ -269,16 +260,14 @@ model Lesson {
 }
 
 model Review {
-  id        String    @id
-  courseId  String
-  userId    String? // null for seed/legacy reviews
-  authorEn  String
-  authorAr  String
-  rating    Int
-  commentEn String
-  commentAr String
-  date      String // YYYY-MM-DD
-  hiddenAt  DateTime?
+  id       String    @id
+  courseId String
+  userId   String? // null for seed/legacy reviews
+  author   Json // Localized
+  rating   Int
+  comment  Json // Localized
+  date     String // YYYY-MM-DD
+  hiddenAt DateTime?
 
   course Course @relation(fields: [courseId], references: [id], onDelete: Cascade)
   user   User?  @relation(fields: [userId], references: [id])
@@ -289,13 +278,11 @@ model Review {
 }
 
 model Roadmap {
-  slug          String @id
-  titleEn       String
-  titleAr       String
-  descriptionEn String
-  descriptionAr String
-  level         Level
-  icon          String
+  slug        String @id
+  title       Json // Localized
+  description Json // Localized
+  level       Level
+  icon        String
 
   courses RoadmapCourse[]
 
@@ -316,13 +303,10 @@ model RoadmapCourse {
 }
 
 model Testimonial {
-  id      String @id
-  nameEn  String
-  nameAr  String
-  roleEn  String
-  roleAr  String
-  quoteEn String
-  quoteAr String
+  id    String @id
+  name  Json // Localized
+  role  Json // Localized
+  quote Json // Localized
 
   @@map("testimonials")
 }
@@ -331,8 +315,7 @@ model QuizBankQuestion {
   id           String @id // e.g. dev-1
   categorySlug String
   position     Int
-  qEn          String
-  qAr          String
+  q            Json // Localized
   options      Json // Localized[4]
   answer       Int // 0..3
 
@@ -392,7 +375,7 @@ model LastLesson {
 }
 
 model Note {
-  id         String   @id @default(cuid())
+  id         String   @id @default(uuid(7))
   userId     String
   courseSlug String
   lessonId   String
@@ -440,8 +423,7 @@ model Order {
 model OrderItem {
   orderId    String
   courseSlug String
-  titleEn    String
-  titleAr    String
+  title      Json // Localized
   priceCents Int
 
   order Order @relation(fields: [orderId], references: [id], onDelete: Cascade)
@@ -451,7 +433,7 @@ model OrderItem {
 }
 
 model XpEvent {
-  id     String      @id @default(cuid())
+  id     String      @id @default(uuid(7))
   userId String
   type   XpEventType
   amount Int
@@ -465,7 +447,7 @@ model XpEvent {
 }
 
 model QuizAttempt {
-  id          String   @id @default(cuid())
+  id          String   @id @default(uuid(7))
   userId      String
   courseSlug  String
   score       Int
@@ -493,15 +475,13 @@ model BadgeAwarded {
 }
 
 model Notification {
-  id      String           @id @default(cuid())
-  userId  String
-  kind    NotificationKind
-  titleEn String
-  titleAr String
-  bodyEn  String
-  bodyAr  String
-  at      DateTime         @default(now())
-  read    Boolean          @default(false)
+  id     String           @id @default(uuid(7))
+  userId String
+  kind   NotificationKind
+  title  Json // Localized
+  body   Json // Localized
+  at     DateTime         @default(now())
+  read   Boolean          @default(false)
 
   user User @relation(fields: [userId], references: [id], onDelete: Cascade)
 
@@ -580,7 +560,7 @@ model QaReply {
 // ---------------------------------------------------------------- uploads and audit
 
 model Asset {
-  id          String   @id @default(cuid())
+  id          String   @id @default(uuid(7))
   ownerUserId String
   kind        String   @default("video")
   mimeType    String
@@ -597,7 +577,7 @@ model Asset {
 }
 
 model AuditLog {
-  id           String      @id @default(cuid())
+  id           String      @id @default(uuid(7))
   at           DateTime    @default(now())
   actorId      String
   actorName    String

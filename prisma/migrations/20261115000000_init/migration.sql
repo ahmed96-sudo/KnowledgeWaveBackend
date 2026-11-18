@@ -81,12 +81,9 @@ CREATE TABLE "idempotency_keys" (
 -- CreateTable
 CREATE TABLE "instructors" (
     "id" TEXT NOT NULL,
-    "nameEn" TEXT NOT NULL,
-    "nameAr" TEXT NOT NULL,
-    "headlineEn" TEXT NOT NULL,
-    "headlineAr" TEXT NOT NULL,
-    "bioEn" TEXT NOT NULL,
-    "bioAr" TEXT NOT NULL,
+    "name" JSONB NOT NULL,
+    "headline" JSONB NOT NULL,
+    "bio" JSONB NOT NULL,
     "rating" DOUBLE PRECISION NOT NULL DEFAULT 0,
     "students" INTEGER NOT NULL DEFAULT 0,
     "courses" INTEGER NOT NULL DEFAULT 0,
@@ -98,10 +95,8 @@ CREATE TABLE "instructors" (
 -- CreateTable
 CREATE TABLE "categories" (
     "slug" TEXT NOT NULL,
-    "nameEn" TEXT NOT NULL,
-    "nameAr" TEXT NOT NULL,
-    "descriptionEn" TEXT NOT NULL,
-    "descriptionAr" TEXT NOT NULL,
+    "name" JSONB NOT NULL,
+    "description" JSONB NOT NULL,
     "icon" TEXT NOT NULL,
     "deletedAt" TIMESTAMP(3),
 
@@ -112,12 +107,9 @@ CREATE TABLE "categories" (
 CREATE TABLE "courses" (
     "id" TEXT NOT NULL,
     "slug" TEXT NOT NULL,
-    "titleEn" TEXT NOT NULL,
-    "titleAr" TEXT NOT NULL,
-    "subtitleEn" TEXT NOT NULL,
-    "subtitleAr" TEXT NOT NULL,
-    "descriptionEn" TEXT NOT NULL,
-    "descriptionAr" TEXT NOT NULL,
+    "title" JSONB NOT NULL,
+    "subtitle" JSONB NOT NULL,
+    "description" JSONB NOT NULL,
     "categorySlug" TEXT NOT NULL,
     "instructorId" TEXT NOT NULL,
     "level" "Level" NOT NULL,
@@ -149,8 +141,7 @@ CREATE TABLE "sections" (
     "id" TEXT NOT NULL,
     "courseId" TEXT NOT NULL,
     "position" INTEGER NOT NULL,
-    "titleEn" TEXT NOT NULL,
-    "titleAr" TEXT NOT NULL,
+    "title" JSONB NOT NULL,
 
     CONSTRAINT "sections_pkey" PRIMARY KEY ("id")
 );
@@ -160,8 +151,7 @@ CREATE TABLE "lessons" (
     "id" TEXT NOT NULL,
     "sectionId" TEXT NOT NULL,
     "position" INTEGER NOT NULL,
-    "titleEn" TEXT NOT NULL,
-    "titleAr" TEXT NOT NULL,
+    "title" JSONB NOT NULL,
     "durationSec" INTEGER NOT NULL,
     "video" JSONB NOT NULL,
     "preview" BOOLEAN NOT NULL DEFAULT false,
@@ -175,11 +165,9 @@ CREATE TABLE "reviews" (
     "id" TEXT NOT NULL,
     "courseId" TEXT NOT NULL,
     "userId" TEXT,
-    "authorEn" TEXT NOT NULL,
-    "authorAr" TEXT NOT NULL,
+    "author" JSONB NOT NULL,
     "rating" INTEGER NOT NULL,
-    "commentEn" TEXT NOT NULL,
-    "commentAr" TEXT NOT NULL,
+    "comment" JSONB NOT NULL,
     "date" TEXT NOT NULL,
     "hiddenAt" TIMESTAMP(3),
 
@@ -189,10 +177,8 @@ CREATE TABLE "reviews" (
 -- CreateTable
 CREATE TABLE "roadmaps" (
     "slug" TEXT NOT NULL,
-    "titleEn" TEXT NOT NULL,
-    "titleAr" TEXT NOT NULL,
-    "descriptionEn" TEXT NOT NULL,
-    "descriptionAr" TEXT NOT NULL,
+    "title" JSONB NOT NULL,
+    "description" JSONB NOT NULL,
     "level" "Level" NOT NULL,
     "icon" TEXT NOT NULL,
 
@@ -211,12 +197,9 @@ CREATE TABLE "roadmap_courses" (
 -- CreateTable
 CREATE TABLE "testimonials" (
     "id" TEXT NOT NULL,
-    "nameEn" TEXT NOT NULL,
-    "nameAr" TEXT NOT NULL,
-    "roleEn" TEXT NOT NULL,
-    "roleAr" TEXT NOT NULL,
-    "quoteEn" TEXT NOT NULL,
-    "quoteAr" TEXT NOT NULL,
+    "name" JSONB NOT NULL,
+    "role" JSONB NOT NULL,
+    "quote" JSONB NOT NULL,
 
     CONSTRAINT "testimonials_pkey" PRIMARY KEY ("id")
 );
@@ -226,8 +209,7 @@ CREATE TABLE "quiz_bank" (
     "id" TEXT NOT NULL,
     "categorySlug" TEXT NOT NULL,
     "position" INTEGER NOT NULL,
-    "qEn" TEXT NOT NULL,
-    "qAr" TEXT NOT NULL,
+    "q" JSONB NOT NULL,
     "options" JSONB NOT NULL,
     "answer" INTEGER NOT NULL,
 
@@ -314,8 +296,7 @@ CREATE TABLE "orders" (
 CREATE TABLE "order_items" (
     "orderId" TEXT NOT NULL,
     "courseSlug" TEXT NOT NULL,
-    "titleEn" TEXT NOT NULL,
-    "titleAr" TEXT NOT NULL,
+    "title" JSONB NOT NULL,
     "priceCents" INTEGER NOT NULL,
 
     CONSTRAINT "order_items_pkey" PRIMARY KEY ("orderId","courseSlug")
@@ -362,10 +343,8 @@ CREATE TABLE "notifications" (
     "id" TEXT NOT NULL,
     "userId" TEXT NOT NULL,
     "kind" "NotificationKind" NOT NULL,
-    "titleEn" TEXT NOT NULL,
-    "titleAr" TEXT NOT NULL,
-    "bodyEn" TEXT NOT NULL,
-    "bodyAr" TEXT NOT NULL,
+    "title" JSONB NOT NULL,
+    "body" JSONB NOT NULL,
     "at" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "read" BOOLEAN NOT NULL DEFAULT false,
 

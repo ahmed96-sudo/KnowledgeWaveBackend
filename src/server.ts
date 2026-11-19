@@ -1,8 +1,12 @@
 import { createApp } from "./app.js";
 import { config } from "./config.js";
+import { purgeExpired } from "./lib/purge.js";
 
 createApp().listen(config.PORT, () => {
   console.log(`KnowledgeWave API listening on http://localhost:${config.PORT}/api`);
 });
 
-// Phase 3 adds the hourly purge of expired sessions / idempotency keys / reset tokens here.
+// Hourly cleanup of expired rows (and once at startup)
+const purge = () => purgeExpired().catch((e) => console.error("purge failed", e));
+setInterval(purge, 3_600_000).unref();
+void purge();

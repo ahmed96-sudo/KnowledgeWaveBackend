@@ -4,6 +4,7 @@ import { defineConfig } from "vitest/config";
 export default defineConfig({
   test: {
     environment: "node",
+    globalSetup: ["./test/global-setup.ts"],
     // Tests never touch the dev database: DATABASE_URL is redirected to the test DB
     env: {
       NODE_ENV: "test",

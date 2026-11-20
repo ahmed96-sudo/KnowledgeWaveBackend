@@ -3,6 +3,7 @@ import express from "express";
 import request from "supertest";
 import { describe, expect, it } from "vitest";
 import { burnPasswordCheck, hashPassword, verifyPassword } from "../src/auth/password.js";
+import { config } from "../src/config.js";
 import type { User } from "../src/generated/prisma/client.js";
 import { requireRealAdmin, requireRole } from "../src/middleware/auth.js";
 import { csrf } from "../src/middleware/csrf.js";
@@ -45,6 +46,29 @@ describe("csrf", () => {
   it("allows them with the header, and GET without it", async () => {
     expect((await request(a).post("/x").set("X-Requested-With", "fetch")).status).toBe(200);
     expect((await request(a).get("/x")).status).toBe(200);
+  });
+
+  describe("Origin", () => {
+    const post = (origin?: string) => {
+      const r = request(a).post("/x").set("X-Requested-With", "fetch");
+      return origin === undefined ? r : r.set("Origin", origin);
+    };
+
+    it("accepts our frontend origin, and requests with no Origin (curl, server-to-server)", async () => {
+      expect((await post(config.CORS_ORIGIN)).status).toBe(200);
+      expect((await post()).status).toBe(200);
+    });
+
+    it("refuses any other origin, even with the custom header", async () => {
+      for (const origin of ["https://evil.example", "null", `${config.CORS_ORIGIN}.evil.example`, "http://localhost:3001"]) {
+        const res = await post(origin);
+        expect([res.status, res.body.error.code], origin).toEqual([403, "forbidden"]);
+      }
+    });
+
+    it("does not look at Origin on reads", async () => {
+      expect((await request(a).get("/x").set("Origin", "https://evil.example")).status).toBe(200);
+    });
   });
 });
 

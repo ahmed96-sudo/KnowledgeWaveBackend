@@ -45,7 +45,7 @@ prisma/              schema + migrations
 
 - Session cookie `kw_sid` (httpOnly, SameSite=Lax, Secure in production, 7-day rolling expiry). The DB stores only its SHA-256 hash, so deleting the row (logout, ban, password change) ends the session immediately.
 - Readable hint cookies `kw_session=<role>` and `kw_actor=admin` are set/cleared with it for the Next proxy; the API never trusts them.
-- Every non-GET request must send `X-Requested-With: fetch` (CSRF), otherwise `403 forbidden`.
+- CSRF: every non-GET request must send `X-Requested-With: fetch`, and if it carries an `Origin` header (browsers always do) it must equal `CORS_ORIGIN`; otherwise `403 forbidden`. Requests without `Origin` (curl, server-to-server) only need the header. No frontend change beyond the header: browsers add `Origin` themselves.
 - `POST /auth/change-password` always changes the **real** signed-in user's password (an admin acting as a student changes their own).
 - Password reset: `POST /auth/forgot-password` always answers 204 and emails a link (valid 10 minutes, single use, newest link wins) to `FRONTEND_URL/reset-password?token=…`; `POST /auth/reset-password { token, next }` sets the password and ends all sessions.
 - Rate limits (per IP, in-memory): login 10 / 15 min, register 10 / h, forgot-password 5 / h, reset-password 10 / h, contact 5 / h, newsletter 10 / h.

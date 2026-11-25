@@ -1,5 +1,5 @@
 import { randomUUID } from "node:crypto";
-import type { Response } from "supertest";
+import request, { type Response } from "supertest";
 import { hashPassword } from "../../src/auth/password.js";
 import type { Role } from "../../src/generated/prisma/client.js";
 import { prisma } from "../../src/lib/prisma.js";
@@ -32,3 +32,11 @@ export const cookie = (res: Response, name: string) => setCookies(res).find((c) 
 /** The raw value of a Set-Cookie header, e.g. the session id. */
 export const cookieValue = (res: Response, name: string) => cookie(res, name)?.split(";")[0]?.slice(name.length + 1);
 export const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
+
+/** A supertest agent (cookie jar) signed in as `email`. */
+export async function agentFor(app: Parameters<typeof request.agent>[0], email: string, password = PASSWORD) {
+  const agent = request.agent(app);
+  const res = await agent.post("/api/auth/login").set(H).send({ email, password });
+  if (res.status !== 200) throw new Error(`login as ${email} failed: ${res.status} ${JSON.stringify(res.body)}`);
+  return agent;
+}

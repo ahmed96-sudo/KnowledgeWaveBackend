@@ -158,6 +158,7 @@ model IdempotencyKey {
 
 model Instructor {
   id        String    @id // slug, e.g. omar-haddad
+  position  Int       @default(autoincrement()) // display order: seed/file order, new rows go last
   name      Json // Localized
   headline  Json // Localized
   bio       Json // Localized
@@ -174,6 +175,7 @@ model Instructor {
 
 model Category {
   slug        String    @id
+  position    Int       @default(autoincrement()) // display order: seed/file order, new rows go last
   name        Json // Localized
   description Json // Localized
   icon        String
@@ -187,6 +189,7 @@ model Category {
 
 model Course {
   id                 String       @id // "c-" + slug
+  position           Int          @default(autoincrement()) // display order: seed/file order, new rows go last
   slug               String       @unique
   title              Json // Localized
   subtitle           Json // Localized
@@ -207,6 +210,8 @@ model Course {
   outcomes           Json // Localized[]
   requirements       Json // Localized[]
   tags               String[]
+  searchText         String       @default("") // normalize(title en+ar + tags): the list text filter (kept by courseSearchColumns)
+  searchMeta         String       @default("") // normalize(tags + subtitle + instructor name): /search candidates
   creditChannel      String
   featured           Boolean      @default(false)
   bestseller         Boolean      @default(false)
@@ -261,6 +266,7 @@ model Lesson {
 
 model Review {
   id       String    @id
+  position Int       @default(autoincrement()) // display order: seed/file order, new rows go last
   courseId String
   userId   String? // null for seed/legacy reviews
   author   Json // Localized
@@ -279,6 +285,7 @@ model Review {
 
 model Roadmap {
   slug        String @id
+  position    Int    @default(autoincrement()) // display order: seed/file order, new rows go last
   title       Json // Localized
   description Json // Localized
   level       Level
@@ -303,10 +310,11 @@ model RoadmapCourse {
 }
 
 model Testimonial {
-  id    String @id
-  name  Json // Localized
-  role  Json // Localized
-  quote Json // Localized
+  id       String @id
+  position Int    @default(autoincrement()) // display order: seed/file order, new rows go last
+  name     Json // Localized
+  role     Json // Localized
+  quote    Json // Localized
 
   @@map("testimonials")
 }
@@ -392,6 +400,7 @@ model Note {
 model Wishlist {
   userId     String
   courseSlug String
+  addedAt    DateTime @default(now()) // keeps the wishlist in the order the learner added things
 
   user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
   course Course @relation(fields: [courseSlug], references: [slug])

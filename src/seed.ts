@@ -1,6 +1,8 @@
 import { readFile } from "node:fs/promises";
 import { z } from "zod";
 import { hashPassword } from "./auth/password.js";
+import { courseSearchColumns } from "./catalog/search-columns.js";
+import { config } from "./config.js";
 import { Prisma } from "./generated/prisma/client.js";
 import { toCents } from "./lib/money.js";
 import { prisma } from "./lib/prisma.js";
@@ -16,6 +18,13 @@ const SEED_DIR = new URL("../seed/", import.meta.url);
 const load = async <T extends z.ZodType>(file: string, schema: T): Promise<z.infer<T>> =>
   schema.parse(JSON.parse(await readFile(new URL(file, SEED_DIR), "utf8")));
 
+/** The demo data has accounts with a publicly known password, so it must never reach a live server. */
+export function assertDemoSeedAllowed(nodeEnv: string) {
+  if (nodeEnv === "production") {
+    throw new Error("Refusing to load demo data (known demo passwords) when NODE_ENV=production. Use `npm run seed:base` to create the first admin.");
+  }
+}
+
 /** Localized/VideoSource/... values are plain JSON; Prisma just needs the type assertion. */
 const j = (v: unknown) => v as Prisma.InputJsonValue;
 
@@ -24,6 +33,7 @@ const j = (v: unknown) => v as Prisma.InputJsonValue;
  * The dev learner history for u-student is added in Phase 5, when the real learner services exist.
  */
 export async function seedAll(db: Db = prisma) {
+  assertDemoSeedAllowed(config.NODE_ENV);
   const categories = await load("categories.json", z.array(CategorySchema));
   const instructors = await load("instructors.json", z.array(InstructorSchema));
   const courses = await load("courses.json", z.array(CourseSchema));
@@ -48,6 +58,7 @@ export async function seedAll(db: Db = prisma) {
     }),
   );
 
+  const instructorNames = new Map(instructors.map((i) => [i.id, i.name]));
   for (const c of courses) {
     const data = {
       slug: c.slug,
@@ -70,6 +81,7 @@ export async function seedAll(db: Db = prisma) {
       outcomes: j(c.outcomes),
       requirements: j(c.requirements),
       tags: c.tags,
+      ...courseSearchColumns(c, instructorNames.get(c.instructorId)!),
       creditChannel: c.credit.channel,
       featured: c.featured,
       bestseller: c.bestseller,

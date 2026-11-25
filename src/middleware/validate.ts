@@ -29,3 +29,6 @@ export const zodToApiError = (e: z.ZodError) =>
     "Validation failed",
     e.issues.map((i) => ({ path: i.path.join("."), message: i.message })),
   );
+
+/** Types a body/query that `validate()` already parsed with `schema` (Express itself types them loosely). */
+export const parsed = <S extends z.ZodType>(_schema: S, value: unknown) => value as z.infer<S>;

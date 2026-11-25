@@ -9,7 +9,7 @@ cp .env.example .env            # first time only
 docker compose up -d            # Postgres :5432, Adminer :8080, Mailpit :8025 (UI) / :1025 (SMTP)
 npm install
 npx prisma migrate dev          # applies prisma/migrations to the dev DB
-npm run seed                    # catalog, demo accounts, coupons (safe to run again)
+npm run seed                    # DEV ONLY: demo catalog, demo accounts, coupons, demo student history (safe to run again)
 npm run dev                     # http://localhost:4000/api/health
 npm test                        # Vitest + Supertest (uses the knowledgewave_test DB)
 ```
@@ -17,12 +17,22 @@ npm test                        # Vitest + Supertest (uses the knowledgewave_tes
 - Adminer: http://localhost:8080 (System: PostgreSQL, **Server: `db`**, user/password: `postgres`, DB: `knowledgewave`)
 - Mailpit inbox: http://localhost:8025 (password-reset and newsletter emails land here; the contact form goes to `CONTACT_TO`)
 - Prisma 7 does **not** seed after `migrate reset`: run `npm run seed` yourself.
+- After pulling a migration that adds `position`/search columns, reset the dev DB (`npx prisma migrate reset --force && npm run seed`) so the display order follows the seed files.
 - Reset the dev DB: `npx prisma migrate reset --force && npm run seed`
 - Reset the test DB: `DATABASE_URL=postgresql://postgres:postgres@localhost:5432/knowledgewave_test npx prisma migrate reset --force`
   (`npm test` also applies pending migrations to the test DB by itself.)
 - If the Postgres volume already existed before `docker/init-test-db.sql` was added, create the test DB once:
   `docker exec knowledgewave_db psql -U postgres -c "CREATE DATABASE knowledgewave_test"`
 - `src/generated/` (Prisma client) is git-ignored; `npm run db:generate` rebuilds it.
+
+## Seeding: demo data vs a fresh server
+
+| Command | Where | What it creates |
+|---|---|---|
+| `npm run seed` | development / test only (**refuses when `NODE_ENV=production`**, demo passwords are public) | catalog (categories, instructors, 26 courses, reviews, roadmaps, testimonials, quiz bank, Q&A), 3 demo accounts, coupons `WAVE10`/`STUDENT20`, the demo student's learning history |
+| `ADMIN_EMAIL=… ADMIN_PASSWORD=… [ADMIN_NAME=…] npm run seed:base` | any environment, including production | only the first admin account (password 12+ characters). Create-only: re-running never resets an existing admin |
+
+On a fresh server everything else (categories, courses, coupons...) is created from the admin screens. **There is no quiz bank on a fresh server**: courses without their own quiz have no quiz (see the frontend list below). Roadmaps and testimonials have no admin screens either, so they start empty.
 
 Demo accounts (password `demo1234`): `student@knowledgewave.dev`, `instructor@knowledgewave.dev`, `admin@knowledgewave.dev`.
 
@@ -31,6 +41,8 @@ Demo accounts (password `demo1234`): `student@knowledgewave.dev`, `instructor@kn
 ```
 src/config.ts        validated env
 src/app.ts           express app (exported for Supertest) · src/server.ts starts it + hourly purge
+src/catalog/         public catalog: SQL filtering + facets + search, visibility rules, 60 s cache (routes → controller → service)
+src/learning/        /me/*: learner record, enrol, lessons, progress, notes, wishlist, reviews, XP/badges/streaks (settle)
 src/auth/            sessions, passwords, register/login/logout/me, change + reset password   (routes → controller → service)
 src/site/            contact form + newsletter                                                  (routes → controller → service)
 src/lib/             errors (ApiError + codes), prisma client, mail (nodemailer → Mailpit), money, slug, localized, purge
@@ -40,6 +52,20 @@ src/seed.ts          loads seed/*.json (prisma/seed.ts is the runner)
 storage/             uploaded files (contents git-ignored, folder kept)
 prisma/              schema + migrations
 ```
+
+## Catalog in short
+
+- Lists, facets, sorting, paging and search run in SQL (`src/catalog/service.ts`). `courses.searchText` / `searchMeta` hold the normalised search text (Arabic-aware); **every code path that writes a course must store `courseSearchColumns(...)`** (a test fails if any row drifts).
+- `test/helpers/reference-catalog.ts` is a copy of the frontend's in-memory catalog code; `test/catalog.test.ts` checks the SQL results equal it on the seeded data.
+- Public responses are cached for 60 s (`src/catalog/cache.ts`). Any write to a course, review, enrollment, category, instructor, roadmap or testimonial clears the cache automatically (a Prisma extension in `src/lib/prisma.ts`). The cache is per process.
+- Display order: `position` columns (set in seed/creation order, new rows go last) decide ties and the order of categories, instructors, roadmaps, testimonials and reviews.
+- Public course payloads never include `quiz` (it holds the answers).
+
+## Learner actions in short
+
+- Every action runs in one transaction behind a per-learner advisory lock (no double XP, certificate or badge from two tabs). The "settle" step then awards badges and level-up notifications and returns `Effects`.
+- Streak days for XP events use UTC (the server does not know the learner's timezone); watch-time days use the day the client sends.
+- Reviews and progress require enrolment. Paid courses are enrolled by checkout (Phase 7), except by a real admin.
 
 ## Auth in short
 
@@ -66,3 +92,5 @@ Bilingual content is stored as JSONB `{ "en": "...", "ar": "..." }` (the exact A
 3. Add a `/reset-password` page + `api.resetPassword`, and make `api.forgotPassword` call the real endpoint (links in the email expire after 10 minutes).
 4. While acting as another user, show a notice on the change-password form: "You are acting as another user: this changes your admin password" (the endpoint changes the real admin's password). There is no admin settings page today.
 5. Client side of `Idempotency-Key` headers (`docs/CONNECT_BACKEND.md` §6a).
+6. **Handle zero quiz questions.** On a fresh server there is no quiz bank, so a course without its own quiz returns `{ questions: [] }` from `GET /courses/:slug/quiz`. `components/player/quiz-page.tsx` divides by `questions.length` (progress bar, time limit) and has no empty state: hide the quiz step / show "this course has no quiz" when the list is empty (also the quiz link in `curriculum-sidebar.tsx` and the player). Instructors write quizzes in the course builder.
+7. Check the homepage empty states for **roadmaps and testimonials** (no admin screens exist for them, so they start empty on a fresh server).
